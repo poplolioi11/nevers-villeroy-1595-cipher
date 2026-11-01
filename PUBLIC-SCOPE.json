@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "research_round": "0.2",
+  "status": "partial-visual-transcription-and-unaccepted-experiments",
+  "human_full_collation": false,
+  "accepted_target_key": false,
+  "new_target_plaintext": false,
+  "scope": "selected cipher-bearing regions of BnF Français3993 no102 ff148r-149r; not the entire French letter",
+  "included": [
+    "visual observations and uncertainty",
+    "necessary source locations",
+    "limited local decisions",
+    "enumeration output data",
+    "high-level rationale and failures"
+  ],
+  "excluded": [
+    "source images and crops",
+    "complete third-party OCR",
+    "dedicated processing and validation code",
+    "detailed private workflow",
+    "prompts and templates",
+    "complete jobs and validation history",
+    "private correspondence and account data"
+  ],
+  "reproduction_limit": "Full private production workflow cannot be rerun from this public package."
+}

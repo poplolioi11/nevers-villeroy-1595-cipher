@@ -1,0 +1,2819 @@
+{
+  "schema": "nevers1595-public-new-faces-limited-collation-v1",
+  "status": "有限來源裁定；不可稱完整合校或完整精確轉錄",
+  "reviewer_role": "A初錄者，已看A與B；不是盲校者",
+  "source_id": "canvas-162",
+  "method": {
+    "key_or_plaintext_used": false,
+    "coordinates": "original-image approximate bboxes",
+    "source_scale": "閲覽圖",
+    "aliases": "只為字形標籤的候選對齊，不代表已裁同符；尤其ω/π、1/4、o/9不自動等同。",
+    "alias_map_for_mechanical_alignment": {
+      "T": "τ",
+      "Xh": "><",
+      "loop5": "ϛ",
+      "tri_stem": "△|",
+      "U2": "⊥",
+      "w_bar": "ω",
+      "phi": "θ",
+      "δ": "∂",
+      "△": "Δ",
+      "ℓ": "l",
+      "o∩o": "{arch-loops}",
+      "minims3": "m",
+      "E": "{left-fork}",
+      "p": "{hook-stem}",
+      "†": "{t-hook}",
+      "small_w": "{ax-joined}",
+      "‡": "≠",
+      "fan3": "{double-triangle}",
+      "stacked∞bar": "{oo-over-bar}",
+      "OBLITERATED": "{black-cluster}",
+      "loopS": "ϛ",
+      "loop_y": "{g-loop}",
+      "F": "{t-short}",
+      "#": "{overwritten-cross}",
+      "α": "{double-open-loop}",
+      "corner4": "4",
+      "V": "v"
+    },
+    "not_adjudicated": "任何未列於decisions的位置均維持not-adjudicated，兩稿一致不等於經裁正確。"
+  },
+  "alignment": [
+    {
+      "a_line_id": "162-L-C01-1",
+      "b_run_ids": [
+        "148v-L01a"
+      ],
+      "a_bbox": [
+        110,
+        99,
+        250,
+        121
+      ],
+      "b_bboxes": [
+        [
+          111,
+          99,
+          255,
+          119
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "3",
+        "3",
+        "2",
+        "o",
+        "d",
+        "x",
+        "o",
+        "><",
+        "c",
+        "7",
+        "t",
+        "ϛ"
+      ],
+      "b_visual": [
+        "1",
+        "3",
+        "3",
+        "2",
+        "o",
+        "d",
+        "x",
+        "o",
+        "Xh",
+        "c",
+        "7",
+        "t",
+        "loop5"
+      ],
+      "a_count": 13,
+      "b_count": 13,
+      "a_minus_b_count": 0,
+      "alignment_differences": [],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C02-1",
+      "b_run_ids": [
+        "148v-L01b"
+      ],
+      "a_bbox": [
+        509,
+        99,
+        619,
+        121
+      ],
+      "b_bboxes": [
+        [
+          546,
+          100,
+          616,
+          121
+        ]
+      ],
+      "a_visual": [
+        "∞",
+        ">",
+        "2",
+        "6",
+        "2",
+        "y",
+        "x"
+      ],
+      "b_visual": [
+        "∞",
+        ">",
+        "2",
+        "6",
+        "2",
+        "q",
+        "x"
+      ],
+      "a_count": 7,
+      "b_count": 7,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            6,
+            6
+          ],
+          "b_combined_position_inclusive": [
+            6,
+            6
+          ],
+          "a_forms": [
+            "y"
+          ],
+          "b_forms": [
+            "q"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C02-2",
+      "b_run_ids": [
+        "148v-L02"
+      ],
+      "a_bbox": [
+        110,
+        120,
+        620,
+        142
+      ],
+      "b_bboxes": [
+        [
+          109,
+          120,
+          617,
+          143
+        ]
+      ],
+      "a_visual": [
+        "τ",
+        "2",
+        "o",
+        "1",
+        "4",
+        "τ",
+        "o",
+        "y",
+        "-o",
+        "o-",
+        "∞",
+        "△|",
+        "π",
+        "4+",
+        ":",
+        "7",
+        "2",
+        "7",
+        "1",
+        "2",
+        "2",
+        "1",
+        "{ax-joined}",
+        "4",
+        "9",
+        "4",
+        "2",
+        "o",
+        "3",
+        "5",
+        "1",
+        "5",
+        "1",
+        "2",
+        "7",
+        "1",
+        "3",
+        "2",
+        "2",
+        "≠",
+        "x",
+        "△|",
+        "⊥",
+        "ω",
+        "2",
+        "3",
+        ">",
+        "ϛ",
+        "-c"
+      ],
+      "b_visual": [
+        "T",
+        "2",
+        "o",
+        "1",
+        "4",
+        "T",
+        "o",
+        "y",
+        "-o",
+        "o-",
+        "∞",
+        "tri_stem",
+        "π",
+        "4",
+        "dots",
+        "7",
+        "2",
+        "7",
+        "1",
+        "2",
+        "2",
+        "1",
+        "small_w",
+        "1",
+        "9",
+        "4",
+        "2",
+        "o",
+        "3",
+        "5",
+        "1",
+        "5",
+        "1",
+        "2",
+        "7",
+        "1",
+        "3",
+        "2",
+        "2",
+        "‡",
+        "x",
+        "tri_stem",
+        "U2",
+        "w_bar",
+        "2",
+        "3",
+        ">",
+        "loop5",
+        "-c"
+      ],
+      "a_count": 49,
+      "b_count": 49,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            14,
+            15
+          ],
+          "b_combined_position_inclusive": [
+            14,
+            15
+          ],
+          "a_forms": [
+            "4+",
+            ":"
+          ],
+          "b_forms": [
+            "4",
+            "dots"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            24,
+            24
+          ],
+          "b_combined_position_inclusive": [
+            24,
+            24
+          ],
+          "a_forms": [
+            "4"
+          ],
+          "b_forms": [
+            "1"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C02-3",
+      "b_run_ids": [
+        "148v-L03a",
+        "148v-L03b"
+      ],
+      "a_bbox": [
+        111,
+        141,
+        320,
+        163
+      ],
+      "b_bboxes": [
+        [
+          109,
+          140,
+          274,
+          161
+        ],
+        [
+          301,
+          143,
+          335,
+          160
+        ]
+      ],
+      "a_visual": [
+        "τ",
+        "x",
+        "λ",
+        "π",
+        "9",
+        "∂",
+        "∩",
+        "θ",
+        "2",
+        "1",
+        "3",
+        "2",
+        "6",
+        "{cursive-cluster}",
+        "≠",
+        "∞"
+      ],
+      "b_visual": [
+        "T",
+        "x",
+        "λ",
+        "π",
+        "9",
+        "δ",
+        "∩",
+        "phi",
+        "2",
+        "1",
+        "3",
+        "2",
+        "6",
+        "‡",
+        "∞"
+      ],
+      "a_count": 16,
+      "b_count": 15,
+      "a_minus_b_count": 1,
+      "alignment_differences": [
+        {
+          "operation": "delete",
+          "a_position_inclusive": [
+            14,
+            14
+          ],
+          "b_combined_position_inclusive": [
+            14,
+            13
+          ],
+          "a_forms": [
+            "{cursive-cluster}"
+          ],
+          "b_forms": [],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C03-1",
+      "b_run_ids": [
+        "148v-L04"
+      ],
+      "a_bbox": [
+        431,
+        159,
+        618,
+        182
+      ],
+      "b_bboxes": [
+        [
+          434,
+          159,
+          615,
+          178
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "5",
+        "3",
+        "2",
+        "o",
+        "τ",
+        "λ",
+        "θ",
+        "9",
+        ":",
+        "{double-triangle}",
+        "Δ",
+        "θ"
+      ],
+      "b_visual": [
+        "1",
+        "5",
+        "3",
+        "2",
+        "o",
+        "T",
+        "λ",
+        "phi",
+        "9",
+        "dots",
+        "fan3",
+        "△",
+        "phi"
+      ],
+      "a_count": 13,
+      "b_count": 13,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            10,
+            10
+          ],
+          "b_combined_position_inclusive": [
+            10,
+            10
+          ],
+          "a_forms": [
+            ":"
+          ],
+          "b_forms": [
+            "dots"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C03-2",
+      "b_run_ids": [
+        "148v-L05"
+      ],
+      "a_bbox": [
+        111,
+        180,
+        442,
+        202
+      ],
+      "b_bboxes": [
+        [
+          110,
+          178,
+          475,
+          200
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "2",
+        "1",
+        "7",
+        "3",
+        "1",
+        "2",
+        "λ",
+        "τ",
+        "∞",
+        "1",
+        "5",
+        "3",
+        "⊥",
+        "d",
+        "4",
+        "9",
+        "θ",
+        "∂",
+        "τ",
+        "><",
+        "λ",
+        "3",
+        "τ",
+        "2",
+        "1",
+        "l",
+        "{arch-loops}",
+        "ω",
+        "4",
+        "o-",
+        ":",
+        "2"
+      ],
+      "b_visual": [
+        "1",
+        "2",
+        "1",
+        "7",
+        "3",
+        "1",
+        "2",
+        "λ",
+        "T",
+        "∞",
+        "1",
+        "5",
+        "3",
+        "U2",
+        "d",
+        "1",
+        "9",
+        "phi",
+        "2",
+        "T",
+        "Xh",
+        "λ",
+        "3",
+        "T",
+        "2",
+        "1",
+        "ℓ",
+        "o∩o",
+        "π",
+        "phi",
+        "o-",
+        "dots",
+        "2"
+      ],
+      "a_count": 33,
+      "b_count": 33,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            16,
+            16
+          ],
+          "b_combined_position_inclusive": [
+            16,
+            16
+          ],
+          "a_forms": [
+            "4"
+          ],
+          "b_forms": [
+            "1"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            19,
+            19
+          ],
+          "b_combined_position_inclusive": [
+            19,
+            19
+          ],
+          "a_forms": [
+            "∂"
+          ],
+          "b_forms": [
+            "2"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            29,
+            30
+          ],
+          "b_combined_position_inclusive": [
+            29,
+            30
+          ],
+          "a_forms": [
+            "ω",
+            "4"
+          ],
+          "b_forms": [
+            "π",
+            "phi"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            32,
+            32
+          ],
+          "b_combined_position_inclusive": [
+            32,
+            32
+          ],
+          "a_forms": [
+            ":"
+          ],
+          "b_forms": [
+            "dots"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C04-1",
+      "b_run_ids": [
+        "148v-L06"
+      ],
+      "a_bbox": [
+        142,
+        235,
+        535,
+        259
+      ],
+      "b_bboxes": [
+        [
+          149,
+          233,
+          516,
+          259
+        ]
+      ],
+      "a_visual": [
+        "{left-fork}",
+        ">",
+        "-o",
+        "u",
+        "2",
+        "o",
+        "{hook-stem}",
+        "∩",
+        "π",
+        "{t-hook}",
+        "o-",
+        "h",
+        "1",
+        "7",
+        "3",
+        "4",
+        "1",
+        "o",
+        "3",
+        "1",
+        "2",
+        "l",
+        "1",
+        "2",
+        "o",
+        "5",
+        "2",
+        "1",
+        "2",
+        "6",
+        "{arch-loops}",
+        "3",
+        "1",
+        "5",
+        "τ",
+        "{boundary-cursive}"
+      ],
+      "b_visual": [
+        "E",
+        ">",
+        "-o",
+        "u",
+        "2",
+        "o",
+        "p",
+        "∩",
+        "π",
+        "†",
+        "o-",
+        "h",
+        "1",
+        "7",
+        "3",
+        "4",
+        "1",
+        "o",
+        "3",
+        "1",
+        "2",
+        "ℓ",
+        "1",
+        "2",
+        "o",
+        "5",
+        "2",
+        "1",
+        "2",
+        "6",
+        "o∩o",
+        "3",
+        "1",
+        "5",
+        "T"
+      ],
+      "a_count": 36,
+      "b_count": 35,
+      "a_minus_b_count": 1,
+      "alignment_differences": [
+        {
+          "operation": "delete",
+          "a_position_inclusive": [
+            36,
+            36
+          ],
+          "b_combined_position_inclusive": [
+            36,
+            35
+          ],
+          "a_forms": [
+            "{boundary-cursive}"
+          ],
+          "b_forms": [],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C05-1",
+      "b_run_ids": [
+        "148v-L07"
+      ],
+      "a_bbox": [
+        382,
+        256,
+        622,
+        280
+      ],
+      "b_bboxes": [
+        [
+          384,
+          254,
+          624,
+          280
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "2",
+        "1",
+        "4",
+        "1",
+        "o",
+        "2",
+        "o",
+        "π",
+        "ω",
+        "λ",
+        ":",
+        ":",
+        "1",
+        "6",
+        "8",
+        "∩",
+        "1",
+        "3",
+        "o-",
+        "1",
+        "5",
+        "△|",
+        "v",
+        "{double-v}"
+      ],
+      "b_visual": [
+        "1",
+        "2",
+        "1",
+        "4",
+        "1",
+        "o",
+        "2",
+        "o",
+        "π",
+        "w_bar",
+        "λ",
+        "dots",
+        "1",
+        "6",
+        "8",
+        "∩",
+        "1",
+        "3",
+        "o-",
+        "1",
+        "5",
+        "tri_stem",
+        "V",
+        "V"
+      ],
+      "a_count": 25,
+      "b_count": 24,
+      "a_minus_b_count": 1,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            12,
+            13
+          ],
+          "b_combined_position_inclusive": [
+            12,
+            12
+          ],
+          "a_forms": [
+            ":",
+            ":"
+          ],
+          "b_forms": [
+            "dots"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            25,
+            25
+          ],
+          "b_combined_position_inclusive": [
+            24,
+            24
+          ],
+          "a_forms": [
+            "{double-v}"
+          ],
+          "b_forms": [
+            "V"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C05-2",
+      "b_run_ids": [
+        "148v-L08"
+      ],
+      "a_bbox": [
+        109,
+        278,
+        493,
+        303
+      ],
+      "b_bboxes": [
+        [
+          109,
+          278,
+          478,
+          302
+        ]
+      ],
+      "a_visual": [
+        "2",
+        "1",
+        "2",
+        "o",
+        "7",
+        "9",
+        "3",
+        "5",
+        "7",
+        "1",
+        "2",
+        "1",
+        "7",
+        "4",
+        "o",
+        "⊥",
+        "><",
+        "o-c",
+        ">-",
+        "2",
+        "3",
+        "3",
+        "l",
+        "3",
+        "2",
+        "1",
+        "{cross-o}",
+        "-∞",
+        "π",
+        "2",
+        "7",
+        ">",
+        "o",
+        "∞",
+        "τ",
+        "1",
+        "7"
+      ],
+      "b_visual": [
+        "2",
+        "1",
+        "2",
+        "o",
+        "7",
+        "9",
+        "3",
+        "loop5",
+        "7",
+        "1",
+        "2",
+        "1",
+        "7",
+        "+o",
+        "U2",
+        "Xh",
+        "o-c",
+        ">-",
+        "2",
+        "3",
+        "3",
+        "ℓ",
+        "3",
+        "2",
+        "1",
+        "+o",
+        "-∞",
+        "π",
+        "2",
+        "7",
+        ">o",
+        "∞",
+        "T",
+        "1",
+        "7"
+      ],
+      "a_count": 37,
+      "b_count": 35,
+      "a_minus_b_count": 2,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            8,
+            8
+          ],
+          "b_combined_position_inclusive": [
+            8,
+            8
+          ],
+          "a_forms": [
+            "5"
+          ],
+          "b_forms": [
+            "loop5"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            14,
+            15
+          ],
+          "b_combined_position_inclusive": [
+            14,
+            14
+          ],
+          "a_forms": [
+            "4",
+            "o"
+          ],
+          "b_forms": [
+            "+o"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            27,
+            27
+          ],
+          "b_combined_position_inclusive": [
+            26,
+            26
+          ],
+          "a_forms": [
+            "{cross-o}"
+          ],
+          "b_forms": [
+            "+o"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            32,
+            33
+          ],
+          "b_combined_position_inclusive": [
+            31,
+            31
+          ],
+          "a_forms": [
+            ">",
+            "o"
+          ],
+          "b_forms": [
+            ">o"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C06-1",
+      "b_run_ids": [
+        "148v-L09"
+      ],
+      "a_bbox": [
+        332,
+        362,
+        619,
+        389
+      ],
+      "b_bboxes": [
+        [
+          330,
+          361,
+          617,
+          388
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "4",
+        "3",
+        "1",
+        "2",
+        "1",
+        "7",
+        "-c",
+        "o-",
+        "y",
+        "c",
+        "π",
+        "9",
+        "2",
+        "o",
+        "1",
+        "7",
+        "1",
+        "5",
+        "τ",
+        "1",
+        "1",
+        "6",
+        "θ",
+        "9",
+        "1",
+        "9",
+        "1",
+        "7",
+        "1"
+      ],
+      "b_visual": [
+        "1",
+        "4",
+        "3",
+        "1",
+        "2",
+        "1",
+        "7",
+        "-c",
+        "o-",
+        "y",
+        "c",
+        "π",
+        "9",
+        "2",
+        "o",
+        "1",
+        "7",
+        "1",
+        "5",
+        "T",
+        "1",
+        "1",
+        "6",
+        "phi",
+        "9",
+        "1",
+        "9",
+        "1",
+        "7",
+        "1"
+      ],
+      "a_count": 30,
+      "b_count": 30,
+      "a_minus_b_count": 0,
+      "alignment_differences": [],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-L-C06-2",
+      "b_run_ids": [
+        "148v-L10"
+      ],
+      "a_bbox": [
+        108,
+        388,
+        240,
+        412
+      ],
+      "b_bboxes": [
+        [
+          110,
+          391,
+          255,
+          410
+        ]
+      ],
+      "a_visual": [
+        "-∞",
+        "2",
+        "o",
+        ">-",
+        "1",
+        "9",
+        "⊥",
+        "2",
+        "o",
+        ">-",
+        "/"
+      ],
+      "b_visual": [
+        "-∞",
+        "2",
+        "o",
+        ">-",
+        "1",
+        "9",
+        "U2",
+        "2",
+        "o",
+        ">-",
+        "/"
+      ],
+      "a_count": 11,
+      "b_count": 11,
+      "a_minus_b_count": 0,
+      "alignment_differences": [],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C01-1",
+      "b_run_ids": [
+        "149r-R01"
+      ],
+      "a_bbox": [
+        789,
+        229,
+        1248,
+        270
+      ],
+      "b_bboxes": [
+        [
+          789,
+          230,
+          1237,
+          273
+        ]
+      ],
+      "a_visual": [
+        "7",
+        "9",
+        "1",
+        "7",
+        "3",
+        "2",
+        "o",
+        "7",
+        "5",
+        ":",
+        "λ",
+        "4",
+        "-o",
+        "2",
+        "2",
+        "o",
+        "1",
+        "6",
+        "π",
+        "o-",
+        "ω",
+        "{loop-stem}",
+        "⊥",
+        "∩",
+        "θ",
+        "u",
+        "2",
+        "1",
+        "4",
+        "9",
+        "5",
+        "ϛ",
+        "τ",
+        "4",
+        "∩",
+        "2"
+      ],
+      "b_visual": [
+        "7",
+        "9",
+        "1",
+        "7",
+        "3",
+        "2",
+        "o",
+        "7",
+        "5",
+        "dot",
+        "λ",
+        "4",
+        "-o",
+        "2",
+        "2",
+        "o",
+        "1",
+        "6",
+        "π",
+        "o-",
+        "w_bar",
+        "e",
+        "U2",
+        "ↄ",
+        "phi",
+        "u",
+        "2",
+        "1",
+        "4",
+        "9",
+        "5",
+        "loop5",
+        "T",
+        "4",
+        "∩",
+        "2",
+        "-"
+      ],
+      "a_count": 36,
+      "b_count": 37,
+      "a_minus_b_count": -1,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            10,
+            10
+          ],
+          "b_combined_position_inclusive": [
+            10,
+            10
+          ],
+          "a_forms": [
+            ":"
+          ],
+          "b_forms": [
+            "dot"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            22,
+            22
+          ],
+          "b_combined_position_inclusive": [
+            22,
+            22
+          ],
+          "a_forms": [
+            "{loop-stem}"
+          ],
+          "b_forms": [
+            "e"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            24,
+            24
+          ],
+          "b_combined_position_inclusive": [
+            24,
+            24
+          ],
+          "a_forms": [
+            "∩"
+          ],
+          "b_forms": [
+            "ↄ"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "insert",
+          "a_position_inclusive": [
+            37,
+            36
+          ],
+          "b_combined_position_inclusive": [
+            37,
+            37
+          ],
+          "a_forms": [],
+          "b_forms": [
+            "-"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C01-2",
+      "b_run_ids": [
+        "149r-R02"
+      ],
+      "a_bbox": [
+        725,
+        252,
+        1250,
+        291
+      ],
+      "b_bboxes": [
+        [
+          730,
+          254,
+          1238,
+          296
+        ]
+      ],
+      "a_visual": [
+        "-o",
+        ">",
+        "-o",
+        "2",
+        "o",
+        "3",
+        "λ",
+        "θ",
+        ">l",
+        "{t-short}",
+        "△|",
+        "y",
+        "{oo-over-bar}",
+        "τ",
+        "λ",
+        "{fork-cross}",
+        "ω",
+        "∂",
+        ">",
+        "-c",
+        "τ",
+        "o",
+        "2",
+        "6",
+        "7",
+        "7",
+        "9",
+        "2",
+        "o",
+        "d",
+        "4",
+        "1",
+        "9",
+        "y",
+        "3",
+        "l",
+        "{overwritten-cross}",
+        "Δ",
+        "1",
+        "7",
+        "6",
+        "2",
+        "o",
+        "2",
+        "1"
+      ],
+      "b_visual": [
+        "-o",
+        ">o",
+        "2",
+        "o",
+        "3",
+        "λ",
+        "phi",
+        ">",
+        "ℓ",
+        "F",
+        "tri_stem",
+        "y",
+        "stacked∞bar",
+        "T",
+        "λ",
+        "†",
+        "w_bar",
+        "δ",
+        ">",
+        "-c",
+        "T",
+        "o",
+        "2",
+        "6",
+        "7",
+        "7",
+        "9",
+        "2",
+        "o",
+        "d",
+        "4",
+        "1",
+        "9",
+        "q",
+        "3",
+        "ℓ",
+        "#",
+        "△",
+        "1",
+        "7",
+        "6",
+        "2",
+        "o",
+        "2",
+        "1"
+      ],
+      "a_count": 45,
+      "b_count": 45,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            2,
+            3
+          ],
+          "b_combined_position_inclusive": [
+            2,
+            2
+          ],
+          "a_forms": [
+            ">",
+            "-o"
+          ],
+          "b_forms": [
+            ">o"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            9,
+            9
+          ],
+          "b_combined_position_inclusive": [
+            8,
+            9
+          ],
+          "a_forms": [
+            ">l"
+          ],
+          "b_forms": [
+            ">",
+            "ℓ"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            16,
+            16
+          ],
+          "b_combined_position_inclusive": [
+            16,
+            16
+          ],
+          "a_forms": [
+            "{fork-cross}"
+          ],
+          "b_forms": [
+            "†"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            34,
+            34
+          ],
+          "b_combined_position_inclusive": [
+            34,
+            34
+          ],
+          "a_forms": [
+            "y"
+          ],
+          "b_forms": [
+            "q"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C01-3",
+      "b_run_ids": [
+        "149r-R03"
+      ],
+      "a_bbox": [
+        725,
+        278,
+        1233,
+        312
+      ],
+      "b_bboxes": [
+        [
+          727,
+          279,
+          1220,
+          319
+        ]
+      ],
+      "a_visual": [
+        "ϛ",
+        "∞",
+        "7",
+        "7",
+        "m",
+        "1",
+        "2",
+        "2",
+        "7",
+        "1",
+        "9",
+        "6",
+        "9",
+        "2",
+        "o",
+        "7",
+        "5",
+        "1",
+        "2",
+        "1",
+        "o",
+        "o-",
+        ">",
+        "5",
+        "1",
+        "y",
+        "4",
+        "{t-short}",
+        "△|",
+        "x",
+        "-∞",
+        "⊥",
+        "ω",
+        "{double-open-loop}",
+        "2",
+        "o",
+        "4",
+        "1",
+        "u",
+        "x",
+        "{crossed-v}",
+        ":",
+        "{tiny-stroke}"
+      ],
+      "b_visual": [
+        "loop5",
+        "∞",
+        "7",
+        "7",
+        "1",
+        "4",
+        "1",
+        "2",
+        "2",
+        "7",
+        "1",
+        "9",
+        "6",
+        "9",
+        "2",
+        "o",
+        "7",
+        "5",
+        "1",
+        "2",
+        "1",
+        "o",
+        "o-",
+        ")",
+        "loop5",
+        "1",
+        "y",
+        "corner4",
+        "F",
+        "tri_stem",
+        "x",
+        "-∞",
+        "U2",
+        "w_bar",
+        "α",
+        "2",
+        "o",
+        "4",
+        "1",
+        "u",
+        "2",
+        "V",
+        "dots"
+      ],
+      "a_count": 43,
+      "b_count": 43,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            5,
+            5
+          ],
+          "b_combined_position_inclusive": [
+            5,
+            6
+          ],
+          "a_forms": [
+            "m"
+          ],
+          "b_forms": [
+            "1",
+            "4"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            23,
+            24
+          ],
+          "b_combined_position_inclusive": [
+            24,
+            25
+          ],
+          "a_forms": [
+            ">",
+            "5"
+          ],
+          "b_forms": [
+            ")",
+            "loop5"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        },
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            40,
+            43
+          ],
+          "b_combined_position_inclusive": [
+            41,
+            43
+          ],
+          "a_forms": [
+            "x",
+            "{crossed-v}",
+            ":",
+            "{tiny-stroke}"
+          ],
+          "b_forms": [
+            "2",
+            "V",
+            "dots"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C01-4",
+      "b_run_ids": [
+        "149r-R04"
+      ],
+      "a_bbox": [
+        725,
+        303,
+        1114,
+        333
+      ],
+      "b_bboxes": [
+        [
+          728,
+          305,
+          1104,
+          339
+        ]
+      ],
+      "a_visual": [
+        "∞",
+        "π",
+        "1",
+        "9",
+        "7",
+        "9",
+        "2",
+        "o",
+        "∂",
+        "o-",
+        "λ",
+        "4",
+        "m",
+        "⊥",
+        "><",
+        "c",
+        "1",
+        "ω",
+        "4",
+        "1",
+        "o",
+        "3",
+        "1",
+        "2",
+        "9",
+        "3",
+        "1",
+        "4",
+        "1",
+        "o",
+        "4",
+        "1"
+      ],
+      "b_visual": [
+        "∞",
+        "π",
+        "1",
+        "9",
+        "7",
+        "9",
+        "2",
+        "o",
+        "δ",
+        "o-",
+        "λ",
+        "4",
+        "minims3",
+        "U2",
+        "Xh",
+        "c",
+        "1",
+        "w_bar",
+        "4",
+        "1",
+        "9",
+        "3",
+        "1",
+        "2",
+        "9",
+        "3",
+        "1",
+        "4",
+        "1",
+        "o",
+        "4",
+        "1"
+      ],
+      "a_count": 32,
+      "b_count": 32,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            21,
+            21
+          ],
+          "b_combined_position_inclusive": [
+            21,
+            21
+          ],
+          "a_forms": [
+            "o"
+          ],
+          "b_forms": [
+            "9"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C02-1",
+      "b_run_ids": [
+        "149r-R05"
+      ],
+      "a_bbox": [
+        972,
+        502,
+        1086,
+        530
+      ],
+      "b_bboxes": [
+        [
+          974,
+          505,
+          1097,
+          533
+        ]
+      ],
+      "a_visual": [
+        "+",
+        "9",
+        "3",
+        "1",
+        "2",
+        "9",
+        "c",
+        "u",
+        "y"
+      ],
+      "b_visual": [
+        "+",
+        "9",
+        "3",
+        "1",
+        "2",
+        "9",
+        "c",
+        "u",
+        "4"
+      ],
+      "a_count": 9,
+      "b_count": 9,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            9,
+            9
+          ],
+          "b_combined_position_inclusive": [
+            9,
+            9
+          ],
+          "a_forms": [
+            "y"
+          ],
+          "b_forms": [
+            "4"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C03-1",
+      "b_run_ids": [
+        "149r-R06"
+      ],
+      "a_bbox": [
+        786,
+        550,
+        1191,
+        584
+      ],
+      "b_bboxes": [
+        [
+          799,
+          550,
+          1175,
+          585
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "6",
+        "τ",
+        "-c",
+        "⊥",
+        "2",
+        "o",
+        "1",
+        "2",
+        "3",
+        "3",
+        "2",
+        "o",
+        "1",
+        "7",
+        "3",
+        "1",
+        "6",
+        "7",
+        "∂",
+        "ϛ",
+        "∂",
+        "4",
+        "1",
+        "5",
+        "1",
+        "Δ",
+        "{g-loop}",
+        "{black-cluster}",
+        "o-c",
+        "2",
+        "o",
+        "θ",
+        "e"
+      ],
+      "b_visual": [
+        "1",
+        "6",
+        "T",
+        "-c",
+        "U2",
+        "2",
+        "o",
+        "1",
+        "2",
+        "3",
+        "3",
+        "2",
+        "o",
+        "1",
+        "7",
+        "3",
+        "1",
+        "6",
+        "7",
+        "δ",
+        "loopS",
+        "δ",
+        "4",
+        "1",
+        "5",
+        "1",
+        "△",
+        "loop_y",
+        "OBLITERATED",
+        "Xh",
+        "2",
+        "o",
+        "phi",
+        "e"
+      ],
+      "a_count": 34,
+      "b_count": 34,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            30,
+            30
+          ],
+          "b_combined_position_inclusive": [
+            30,
+            30
+          ],
+          "a_forms": [
+            "o-c"
+          ],
+          "b_forms": [
+            "Xh"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C04-1",
+      "b_run_ids": [
+        "149r-R07a"
+      ],
+      "a_bbox": [
+        801,
+        580,
+        1006,
+        608
+      ],
+      "b_bboxes": [
+        [
+          798,
+          579,
+          956,
+          605
+        ]
+      ],
+      "a_visual": [
+        "1",
+        "3",
+        "5",
+        "u",
+        "1",
+        "2",
+        "λ",
+        "3",
+        "1",
+        "2",
+        "1",
+        "><",
+        "m",
+        "Δ"
+      ],
+      "b_visual": [
+        "1",
+        "3",
+        "5",
+        "u",
+        "1",
+        "2",
+        "λ",
+        "3",
+        "1",
+        "2",
+        "1",
+        "Xh",
+        "minims3",
+        "△"
+      ],
+      "a_count": 14,
+      "b_count": 14,
+      "a_minus_b_count": 0,
+      "alignment_differences": [],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    },
+    {
+      "a_line_id": "162-R-C05-1",
+      "b_run_ids": [
+        "149r-R08"
+      ],
+      "a_bbox": [
+        727,
+        601,
+        1038,
+        632
+      ],
+      "b_bboxes": [
+        [
+          731,
+          597,
+          1017,
+          627
+        ]
+      ],
+      "a_visual": [
+        "τ",
+        "l",
+        "λ",
+        "⊥",
+        "{wedge}",
+        "∞",
+        "3",
+        "1",
+        "2",
+        "2",
+        "3",
+        "τ",
+        "x",
+        "∂",
+        ">",
+        "∩",
+        "τ",
+        "1",
+        "4",
+        "3",
+        "2",
+        "1",
+        "÷"
+      ],
+      "b_visual": [
+        "T",
+        "ℓ",
+        "λ",
+        "U2",
+        "w_bar",
+        "∞",
+        "3",
+        "1",
+        "2",
+        "2",
+        "3",
+        "T",
+        "x",
+        "δ",
+        ">",
+        "∩",
+        "T",
+        "1",
+        "4",
+        "3",
+        "2",
+        "1",
+        "÷"
+      ],
+      "a_count": 23,
+      "b_count": 23,
+      "a_minus_b_count": 0,
+      "alignment_differences": [
+        {
+          "operation": "replace",
+          "a_position_inclusive": [
+            5,
+            5
+          ],
+          "b_combined_position_inclusive": [
+            5,
+            5
+          ],
+          "a_forms": [
+            "{wedge}"
+          ],
+          "b_forms": [
+            "w_bar"
+          ],
+          "status": "alignment_only_not_adjudicated"
+        }
+      ],
+      "review_status": "line_location_rechecked; only separately listed decisions adjudicated"
+    }
+  ],
+  "b_only_regions": [
+    {
+      "id": "149r-R07b",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        1209,
+        576,
+        1243,
+        599
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "同一行極右端孤立的橫頂雙垂形，疑似密碼，但也可能是草寫終筆。",
+      "human_review": "not-human-reviewed"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "physical_line": "L01b",
+      "bbox_approx": [
+        584,
+        99,
+        612,
+        124
+      ],
+      "a_reading": "y",
+      "b_reading": "q",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "可見閉合或近閉合上部及長下伸筆；閱覽圖不足以分叉式y與圈式q。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D02",
+      "physical_line": "L02",
+      "bbox_approx": [
+        230,
+        120,
+        255,
+        143
+      ],
+      "a_reading": "4+ :",
+      "b_reading": "4 dots",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "交叉筆形與右側點群可見；點數及其附著不能確定，4+不是經證實的獨立複形。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D03",
+      "physical_line": "L02",
+      "bbox_approx": [
+        343,
+        122,
+        358,
+        141
+      ],
+      "a_reading": "4（A24）",
+      "b_reading": "1（B24）",
+      "decision": "accept",
+      "selected": "1樣形",
+      "reason_from_image": "該位置可見單一短鉤直筆，右鄰9樣、再右4樣具有明顯交叉橫筆；本位缺少後者的交叉構造。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D04",
+      "physical_line": "L03",
+      "bbox_approx": [
+        263,
+        140,
+        305,
+        164
+      ],
+      "a_reading": "{cursive-cluster}計入一單位",
+      "b_reading": "gap G01不計token",
+      "decision": "accept",
+      "selected": "保留未解邊界區，不計確定密碼符數",
+      "reason_from_image": "該區是多筆草寫狀連墨，A的一單位只是占位，不能用作實際符號計數。",
+      "scope": "counting_policy_not_plaintext_classification",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D05",
+      "physical_line": "L04",
+      "bbox_approx": [
+        548,
+        157,
+        615,
+        180
+      ],
+      "a_reading": ": double-triangle Δ θ",
+      "b_reading": "dots fan3 △ phi",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "可確認點群、扇狀斜筆、三角及帶內畫圈的順序；點數、扇形筆數和是否複合仍不足。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D06",
+      "physical_line": "L05",
+      "bbox_approx": [
+        255,
+        178,
+        272,
+        200
+      ],
+      "a_reading": "4（A16）",
+      "b_reading": "1（B16）",
+      "decision": "accept",
+      "selected": "1樣形",
+      "reason_from_image": "該位置d樣形與9樣形之間為短鉤直筆，沒有可確認的交叉橫畫；1樣標記較符合。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D07",
+      "physical_line": "L05",
+      "bbox_approx": [
+        279,
+        177,
+        301,
+        201
+      ],
+      "a_reading": "∂（A19）",
+      "b_reading": "2（B19）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "有上彎與下部短曲筆，與數字2樣和環鉤形皆相容；無足夠細節確定下部是否閉合。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D08",
+      "physical_line": "L05",
+      "bbox_approx": [
+        401,
+        178,
+        421,
+        201
+      ],
+      "a_reading": "ω（A29）",
+      "b_reading": "π（B29）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "該位置可見頂橫及下側低筆畫；兩足還是雙小圈不能清楚判定，兩者只保留形態候選。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D09",
+      "physical_line": "L05",
+      "bbox_approx": [
+        419,
+        178,
+        432,
+        199
+      ],
+      "a_reading": "4（A30）",
+      "b_reading": "phi（B30）",
+      "decision": "accept",
+      "selected": "帶內斜畫的圈樣形（θ/phi）",
+      "reason_from_image": "該位置顯示封閉或近封閉橢圓及內斜畫，不支持單純4樣的開放交叉結構；不判它是數字8。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D10",
+      "physical_line": "L05",
+      "bbox_approx": [
+        430,
+        179,
+        448,
+        202
+      ],
+      "a_reading": ":",
+      "b_reading": "dots（可為i）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "細直筆上方有小墨點，但放大不能證實是點群、帶點直筆或附加記號。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D11",
+      "physical_line": "L06",
+      "bbox_approx": [
+        509,
+        233,
+        538,
+        259
+      ],
+      "a_reading": "{boundary-cursive}計一單位",
+      "b_reading": "不計此區",
+      "decision": "accept",
+      "selected": "保留邊界區，不計確定密碼符數",
+      "reason_from_image": "可見T樣後銜接較流動的草寫筆畫，沒有理由把整段銜接固定算一個密碼符。",
+      "scope": "counting_policy_not_plaintext_classification",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D12",
+      "physical_line": "L07",
+      "bbox_approx": [
+        495,
+        255,
+        521,
+        281
+      ],
+      "a_reading": ": :",
+      "b_reading": "dots",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "兩組小墨點／直筆在閱覽圖內相接關係不足；A兩單位與B一單位都是切分假設。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D13",
+      "physical_line": "L07",
+      "bbox_approx": [
+        598,
+        254,
+        624,
+        279
+      ],
+      "a_reading": "v double-v",
+      "b_reading": "V V",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "末端兩叉形可定位，第二叉的重筆可能是墨粗或附筆；不能確定是否不同字形。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D14",
+      "physical_line": "L08",
+      "bbox_approx": [
+        250,
+        278,
+        276,
+        301
+      ],
+      "a_reading": "4 o（A14–15）",
+      "b_reading": "+o（B14）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "交叉筆與小圈間有短橫相接；可保留複合外觀，但一符／兩符及4／十字身分不可判。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D15",
+      "physical_line": "L08",
+      "bbox_approx": [
+        423,
+        278,
+        448,
+        301
+      ],
+      "a_reading": "> o（A32–33）",
+      "b_reading": ">o（B31）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "右曲與小圈鄰接可見，是否同一碼的帶柄複形不能由低解析度定。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D16",
+      "physical_line": "R01",
+      "bbox_approx": [
+        896,
+        247,
+        916,
+        268
+      ],
+      "a_reading": ":",
+      "b_reading": "dot",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "5樣右側小記號在閱覽圖中可見，點數與附著仍無法證實。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D17",
+      "physical_line": "R01",
+      "bbox_approx": [
+        1054,
+        232,
+        1082,
+        258
+      ],
+      "a_reading": "∩",
+      "b_reading": "ↄ",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "上弧與右側下筆可見，但左端是否閉合／向下延伸不清，保留∩與反c候選。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D18",
+      "physical_line": "R01",
+      "bbox_approx": [
+        1230,
+        232,
+        1260,
+        253
+      ],
+      "a_reading": "未記末橫",
+      "b_reading": "-",
+      "decision": "accept",
+      "selected": "補記可見末橫畫；密碼／行尾標記未定",
+      "reason_from_image": "完整頁與該區域都可見最末2樣右側獨立長橫；它確實存在，不能據此確認密碼身分。",
+      "scope": "visible_mark_presence_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D19",
+      "physical_line": "R02",
+      "bbox_approx": [
+        731,
+        266,
+        827,
+        293
+      ],
+      "a_reading": "> -o及>l",
+      "b_reading": ">o及> ℓ",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "起頭圈柄附著與後段長斜筆均可見；A/B符號數在兩處正負抵銷，不能因總數相同視為一致。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D20",
+      "physical_line": "R02",
+      "bbox_approx": [
+        899,
+        258,
+        930,
+        285
+      ],
+      "a_reading": "oo-over-bar",
+      "b_reading": "stacked∞bar",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "上方雙圈與下方粗橫皆可見；作一個複合碼或上下兩符仍未判。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D21",
+      "physical_line": "R02",
+      "bbox_approx": [
+        1122,
+        253,
+        1152,
+        279
+      ],
+      "a_reading": "y",
+      "b_reading": "q",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "可見長下伸與上部圈／叉狀，未以字母名稱或碼表裁定。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D22",
+      "physical_line": "R03",
+      "bbox_approx": [
+        780,
+        291,
+        803,
+        315
+      ],
+      "a_reading": "m（A5）",
+      "b_reading": "1 4（B5–6）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "該位置顯示數條短直筆與右端較長下筆；1+4與相連minims均可，無法確定切分。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D23",
+      "physical_line": "R03",
+      "bbox_approx": [
+        1155,
+        280,
+        1191,
+        306
+      ],
+      "a_reading": "x",
+      "b_reading": "2",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "該位置呈角形加短橫，筆寬已吃掉內部結構，x／2都不能排除。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D24",
+      "physical_line": "R03",
+      "bbox_approx": [
+        1190,
+        279,
+        1233,
+        308
+      ],
+      "a_reading": "crossed-v : tiny-stroke",
+      "b_reading": "V dots",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "該位置顯示交叉V及數個離散細痕；末細痕是否獨立符與點數未定。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D25",
+      "physical_line": "R04",
+      "bbox_approx": [
+        966,
+        305,
+        985,
+        329
+      ],
+      "a_reading": "o（A21）",
+      "b_reading": "9（B21）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "該位置有閉圈，與右側3樣的下彎筆很近；無法證實圈本身有獨立下伸筆，因此保留o／9。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D26",
+      "physical_line": "R05",
+      "bbox_approx": [
+        1060,
+        502,
+        1088,
+        531
+      ],
+      "a_reading": "y（A9）",
+      "b_reading": "4（B9）",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "該位置見左短鉤及右長下伸筆；既不能確認y分叉，也不能確認4的獨立交叉橫。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D27",
+      "physical_line": "R06",
+      "bbox_approx": [
+        1077,
+        550,
+        1113,
+        580
+      ],
+      "a_reading": "black-cluster",
+      "b_reading": "OBLITERATED",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "刪改重墨區完全遮蔽部分底筆；原始符形與符數皆未定，兩稿同意也不能升級為已讀。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D28",
+      "physical_line": "R06",
+      "bbox_approx": [
+        1110,
+        550,
+        1138,
+        576
+      ],
+      "a_reading": "o-c",
+      "b_reading": "Xh",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "圈與開曲之間有橫向連接，左側是否完全閉合不足；不得因符號家族假設選邊。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D29",
+      "physical_line": "R07b",
+      "bbox_approx": [
+        1209,
+        576,
+        1243,
+        599
+      ],
+      "a_reading": "未列",
+      "b_reading": "w_bar",
+      "decision": "accept",
+      "selected": "新增孤立低雙圈／雙足加頂橫的候選區；密碼身分未定",
+      "reason_from_image": "該位置確有頂橫及下部兩彎筆，與正文草寫之間有空隔。可接受此區存在；它是密碼或草寫尾筆仍retain-unresolved。",
+      "scope": "candidate_region_presence_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    },
+    {
+      "id": "D30",
+      "physical_line": "R08",
+      "bbox_approx": [
+        790,
+        600,
+        817,
+        628
+      ],
+      "a_reading": "wedge",
+      "b_reading": "w_bar",
+      "decision": "retain-unresolved",
+      "selected": null,
+      "reason_from_image": "可見低水平筆與下方小角／彎筆，不能確定是單楔或帶橫雙足形。",
+      "scope": "visual_form_only",
+      "numeric_identity": null,
+      "decrypted_value": null
+    }
+  ],
+  "count_reconciliation": {
+    "a_visual_units": 506,
+    "b_visual_units": 503,
+    "aligned_line_delta_rows": [
+      {
+        "line": "162-L-C02-3",
+        "a": 16,
+        "b": 15,
+        "a_minus_b": 1
+      },
+      {
+        "line": "162-L-C04-1",
+        "a": 36,
+        "b": 35,
+        "a_minus_b": 1
+      },
+      {
+        "line": "162-L-C05-1",
+        "a": 25,
+        "b": 24,
+        "a_minus_b": 1
+      },
+      {
+        "line": "162-L-C05-2",
+        "a": 37,
+        "b": 35,
+        "a_minus_b": 2
+      },
+      {
+        "line": "162-R-C01-1",
+        "a": 36,
+        "b": 37,
+        "a_minus_b": -1
+      }
+    ],
+    "aligned_rows_a_minus_b": 4,
+    "b_only_units": 1,
+    "net_a_minus_b": 3,
+    "explanation": "L03占位+1，L06邊界占位+1，L07點群切分+1，L08兩組複合形切分+2；R01 B末橫使A少1，B另列R07b再少1；淨差+3。這不是漏三字或錯誤率。"
+  },
+  "coverage": {
+    "main_lines_aligned": 19,
+    "b_split_L03_runs": 2,
+    "new_a_omission_confirmed_as_visible_candidate": "149r-R07b [1209,576,1243,599]；密碼身分未定",
+    "common_new_omission": "本輪全圖巡檢未確認A/B共同漏掉的新連續密碼段；不等於證明無漏。",
+    "common_unresolved_regions": [
+      "L03草寫狀邊界",
+      "R06重墨",
+      "點群／橫柄／圈的附屬"
+    ],
+    "not_fully_rechecked": "未逐位裁完506/503個單位；僅30項指定區與19個物理行對齊。",
+    "full_curated_transcription_created": false
+  },
+  "input_streams": [
+    "new-faces-reading-a.json",
+    "new-faces-reading-b.json"
+  ],
+  "caution": "19 physical lines aligned, 30 local decisions only. No complete merged curated transcript was created; all other positions remain not-adjudicated."
+}

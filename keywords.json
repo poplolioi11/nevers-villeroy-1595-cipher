@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "keywords": [
+    "歷史密碼",
+    "符號轉錄",
+    "未解密函",
+    "historical cryptography",
+    "homophonic cipher",
+    "nomenclator",
+    "Nevers",
+    "Villeroy",
+    "1595",
+    "digital humanities",
+    "uncertainty annotation",
+    "French correspondence"
+  ],
+  "basis": {
+    "歷史密碼": "1595 cipher-bearing letter",
+    "符號轉錄": "visual-symbol data",
+    "未解密函": "no accepted key",
+    "historical cryptography": "bounded cipher hypotheses",
+    "homophonic cipher": "R1 local compatibility hypothesis",
+    "nomenclator": "word-code family remains untested",
+    "Nevers": "catalogued sender",
+    "Villeroy": "catalogued addressee",
+    "1595": "letter date",
+    "digital humanities": "source-linked manuscript transcription",
+    "uncertainty annotation": "explicit ambiguous and unresolved fields",
+    "French correspondence": "catalogue description; not full French text"
+  }
+}

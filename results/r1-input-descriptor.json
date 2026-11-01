@@ -1,0 +1,6 @@
+{
+  "source_sha256": "8410011f357080dc8e3e9923fb6749ec29f6634e3223c8be9f52e3aa2d5451ec",
+  "input_policy": "frozen-before-R2-review",
+  "scope": "309 provisional positions, old R1/L1-L6 line labels",
+  "notice": "Only descriptor released; full private processing input and dedicated software are not included. Locate visual observations via data/ and retain the historical uncertainty policy in METHODS.md."
+}

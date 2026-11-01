@@ -1,0 +1,3397 @@
+{
+  "seed": 20261101,
+  "input_sha256": "8410011f357080dc8e3e9923fb6749ec29f6634e3223c8be9f52e3aa2d5451ec",
+  "cribs": [
+    "cambrai",
+    "doullens",
+    "villeroy",
+    "monsieur",
+    "vostre",
+    "ennemis",
+    "affaires"
+  ],
+  "null_shuffles": 128,
+  "input_policy": "provisional-sensitivity",
+  "provisional_warning": "Sensitivity branch freezes provisional visual units and allows unresolved positions; it does not resolve their readings or grouping.",
+  "warning": "Pattern fits are not decipherments. No crib is known plaintext. No target key accepted.",
+  "models": {
+    "glyph": {
+      "units": 309,
+      "distinct_types": 64,
+      "uncertain_units": 281,
+      "line_units": {
+        "R1": 28,
+        "L1": 56,
+        "L2": 57,
+        "L3": 38,
+        "L4": 37,
+        "L5": 46,
+        "L6": 47
+      },
+      "frequency": {
+        "1": 39,
+        "2": 37,
+        "·": 18,
+        "4": 14,
+        "o": 14,
+        "7": 11,
+        "9": 9,
+        "3": 8,
+        "s": 8,
+        "λ": 7,
+        "π": 7,
+        "τ": 7,
+        "i": 7,
+        "○─": 7,
+        "ϐ": 6,
+        "δ": 6,
+        "6": 6,
+        "⊔": 5,
+        "─c": 5,
+        "θ": 5,
+        "∩": 5,
+        "─○": 4,
+        "ω̅": 4,
+        "ℓ": 4,
+        "ʔ─": 4,
+        "x": 4,
+        "≠": 4,
+        "m": 3,
+        "8": 3,
+        "c": 3,
+        "∞": 3,
+        "γ": 3,
+        "ʔ": 3,
+        "ν": 2,
+        "⌢○": 2,
+        "╪7": 2,
+        "F": 2,
+        "γ̲": 2,
+        "1́": 1,
+        "χ": 1,
+        "þ": 1,
+        "Δ": 1,
+        "k": 1,
+        "⟦arch+stem⟧": 1,
+        "†7": 1,
+        "q̵": 1,
+        "⊣": 1,
+        "W": 1,
+        "t": 1,
+        "+○": 1,
+        "F↗": 1,
+        "⊃—c": 1,
+        "⊃—○": 1,
+        "υ": 1,
+        "e": 1,
+        "─": 1,
+        "ω": 1,
+        "ɯ": 1,
+        "○⌢δ": 1,
+        "—∞": 1,
+        "⟦ʔ/2⟧": 1,
+        "υʔ": 1,
+        "⟦z/8⟧": 1,
+        "⟦FLOURISH⟧": 1
+      },
+      "hypotheses": {
+        "monoalphabetic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 1,
+              "shuffle_min_median_max": [
+                0,
+                3.0,
+                10
+              ],
+              "examples": [
+                {
+                  "line": "L4",
+                  "start_unit_1based": 11,
+                  "crib": "cambrai",
+                  "key": {
+                    "1": "c",
+                    "2": "a",
+                    "δ": "m",
+                    "e": "b",
+                    "7": "r",
+                    "4": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???cac?c?a??a?aar???c?ca?ic?im???m??a??ca?????",
+                    "L6": "?cc?c??m??c?????c??ca?????c??cr?aa??ci??????a??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 2,
+              "shuffle_min_median_max": [
+                0,
+                3.0,
+                7
+              ],
+              "examples": [
+                {
+                  "line": "L2",
+                  "start_unit_1based": 8,
+                  "crib": "doullens",
+                  "key": {
+                    "8": "d",
+                    "λ": "o",
+                    "ʔ─": "u",
+                    "2": "l",
+                    "1": "e",
+                    "s": "n",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "?s?ele?e?l??l?ll????eneln?e????????sl?oel?????",
+                    "L6": "uee?e?????e?????e??elo????e??e??ll?se???????l??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "L2",
+                  "start_unit_1based": 30,
+                  "crib": "doullens",
+                  "key": {
+                    "4": "d",
+                    "i": "o",
+                    "3": "u",
+                    "2": "l",
+                    "≠": "e",
+                    "1": "n",
+                    "7": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???nln?n?l??l?lls???n?nl?dn?d???????l??nl?????",
+                    "L6": "?nnun?????n?????n??nl?????n??ns?ll??nd??????l??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 1,
+              "shuffle_min_median_max": [
+                0,
+                3.0,
+                8
+              ],
+              "examples": [
+                {
+                  "line": "L2",
+                  "start_unit_1based": 9,
+                  "crib": "villeroy",
+                  "key": {
+                    "λ": "v",
+                    "ʔ─": "i",
+                    "2": "l",
+                    "1": "e",
+                    "s": "r",
+                    "τ": "o",
+                    "⊣": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "?o?ele?e?l??l?ll????erelr?e????????ol?vel?????",
+                    "L6": "iee?e?????e?????e??elv????e??e??ll?oe???????l??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 75,
+              "shuffle_min_median_max": [
+                45,
+                65.0,
+                89
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "monsieur",
+                  "key": {
+                    "─c": "m",
+                    "π": "o",
+                    "⌢○": "n",
+                    "m": "s",
+                    "1": "i",
+                    "3": "e",
+                    "τ": "u",
+                    "2": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "su?iri?i?r??r?rr?o??i?ir??i???m????ur??ir?????",
+                    "L6": "?iiei???m?i?????imoir?????i??i??rr?ui?????o?r??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 13,
+                  "crib": "monsieur",
+                  "key": {
+                    "π": "m",
+                    "⌢○": "o",
+                    "m": "n",
+                    "1": "s",
+                    "3": "i",
+                    "τ": "e",
+                    "2": "u",
+                    "i": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    14,
+                    20
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "ne?sus?s?u??u?uu?m??s?su??s????????eu??su?????",
+                    "L6": "?ssis?????s?????s?msu?????s??s??uu?es?????m?u??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "L1",
+                  "start_unit_1based": 1,
+                  "crib": "monsieur",
+                  "key": {
+                    "χ": "m",
+                    "1": "o",
+                    "9": "n",
+                    "o": "s",
+                    "8": "i",
+                    "δ": "e",
+                    "c": "u",
+                    "θ": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???o?o?o?????s??????o?o???on?e???e???s?o???rn?",
+                    "L6": "?oo?onse??o?????o??o??????onro??????o????????s?"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 112,
+              "shuffle_min_median_max": [
+                85,
+                110.0,
+                138
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "vostre",
+                  "key": {
+                    "λ": "v",
+                    "ν": "o",
+                    "⊔": "s",
+                    "─○": "t",
+                    "1": "r",
+                    "9": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???r?r?r????????????r?r???re??????????vr????e?",
+                    "L6": "?rr?re????r????tr??r?v???tre?r??????r???s??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 2,
+                  "crib": "vostre",
+                  "key": {
+                    "ν": "v",
+                    "⊔": "o",
+                    "─○": "s",
+                    "1": "t",
+                    "9": "r",
+                    "·": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???t?t?t????????????t?t???tr???????????t????r?",
+                    "L6": "?tt?tr????t????st??t?????str?t??????t???o??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "vostre",
+                  "key": {
+                    "·": "v",
+                    "4": "o",
+                    "1": "s",
+                    "─c": "t",
+                    "π": "r",
+                    "⌢○": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    9,
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???s?s?s?????????r??s?s??os?o?t????????s??????",
+                    "L6": "?ss?s???t?s?????strs??????s??s??????so????r????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": false,
+          "search_total_fits": 191,
+          "whole_search_shuffle_min_median_max": [
+            144,
+            185.5,
+            235
+          ]
+        },
+        "homophonic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 94,
+              "shuffle_min_median_max": [
+                65,
+                90.0,
+                122
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "cambrai",
+                  "key": {
+                    "λ": "c",
+                    "ν": "a",
+                    "⊔": "m",
+                    "─○": "b",
+                    "1": "r",
+                    "9": "a",
+                    "·": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???r?r?r????????????r?r???ra??????????cr????a?",
+                    "L6": "?rr?ra????r????br??r?c???bra?r??????r???m??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "cambrai",
+                  "key": {
+                    "·": "c",
+                    "4": "a",
+                    "1": "m",
+                    "─c": "b",
+                    "π": "r",
+                    "⌢○": "a",
+                    "m": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    9,
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "i??m?m?m?????????r??m?m??am?a?b????????m??????",
+                    "L6": "?mm?m???b?m?????mbrm??????m??m??????ma????r????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "cambrai",
+                  "key": {
+                    "─c": "c",
+                    "π": "a",
+                    "⌢○": "m",
+                    "m": "b",
+                    "1": "r",
+                    "3": "a",
+                    "τ": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "bi?r?r?r?????????a??r?r???r???c????i???r??????",
+                    "L6": "?rrar???c?r?????rcar??????r??r?????ir?????a????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 77,
+              "shuffle_min_median_max": [
+                49,
+                68.0,
+                91
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "doullens",
+                  "key": {
+                    "─c": "d",
+                    "π": "o",
+                    "⌢○": "u",
+                    "m": "l",
+                    "1": "l",
+                    "3": "e",
+                    "τ": "n",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ln?lsl?l?s??s?ss?o??l?ls??l???d????ns??ls?????",
+                    "L6": "?llel???d?l?????ldols?????l??l??ss?nl?????o?s??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 13,
+                  "crib": "doullens",
+                  "key": {
+                    "π": "d",
+                    "⌢○": "o",
+                    "m": "u",
+                    "1": "l",
+                    "3": "l",
+                    "τ": "e",
+                    "2": "n",
+                    "i": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    14,
+                    20
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ue?lnl?l?n??n?nn?d??l?ln??l????????en??ln?????",
+                    "L6": "?llll?????l?????l?dln?????l??l??nn?el?????d?n??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "L1",
+                  "start_unit_1based": 1,
+                  "crib": "doullens",
+                  "key": {
+                    "χ": "d",
+                    "1": "o",
+                    "9": "u",
+                    "o": "l",
+                    "8": "l",
+                    "δ": "e",
+                    "c": "n",
+                    "θ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???o?o?o?????l??????o?o???ou?e???e???l?o???su?",
+                    "L6": "?oo?oule??o?????o??o??????ouso??????o????????l?"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 76,
+              "shuffle_min_median_max": [
+                49,
+                68.0,
+                91
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "villeroy",
+                  "key": {
+                    "─c": "v",
+                    "π": "i",
+                    "⌢○": "l",
+                    "m": "l",
+                    "1": "e",
+                    "3": "r",
+                    "τ": "o",
+                    "2": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "lo?eye?e?y??y?yy?i??e?ey??e???v????oy??ey?????",
+                    "L6": "?eere???v?e?????eviey?????e??e??yy?oe?????i?y??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 13,
+                  "crib": "villeroy",
+                  "key": {
+                    "π": "v",
+                    "⌢○": "i",
+                    "m": "l",
+                    "1": "l",
+                    "3": "e",
+                    "τ": "r",
+                    "2": "o",
+                    "i": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    14,
+                    20
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "lr?lol?l?o??o?oo?v??l?lo??l????????ro??lo?????",
+                    "L6": "?llel?????l?????l?vlo?????l??l??oo?rl?????v?o??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "L1",
+                  "start_unit_1based": 1,
+                  "crib": "villeroy",
+                  "key": {
+                    "χ": "v",
+                    "1": "i",
+                    "9": "l",
+                    "o": "l",
+                    "8": "e",
+                    "δ": "r",
+                    "c": "o",
+                    "θ": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???i?i?i?????l??????i?i???il?r???r???l?i???yl?",
+                    "L6": "?ii?illr??i?????i??i??????ilyi??????i????????l?"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 75,
+              "shuffle_min_median_max": [
+                45,
+                65.0,
+                89
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "monsieur",
+                  "key": {
+                    "─c": "m",
+                    "π": "o",
+                    "⌢○": "n",
+                    "m": "s",
+                    "1": "i",
+                    "3": "e",
+                    "τ": "u",
+                    "2": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "su?iri?i?r??r?rr?o??i?ir??i???m????ur??ir?????",
+                    "L6": "?iiei???m?i?????imoir?????i??i??rr?ui?????o?r??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 13,
+                  "crib": "monsieur",
+                  "key": {
+                    "π": "m",
+                    "⌢○": "o",
+                    "m": "n",
+                    "1": "s",
+                    "3": "i",
+                    "τ": "e",
+                    "2": "u",
+                    "i": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    14,
+                    20
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ne?sus?s?u??u?uu?m??s?su??s????????eu??su?????",
+                    "L6": "?ssis?????s?????s?msu?????s??s??uu?es?????m?u??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "L1",
+                  "start_unit_1based": 1,
+                  "crib": "monsieur",
+                  "key": {
+                    "χ": "m",
+                    "1": "o",
+                    "9": "n",
+                    "o": "s",
+                    "8": "i",
+                    "δ": "e",
+                    "c": "u",
+                    "θ": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???o?o?o?????s??????o?o???on?e???e???s?o???rn?",
+                    "L6": "?oo?onse??o?????o??o??????onro??????o????????s?"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 112,
+              "shuffle_min_median_max": [
+                85,
+                110.0,
+                138
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "vostre",
+                  "key": {
+                    "λ": "v",
+                    "ν": "o",
+                    "⊔": "s",
+                    "─○": "t",
+                    "1": "r",
+                    "9": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???r?r?r????????????r?r???re??????????vr????e?",
+                    "L6": "?rr?re????r????tr??r?v???tre?r??????r???s??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 2,
+                  "crib": "vostre",
+                  "key": {
+                    "ν": "v",
+                    "⊔": "o",
+                    "─○": "s",
+                    "1": "t",
+                    "9": "r",
+                    "·": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???t?t?t????????????t?t???tr???????????t????r?",
+                    "L6": "?tt?tr????t????st??t?????str?t??????t???o??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "vostre",
+                  "key": {
+                    "·": "v",
+                    "4": "o",
+                    "1": "s",
+                    "─c": "t",
+                    "π": "r",
+                    "⌢○": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    9,
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???s?s?s?????????r??s?s??os?o?t????????s??????",
+                    "L6": "?ss?s???t?s?????strs??????s??s??????so????r????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 95,
+              "shuffle_min_median_max": [
+                70,
+                93.0,
+                124
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "ennemis",
+                  "key": {
+                    "λ": "e",
+                    "ν": "n",
+                    "⊔": "n",
+                    "─○": "e",
+                    "1": "m",
+                    "9": "i",
+                    "·": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???m?m?m????????????m?m???mi??????????em????i?",
+                    "L6": "?mm?mi????m????em??m?e???emi?m??????m???n??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "ennemis",
+                  "key": {
+                    "·": "e",
+                    "4": "n",
+                    "1": "n",
+                    "─c": "e",
+                    "π": "m",
+                    "⌢○": "i",
+                    "m": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    9,
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "s??n?n?n?????????m??n?n??nn?n?e????????n??????",
+                    "L6": "?nn?n???e?n?????nemn??????n??n??????nn????m????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "ennemis",
+                  "key": {
+                    "─c": "e",
+                    "π": "n",
+                    "⌢○": "n",
+                    "m": "e",
+                    "1": "m",
+                    "3": "i",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "es?m?m?m?????????n??m?m???m???e????s???m??????",
+                    "L6": "?mmim???e?m?????menm??????m??m?????sm?????n????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 76,
+              "shuffle_min_median_max": [
+                52,
+                71.0,
+                95
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 12,
+                  "crib": "affaires",
+                  "key": {
+                    "─c": "a",
+                    "π": "f",
+                    "⌢○": "f",
+                    "m": "a",
+                    "1": "i",
+                    "3": "r",
+                    "τ": "e",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    12,
+                    14
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ae?isi?i?s??s?ss?f??i?is??i???a????es??is?????",
+                    "L6": "?iiri???a?i?????iafis?????i??i??ss?ei?????f?s??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 13,
+                  "crib": "affaires",
+                  "key": {
+                    "π": "a",
+                    "⌢○": "f",
+                    "m": "f",
+                    "1": "a",
+                    "3": "i",
+                    "τ": "r",
+                    "2": "e",
+                    "i": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    14,
+                    20
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "fr?aea?a?e??e?ee?a??a?ae??a????????re??ae?????",
+                    "L6": "?aaia?????a?????a?aae?????a??a??ee?ra?????a?e??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "L1",
+                  "start_unit_1based": 1,
+                  "crib": "affaires",
+                  "key": {
+                    "χ": "a",
+                    "1": "f",
+                    "9": "f",
+                    "o": "a",
+                    "8": "i",
+                    "δ": "r",
+                    "c": "e",
+                    "θ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                  ],
+                  "model": "glyph",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "???f?f?f?????a??????f?f???ff?r???r???a?f???sf?",
+                    "L6": "?ff?ffar??f?????f??f??????ffsf??????f????????a?"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": null,
+          "search_total_fits": 605,
+          "whole_search_shuffle_min_median_max": [
+            416,
+            567.5,
+            750
+          ]
+        }
+      },
+      "train_line_ids": [
+        "R1",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "heldout_line_ids": [
+        "L5",
+        "L6"
+      ],
+      "eligible_training_windows_by_length": {
+        "6": 191,
+        "7": 186,
+        "8": 181
+      }
+    },
+    "digit-pairs": {
+      "units": 263,
+      "distinct_types": 84,
+      "uncertain_units": 240,
+      "line_units": {
+        "R1": 24,
+        "L1": 48,
+        "L2": 48,
+        "L3": 36,
+        "L4": 29,
+        "L5": 39,
+        "L6": 39
+      },
+      "frequency": {
+        "·": 18,
+        "2": 17,
+        "o": 14,
+        "s": 8,
+        "λ": 7,
+        "41": 7,
+        "π": 7,
+        "τ": 7,
+        "i": 7,
+        "○─": 7,
+        "1": 7,
+        "ϐ": 6,
+        "δ": 6,
+        "⊔": 5,
+        "─c": 5,
+        "θ": 5,
+        "17": 5,
+        "∩": 5,
+        "─○": 4,
+        "22": 4,
+        "ω̅": 4,
+        "ℓ": 4,
+        "ʔ─": 4,
+        "x": 4,
+        "≠": 4,
+        "7": 4,
+        "12": 4,
+        "19": 3,
+        "m": 3,
+        "c": 3,
+        "14": 3,
+        "∞": 3,
+        "γ": 3,
+        "31": 3,
+        "9": 3,
+        "ʔ": 3,
+        "ν": 2,
+        "⌢○": 2,
+        "8": 2,
+        "32": 2,
+        "╪7": 2,
+        "4": 2,
+        "F": 2,
+        "γ̲": 2,
+        "16": 2,
+        "13": 1,
+        "1́": 1,
+        "χ": 1,
+        "þ": 1,
+        "Δ": 1,
+        "k": 1,
+        "⟦arch+stem⟧": 1,
+        "†7": 1,
+        "q̵": 1,
+        "26": 1,
+        "27": 1,
+        "⊣": 1,
+        "64": 1,
+        "91": 1,
+        "W": 1,
+        "23": 1,
+        "t": 1,
+        "+○": 1,
+        "F↗": 1,
+        "⊃—c": 1,
+        "⊃—○": 1,
+        "υ": 1,
+        "92": 1,
+        "61": 1,
+        "e": 1,
+        "72": 1,
+        "83": 1,
+        "62": 1,
+        "─": 1,
+        "ω": 1,
+        "ɯ": 1,
+        "94": 1,
+        "○⌢δ": 1,
+        "—∞": 1,
+        "11": 1,
+        "⟦ʔ/2⟧": 1,
+        "υʔ": 1,
+        "⟦z/8⟧": 1,
+        "⟦FLOURISH⟧": 1
+      },
+      "hypotheses": {
+        "monoalphabetic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 1,
+              "shuffle_min_median_max": [
+                0,
+                2.0,
+                6
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 17,
+                  "crib": "cambrai",
+                  "key": {
+                    "i": "c",
+                    "2": "a",
+                    "o": "m",
+                    "22": "b",
+                    "1́": "r",
+                    "○─": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    17,
+                    19,
+                    21,
+                    23
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "???????a??amb???i?????????????am???????",
+                    "L6": "????m??????i????????i????ib??????i??am?"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                2.0,
+                5
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                1.5,
+                5
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 85,
+              "shuffle_min_median_max": [
+                57,
+                86.0,
+                112
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "monsieur",
+                  "key": {
+                    "·": "m",
+                    "41": "o",
+                    "─c": "n",
+                    "π": "s",
+                    "⌢○": "i",
+                    "m": "e",
+                    "13": "u",
+                    "τ": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "er????????????s??????o??n????r?????????",
+                    "L6": "??????n???????ns????????????r?????s????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "monsieur",
+                  "key": {
+                    "41": "m",
+                    "─c": "o",
+                    "π": "n",
+                    "⌢○": "s",
+                    "m": "i",
+                    "13": "e",
+                    "τ": "u",
+                    "2": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "iu?????r??r???n??????m??o????ur????????",
+                    "L6": "??????o???????on????????????u?????n?r??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "monsieur",
+                  "key": {
+                    "─c": "m",
+                    "π": "o",
+                    "⌢○": "n",
+                    "m": "s",
+                    "13": "i",
+                    "τ": "e",
+                    "2": "u",
+                    "i": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "se?????u??u???o?????????m????eu????????",
+                    "L6": "??????m???????mo????????????e?????o?u??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 113,
+              "shuffle_min_median_max": [
+                96,
+                118.0,
+                139
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "vostre",
+                  "key": {
+                    "λ": "v",
+                    "ν": "o",
+                    "⊔": "s",
+                    "─○": "t",
+                    "19": "r",
+                    "·": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    6
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "????????????????????????????????v??????",
+                    "L6": "????????????t????v???tr?????????s??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "vostre",
+                  "key": {
+                    "·": "v",
+                    "41": "o",
+                    "─c": "s",
+                    "π": "t",
+                    "⌢○": "r",
+                    "m": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "e?????????????t??????o??s??????????????",
+                    "L6": "??????s???????st??????????????????t????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "vostre",
+                  "key": {
+                    "41": "v",
+                    "─c": "o",
+                    "π": "s",
+                    "⌢○": "t",
+                    "m": "r",
+                    "13": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "r?????????????s??????v??o??????????????",
+                    "L6": "??????o???????os??????????????????s????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": false,
+          "search_total_fits": 199,
+          "whole_search_shuffle_min_median_max": [
+            163,
+            212.0,
+            255
+          ]
+        },
+        "homophonic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 98,
+              "shuffle_min_median_max": [
+                75,
+                104.0,
+                129
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "cambrai",
+                  "key": {
+                    "·": "c",
+                    "41": "a",
+                    "─c": "m",
+                    "π": "b",
+                    "⌢○": "r",
+                    "m": "a",
+                    "13": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "a?????????????b??????a??m??????????????",
+                    "L6": "??????m???????mb??????????????????b????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "cambrai",
+                  "key": {
+                    "41": "c",
+                    "─c": "a",
+                    "π": "m",
+                    "⌢○": "b",
+                    "m": "r",
+                    "13": "a",
+                    "τ": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ri????????????m??????c??a????i?????????",
+                    "L6": "??????a???????am????????????i?????m????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "cambrai",
+                  "key": {
+                    "─c": "c",
+                    "π": "a",
+                    "⌢○": "m",
+                    "m": "b",
+                    "13": "r",
+                    "τ": "a",
+                    "2": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ba?????i??i???a?????????c????ai????????",
+                    "L6": "??????c???????ca????????????a?????a?i??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 85,
+              "shuffle_min_median_max": [
+                60,
+                87.0,
+                112
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "doullens",
+                  "key": {
+                    "·": "d",
+                    "41": "o",
+                    "─c": "u",
+                    "π": "l",
+                    "⌢○": "l",
+                    "m": "e",
+                    "13": "n",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "es????????????l??????o??u????s?????????",
+                    "L6": "??????u???????ul????????????s?????l????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "doullens",
+                  "key": {
+                    "41": "d",
+                    "─c": "o",
+                    "π": "u",
+                    "⌢○": "l",
+                    "m": "l",
+                    "13": "e",
+                    "τ": "n",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ln?????s??s???u??????d??o????ns????????",
+                    "L6": "??????o???????ou????????????n?????u?s??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "doullens",
+                  "key": {
+                    "─c": "d",
+                    "π": "o",
+                    "⌢○": "u",
+                    "m": "l",
+                    "13": "l",
+                    "τ": "e",
+                    "2": "n",
+                    "i": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "le?????n??n???o?????????d????en????????",
+                    "L6": "??????d???????do????????????e?????o?n??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 85,
+              "shuffle_min_median_max": [
+                62,
+                87.5,
+                112
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "villeroy",
+                  "key": {
+                    "·": "v",
+                    "41": "i",
+                    "─c": "l",
+                    "π": "l",
+                    "⌢○": "e",
+                    "m": "r",
+                    "13": "o",
+                    "τ": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ry????????????l??????i??l????y?????????",
+                    "L6": "??????l???????ll????????????y?????l????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "villeroy",
+                  "key": {
+                    "41": "v",
+                    "─c": "i",
+                    "π": "l",
+                    "⌢○": "l",
+                    "m": "e",
+                    "13": "r",
+                    "τ": "o",
+                    "2": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "eo?????y??y???l??????v??i????oy????????",
+                    "L6": "??????i???????il????????????o?????l?y??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "villeroy",
+                  "key": {
+                    "─c": "v",
+                    "π": "i",
+                    "⌢○": "l",
+                    "m": "l",
+                    "13": "e",
+                    "τ": "r",
+                    "2": "o",
+                    "i": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "lr?????o??o???i?????????v????ro????????",
+                    "L6": "??????v???????vi????????????r?????i?o??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 85,
+              "shuffle_min_median_max": [
+                57,
+                86.0,
+                112
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "monsieur",
+                  "key": {
+                    "·": "m",
+                    "41": "o",
+                    "─c": "n",
+                    "π": "s",
+                    "⌢○": "i",
+                    "m": "e",
+                    "13": "u",
+                    "τ": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "er????????????s??????o??n????r?????????",
+                    "L6": "??????n???????ns????????????r?????s????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "monsieur",
+                  "key": {
+                    "41": "m",
+                    "─c": "o",
+                    "π": "n",
+                    "⌢○": "s",
+                    "m": "i",
+                    "13": "e",
+                    "τ": "u",
+                    "2": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "iu?????r??r???n??????m??o????ur????????",
+                    "L6": "??????o???????on????????????u?????n?r??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "monsieur",
+                  "key": {
+                    "─c": "m",
+                    "π": "o",
+                    "⌢○": "n",
+                    "m": "s",
+                    "13": "i",
+                    "τ": "e",
+                    "2": "u",
+                    "i": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "se?????u??u???o?????????m????eu????????",
+                    "L6": "??????m???????mo????????????e?????o?u??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 113,
+              "shuffle_min_median_max": [
+                96,
+                118.0,
+                139
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "vostre",
+                  "key": {
+                    "λ": "v",
+                    "ν": "o",
+                    "⊔": "s",
+                    "─○": "t",
+                    "19": "r",
+                    "·": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    6
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "????????????????????????????????v??????",
+                    "L6": "????????????t????v???tr?????????s??????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "vostre",
+                  "key": {
+                    "·": "v",
+                    "41": "o",
+                    "─c": "s",
+                    "π": "t",
+                    "⌢○": "r",
+                    "m": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "e?????????????t??????o??s??????????????",
+                    "L6": "??????s???????st??????????????????t????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "vostre",
+                  "key": {
+                    "41": "v",
+                    "─c": "o",
+                    "π": "s",
+                    "⌢○": "t",
+                    "m": "r",
+                    "13": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "r?????????????s??????v??o??????????????",
+                    "L6": "??????o???????os??????????????????s????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 98,
+              "shuffle_min_median_max": [
+                81,
+                106.0,
+                127
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "ennemis",
+                  "key": {
+                    "·": "e",
+                    "41": "n",
+                    "─c": "n",
+                    "π": "e",
+                    "⌢○": "m",
+                    "m": "i",
+                    "13": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "i?????????????e??????n??n??????????????",
+                    "L6": "??????n???????ne??????????????????e????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "ennemis",
+                  "key": {
+                    "41": "e",
+                    "─c": "n",
+                    "π": "n",
+                    "⌢○": "e",
+                    "m": "m",
+                    "13": "i",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ms????????????n??????e??n????s?????????",
+                    "L6": "??????n???????nn????????????s?????n????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "ennemis",
+                  "key": {
+                    "─c": "e",
+                    "π": "n",
+                    "⌢○": "n",
+                    "m": "e",
+                    "13": "m",
+                    "τ": "i",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ei?????s??s???n?????????e????is????????",
+                    "L6": "??????e???????en????????????i?????n?s??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 86,
+              "shuffle_min_median_max": [
+                63,
+                89.5,
+                113
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "affaires",
+                  "key": {
+                    "·": "a",
+                    "41": "f",
+                    "─c": "f",
+                    "π": "a",
+                    "⌢○": "i",
+                    "m": "r",
+                    "13": "e",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "rs????????????a??????f??f????s?????????",
+                    "L6": "??????f???????fa????????????s?????a????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "affaires",
+                  "key": {
+                    "41": "a",
+                    "─c": "f",
+                    "π": "f",
+                    "⌢○": "a",
+                    "m": "i",
+                    "13": "r",
+                    "τ": "e",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ie?????s??s???f??????a??f????es????????",
+                    "L6": "??????f???????ff????????????e?????f?s??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "affaires",
+                  "key": {
+                    "─c": "a",
+                    "π": "f",
+                    "⌢○": "f",
+                    "m": "a",
+                    "13": "i",
+                    "τ": "r",
+                    "2": "e",
+                    "i": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "digit-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ar?????e??e???f?????????a????re????????",
+                    "L6": "??????a???????af????????????r?????f?e??"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": null,
+          "search_total_fits": 650,
+          "whole_search_shuffle_min_median_max": [
+            494,
+            679.0,
+            844
+          ]
+        }
+      },
+      "train_line_ids": [
+        "R1",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "heldout_line_ids": [
+        "L5",
+        "L6"
+      ],
+      "eligible_training_windows_by_length": {
+        "6": 160,
+        "7": 155,
+        "8": 150
+      }
+    },
+    "circle-as-zero-pairs": {
+      "units": 250,
+      "distinct_types": 90,
+      "uncertain_units": 228,
+      "line_units": {
+        "R1": 23,
+        "L1": 47,
+        "L2": 45,
+        "L3": 34,
+        "L4": 27,
+        "L5": 37,
+        "L6": 37
+      },
+      "frequency": {
+        "·": 18,
+        "2": 9,
+        "20": 8,
+        "s": 8,
+        "λ": 7,
+        "41": 7,
+        "π": 7,
+        "τ": 7,
+        "i": 7,
+        "○─": 7,
+        "ϐ": 6,
+        "δ": 6,
+        "1": 6,
+        "⊔": 5,
+        "─c": 5,
+        "θ": 5,
+        "17": 5,
+        "∩": 5,
+        "─○": 4,
+        "22": 4,
+        "ω̅": 4,
+        "ℓ": 4,
+        "ʔ─": 4,
+        "x": 4,
+        "≠": 4,
+        "12": 4,
+        "19": 3,
+        "m": 3,
+        "c": 3,
+        "14": 3,
+        "∞": 3,
+        "γ": 3,
+        "31": 3,
+        "ʔ": 3,
+        "ν": 2,
+        "⌢○": 2,
+        "32": 2,
+        "7": 2,
+        "╪7": 2,
+        "4": 2,
+        "F": 2,
+        "9": 2,
+        "γ̲": 2,
+        "16": 2,
+        "13": 1,
+        "1́": 1,
+        "χ": 1,
+        "08": 1,
+        "0": 1,
+        "þ": 1,
+        "Δ": 1,
+        "k": 1,
+        "⟦arch+stem⟧": 1,
+        "†7": 1,
+        "q̵": 1,
+        "26": 1,
+        "27": 1,
+        "10": 1,
+        "8": 1,
+        "⊣": 1,
+        "64": 1,
+        "91": 1,
+        "W": 1,
+        "23": 1,
+        "t": 1,
+        "+○": 1,
+        "70": 1,
+        "F↗": 1,
+        "⊃—c": 1,
+        "⊃—○": 1,
+        "υ": 1,
+        "92": 1,
+        "07": 1,
+        "61": 1,
+        "e": 1,
+        "72": 1,
+        "83": 1,
+        "62": 1,
+        "─": 1,
+        "ω": 1,
+        "ɯ": 1,
+        "94": 1,
+        "○⌢δ": 1,
+        "—∞": 1,
+        "11": 1,
+        "90": 1,
+        "⟦ʔ/2⟧": 1,
+        "υʔ": 1,
+        "⟦z/8⟧": 1,
+        "⟦FLOURISH⟧": 1
+      },
+      "hypotheses": {
+        "monoalphabetic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                2.0,
+                5
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                1.0,
+                4
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                1.0,
+                5
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 88,
+              "shuffle_min_median_max": [
+                65,
+                89.5,
+                107
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "monsieur",
+                  "key": {
+                    "·": "m",
+                    "41": "o",
+                    "─c": "n",
+                    "π": "s",
+                    "⌢○": "i",
+                    "m": "e",
+                    "13": "u",
+                    "τ": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "er???????????s??????o??n????r????????",
+                    "L6": "?????n???????ns????????????r?????s???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "monsieur",
+                  "key": {
+                    "41": "m",
+                    "─c": "o",
+                    "π": "n",
+                    "⌢○": "s",
+                    "m": "i",
+                    "13": "e",
+                    "τ": "u",
+                    "2": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "iu?????r?????n??????m??o????u????????",
+                    "L6": "?????o???????on????????????u?????n???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "monsieur",
+                  "key": {
+                    "─c": "m",
+                    "π": "o",
+                    "⌢○": "n",
+                    "m": "s",
+                    "13": "i",
+                    "τ": "e",
+                    "2": "u",
+                    "i": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "se?????u?????o?????????m????e????????",
+                    "L6": "?????m???????mo????????????e?????o???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 115,
+              "shuffle_min_median_max": [
+                97,
+                118.0,
+                132
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "vostre",
+                  "key": {
+                    "λ": "v",
+                    "ν": "o",
+                    "⊔": "s",
+                    "─○": "t",
+                    "19": "r",
+                    "·": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    6
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "??????????????????????????????v??????",
+                    "L6": "???????????t????v???tr?????????s?????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "vostre",
+                  "key": {
+                    "·": "v",
+                    "41": "o",
+                    "─c": "s",
+                    "π": "t",
+                    "⌢○": "r",
+                    "m": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "e????????????t??????o??s?????????????",
+                    "L6": "?????s???????st??????????????????t???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "vostre",
+                  "key": {
+                    "41": "v",
+                    "─c": "o",
+                    "π": "s",
+                    "⌢○": "t",
+                    "m": "r",
+                    "13": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "monoalphabetic",
+                  "heldout_predictions": {
+                    "L5": "r????????????s??????v??o?????????????",
+                    "L6": "?????o???????os??????????????????s???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": false,
+          "search_total_fits": 203,
+          "whole_search_shuffle_min_median_max": [
+            168,
+            212.0,
+            244
+          ]
+        },
+        "homophonic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 100,
+              "shuffle_min_median_max": [
+                81,
+                105.0,
+                123
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "cambrai",
+                  "key": {
+                    "·": "c",
+                    "41": "a",
+                    "─c": "m",
+                    "π": "b",
+                    "⌢○": "r",
+                    "m": "a",
+                    "13": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "a????????????b??????a??m?????????????",
+                    "L6": "?????m???????mb??????????????????b???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "cambrai",
+                  "key": {
+                    "41": "c",
+                    "─c": "a",
+                    "π": "m",
+                    "⌢○": "b",
+                    "m": "r",
+                    "13": "a",
+                    "τ": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ri???????????m??????c??a????i????????",
+                    "L6": "?????a???????am????????????i?????m???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "cambrai",
+                  "key": {
+                    "─c": "c",
+                    "π": "a",
+                    "⌢○": "m",
+                    "m": "b",
+                    "13": "r",
+                    "τ": "a",
+                    "2": "i"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ba?????i?????a?????????c????a????????",
+                    "L6": "?????c???????ca????????????a?????a???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 88,
+              "shuffle_min_median_max": [
+                68,
+                91.0,
+                108
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "doullens",
+                  "key": {
+                    "·": "d",
+                    "41": "o",
+                    "─c": "u",
+                    "π": "l",
+                    "⌢○": "l",
+                    "m": "e",
+                    "13": "n",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "es???????????l??????o??u????s????????",
+                    "L6": "?????u???????ul????????????s?????l???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "doullens",
+                  "key": {
+                    "41": "d",
+                    "─c": "o",
+                    "π": "u",
+                    "⌢○": "l",
+                    "m": "l",
+                    "13": "e",
+                    "τ": "n",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ln?????s?????u??????d??o????n????????",
+                    "L6": "?????o???????ou????????????n?????u???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "doullens",
+                  "key": {
+                    "─c": "d",
+                    "π": "o",
+                    "⌢○": "u",
+                    "m": "l",
+                    "13": "l",
+                    "τ": "e",
+                    "2": "n",
+                    "i": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "le?????n?????o?????????d????e????????",
+                    "L6": "?????d???????do????????????e?????o???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 88,
+              "shuffle_min_median_max": [
+                67,
+                91.0,
+                108
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "villeroy",
+                  "key": {
+                    "·": "v",
+                    "41": "i",
+                    "─c": "l",
+                    "π": "l",
+                    "⌢○": "e",
+                    "m": "r",
+                    "13": "o",
+                    "τ": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ry???????????l??????i??l????y????????",
+                    "L6": "?????l???????ll????????????y?????l???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "villeroy",
+                  "key": {
+                    "41": "v",
+                    "─c": "i",
+                    "π": "l",
+                    "⌢○": "l",
+                    "m": "e",
+                    "13": "r",
+                    "τ": "o",
+                    "2": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "eo?????y?????l??????v??i????o????????",
+                    "L6": "?????i???????il????????????o?????l???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "villeroy",
+                  "key": {
+                    "─c": "v",
+                    "π": "i",
+                    "⌢○": "l",
+                    "m": "l",
+                    "13": "e",
+                    "τ": "r",
+                    "2": "o",
+                    "i": "y"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "lr?????o?????i?????????v????r????????",
+                    "L6": "?????v???????vi????????????r?????i???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 88,
+              "shuffle_min_median_max": [
+                65,
+                89.5,
+                107
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "monsieur",
+                  "key": {
+                    "·": "m",
+                    "41": "o",
+                    "─c": "n",
+                    "π": "s",
+                    "⌢○": "i",
+                    "m": "e",
+                    "13": "u",
+                    "τ": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "er???????????s??????o??n????r????????",
+                    "L6": "?????n???????ns????????????r?????s???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "monsieur",
+                  "key": {
+                    "41": "m",
+                    "─c": "o",
+                    "π": "n",
+                    "⌢○": "s",
+                    "m": "i",
+                    "13": "e",
+                    "τ": "u",
+                    "2": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "iu?????r?????n??????m??o????u????????",
+                    "L6": "?????o???????on????????????u?????n???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "monsieur",
+                  "key": {
+                    "─c": "m",
+                    "π": "o",
+                    "⌢○": "n",
+                    "m": "s",
+                    "13": "i",
+                    "τ": "e",
+                    "2": "u",
+                    "i": "r"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "se?????u?????o?????????m????e????????",
+                    "L6": "?????m???????mo????????????e?????o???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 115,
+              "shuffle_min_median_max": [
+                97,
+                118.0,
+                132
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 1,
+                  "crib": "vostre",
+                  "key": {
+                    "λ": "v",
+                    "ν": "o",
+                    "⊔": "s",
+                    "─○": "t",
+                    "19": "r",
+                    "·": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    2,
+                    4,
+                    6
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "??????????????????????????????v??????",
+                    "L6": "???????????t????v???tr?????????s?????"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "vostre",
+                  "key": {
+                    "·": "v",
+                    "41": "o",
+                    "─c": "s",
+                    "π": "t",
+                    "⌢○": "r",
+                    "m": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "e????????????t??????o??s?????????????",
+                    "L6": "?????s???????st??????????????????t???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "vostre",
+                  "key": {
+                    "41": "v",
+                    "─c": "o",
+                    "π": "s",
+                    "⌢○": "t",
+                    "m": "r",
+                    "13": "e"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "r????????????s??????v??o?????????????",
+                    "L6": "?????o???????os??????????????????s???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 100,
+              "shuffle_min_median_max": [
+                84,
+                107.0,
+                121
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "ennemis",
+                  "key": {
+                    "·": "e",
+                    "41": "n",
+                    "─c": "n",
+                    "π": "e",
+                    "⌢○": "m",
+                    "m": "i",
+                    "13": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "i????????????e??????n??n?????????????",
+                    "L6": "?????n???????ne??????????????????e???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "ennemis",
+                  "key": {
+                    "41": "e",
+                    "─c": "n",
+                    "π": "n",
+                    "⌢○": "e",
+                    "m": "m",
+                    "13": "i",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ms???????????n??????e??n????s????????",
+                    "L6": "?????n???????nn????????????s?????n???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "ennemis",
+                  "key": {
+                    "─c": "e",
+                    "π": "n",
+                    "⌢○": "n",
+                    "m": "e",
+                    "13": "m",
+                    "τ": "i",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ei?????s?????n?????????e????i????????",
+                    "L6": "?????e???????en????????????i?????n???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 88,
+              "shuffle_min_median_max": [
+                67,
+                92.0,
+                108
+              ],
+              "examples": [
+                {
+                  "line": "R1",
+                  "start_unit_1based": 8,
+                  "crib": "affaires",
+                  "key": {
+                    "·": "a",
+                    "41": "f",
+                    "─c": "f",
+                    "π": "a",
+                    "⌢○": "i",
+                    "m": "r",
+                    "13": "e",
+                    "τ": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    8,
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "rs???????????a??????f??f????s????????",
+                    "L6": "?????f???????fa????????????s?????a???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 9,
+                  "crib": "affaires",
+                  "key": {
+                    "41": "a",
+                    "─c": "f",
+                    "π": "f",
+                    "⌢○": "a",
+                    "m": "i",
+                    "13": "r",
+                    "τ": "e",
+                    "2": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ie?????s?????f??????a??f????e????????",
+                    "L6": "?????f???????ff????????????e?????f???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                },
+                {
+                  "line": "R1",
+                  "start_unit_1based": 10,
+                  "crib": "affaires",
+                  "key": {
+                    "─c": "a",
+                    "π": "f",
+                    "⌢○": "f",
+                    "m": "a",
+                    "13": "i",
+                    "τ": "r",
+                    "2": "e",
+                    "i": "s"
+                  },
+                  "status": "unaccepted-pattern-fit",
+                  "depends_on_uncertain_units": [
+                    10,
+                    12,
+                    17
+                  ],
+                  "model": "circle-as-zero-pairs",
+                  "family": "homophonic",
+                  "heldout_predictions": {
+                    "L5": "ar?????e?????f?????????a????r????????",
+                    "L6": "?????a???????af????????????r?????f???"
+                  },
+                  "independent_known_plaintext_check": "not-run: no independently known heldout plaintext"
+                }
+              ],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": null,
+          "search_total_fits": 667,
+          "whole_search_shuffle_min_median_max": [
+            529,
+            693.0,
+            806
+          ]
+        }
+      },
+      "train_line_ids": [
+        "R1",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "heldout_line_ids": [
+        "L5",
+        "L6"
+      ],
+      "eligible_training_windows_by_length": {
+        "6": 151,
+        "7": 146,
+        "8": 141
+      }
+    }
+  },
+  "total_unaccepted_pattern_fits": 2515,
+  "global_whole_search_permutation": {
+    "iterations": 128,
+    "raw_tokens_shuffled_within_each_line": true,
+    "all_models_families_cribs_windows_rerun": true,
+    "min_median_max": [
+      2177,
+      2677.0,
+      3247
+    ],
+    "counts": [
+      2528,
+      2518,
+      2817,
+      3127,
+      2889,
+      2789,
+      2675,
+      2220,
+      2911,
+      2909,
+      2493,
+      2943,
+      2442,
+      2554,
+      3090,
+      2493,
+      2567,
+      2740,
+      2936,
+      3113,
+      2665,
+      2761,
+      2642,
+      2548,
+      2327,
+      3151,
+      2820,
+      2712,
+      2463,
+      2877,
+      2696,
+      2639,
+      2643,
+      2513,
+      2596,
+      2850,
+      3073,
+      2910,
+      2235,
+      3002,
+      2923,
+      2654,
+      2955,
+      2442,
+      3078,
+      2925,
+      2850,
+      2500,
+      2352,
+      2842,
+      2735,
+      2909,
+      3098,
+      2285,
+      2259,
+      2569,
+      2836,
+      2616,
+      2919,
+      2466,
+      2816,
+      2612,
+      2743,
+      2971,
+      2570,
+      2627,
+      2607,
+      2888,
+      3038,
+      2413,
+      2729,
+      2400,
+      2313,
+      2556,
+      2923,
+      2747,
+      2635,
+      2815,
+      2736,
+      2559,
+      2908,
+      2447,
+      2670,
+      2770,
+      2451,
+      2725,
+      3247,
+      2741,
+      2921,
+      2679,
+      2217,
+      2490,
+      2739,
+      2540,
+      3164,
+      2894,
+      2703,
+      2582,
+      2518,
+      2564,
+      2711,
+      2407,
+      2758,
+      2557,
+      2539,
+      2477,
+      2483,
+      2808,
+      2576,
+      2811,
+      2302,
+      2461,
+      2898,
+      2386,
+      2177,
+      2382,
+      2691,
+      2370,
+      2749,
+      3204,
+      2540,
+      2728,
+      2649,
+      2606,
+      2731,
+      2548,
+      2774,
+      2522
+    ],
+    "interpretation": "diagnostic for chance-compatible windows; not a probability that any key is correct"
+  },
+  "accepted_target_keys": 0,
+  "acceptance_count_basis": "administrative: no independent target validation has occurred; this is not a count of keys mathematically disproved",
+  "heldout_target_validation": "not-established: no independently anchored crib/key; previews remain uninterpreted",
+  "release_note": "Historical frozen R1 inputs, not rerun using later R2 visual classifications. Zero eligible windows in strict branch is not falsification."
+}

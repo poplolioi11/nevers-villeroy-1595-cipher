@@ -1,0 +1,742 @@
+{
+  "schema": "nevers1595-public-layout-inventory-v1",
+  "scope": "兩張指定官方viewer保存JPEG，獨立版面盤點；不解密、不逐字符轉錄。",
+  "review_level": "Independent AI full-page visual inventory, not human reviewed; no decipherment or symbol-by-symbol transcript",
+  "independence": {
+    "prior_transcription_or_key_consulted": false,
+    "other_project_files_consulted": false
+  },
+  "source_ids": [
+    "canvas-161",
+    "canvas-162"
+  ],
+  "method": {
+    "coordinate_system": "pixel-top-left; bbox=[left,top,right,bottom] on original JPEG",
+    "bbox_precision": "manual_approximate_about_5_to_12_px",
+    "reading_order": "161-left,161-right,162-left,162-right; runs top-to-bottom",
+    "run_rule": "自然文中斷即另列；未受自然文中斷的跨行密碼保留同run及逐行bbox。",
+    "confidence_definition": "null; uncalibrated human-style visual inspection"
+  },
+  "pages": [
+    {
+      "page_id": "161-left",
+      "visible_page_number": null,
+      "inferred_folio": null,
+      "page_bbox": [
+        19,
+        143,
+        623,
+        1016
+      ],
+      "body_bbox": null,
+      "description": "幾乎空白；中下有倒置短字樣／背書，未見主密函正文。",
+      "possible_marginalia": [
+        {
+          "bbox": [
+            391,
+            584,
+            568,
+            683
+          ],
+          "orientation": "about_180_degrees",
+          "status": "uncertain",
+          "note": "淡墨短字樣約兩行，未精讀；未見明確連續密碼。"
+        }
+      ],
+      "missing_or_cropped": "可見紙緣；書溝遮極窄內緣。"
+    },
+    {
+      "page_id": "161-right",
+      "visible_page_number": "148",
+      "page_number_bbox": [
+        1186,
+        60,
+        1234,
+        86
+      ],
+      "inferred_folio": "148r，僅依跨頁與可見頁碼推定，未核館方folio metadata。",
+      "page_bbox": [
+        652,
+        15,
+        1272,
+        929
+      ],
+      "body_bbox": [
+        736,
+        42,
+        1263,
+        902
+      ],
+      "description": "密函開頭，頁首抬頭／日期與大字母起首。正文自然文與密碼混排，密碼在上部短段及底部長段。",
+      "possible_marginalia": [
+        {
+          "bbox": [
+            736,
+            42,
+            1243,
+            97
+          ],
+          "status": "uncertain",
+          "note": "頁首短行與日期；是否後加未判。"
+        }
+      ],
+      "missing_or_cropped": "外緣及底緣可見，未見整行源外截失；書溝／翹曲細節待原生圖。"
+    },
+    {
+      "page_id": "162-left",
+      "visible_page_number": null,
+      "inferred_folio": "148v，僅依148與149之間續面推定，未核館方folio metadata。",
+      "page_bbox": [
+        20,
+        22,
+        634,
+        917
+      ],
+      "body_bbox": [
+        104,
+        97,
+        625,
+        891
+      ],
+      "description": "密函續面，前半密碼與自然文交替，後半主要自然文。",
+      "possible_marginalia": [],
+      "missing_or_cropped": "左上破損／折痕在正文上方；右端密碼靠書溝，未見明確源外裁斷，但不能排除內緣遮蔽細節。"
+    },
+    {
+      "page_id": "162-right",
+      "visible_page_number": "149",
+      "page_number_bbox": [
+        1132,
+        81,
+        1178,
+        110
+      ],
+      "inferred_folio": "149r，僅依跨頁與可見頁碼推定，未核館方folio metadata。",
+      "page_bbox": [
+        647,
+        78,
+        1267,
+        1005
+      ],
+      "body_bbox": [
+        721,
+        104,
+        1255,
+        972
+      ],
+      "description": "密函續文及收尾；密碼在上半四行區與中部若干短串，底有結語／日期。",
+      "possible_marginalia": [
+        {
+          "bbox": [
+            1050,
+            313,
+            1122,
+            345
+          ],
+          "status": "uncertain",
+          "note": "行間小型補寫，可能正文插入，不作旁註定論。"
+        },
+        {
+          "bbox": [
+            1163,
+            377,
+            1226,
+            401
+          ],
+          "status": "uncertain",
+          "note": "行間補寫／細筆畫，未精讀。"
+        },
+        {
+          "bbox": [
+            772,
+            389,
+            840,
+            425
+          ],
+          "status": "uncertain",
+          "note": "自然文區局部補寫及刪劃。"
+        }
+      ],
+      "missing_or_cropped": "四側紙緣大致可見；外緣彎曲、底緣磨損。未見密碼區明確源外裁斷，不能保證細筆畫完整。"
+    }
+  ],
+  "cipher_runs": [
+    {
+      "id": "161-R-C01",
+      "page_id": "161-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        849,
+        153,
+        1107,
+        175
+      ],
+      "line_bboxes": [
+        [
+          849,
+          153,
+          1107,
+          175
+        ]
+      ],
+      "note": "左側 du；右側回自然文。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "161-R-C02",
+      "page_id": "161-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        741,
+        778,
+        1258,
+        840
+      ],
+      "line_bboxes": [
+        [
+          741,
+          778,
+          1258,
+          801
+        ],
+        [
+          742,
+          799,
+          1258,
+          821
+        ],
+        [
+          742,
+          817,
+          1126,
+          840
+        ]
+      ],
+      "note": "三行；第三行右側 par 樣自然文。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "161-R-C03",
+      "page_id": "161-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        741,
+        837,
+        1260,
+        897
+      ],
+      "line_bboxes": [
+        [
+          875,
+          837,
+          1258,
+          858
+        ],
+        [
+          741,
+          854,
+          1260,
+          879
+        ],
+        [
+          741,
+          874,
+          1251,
+          897
+        ]
+      ],
+      "note": "首行左側為自然文，後三行至頁底。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-L-C01",
+      "page_id": "162-left",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        109,
+        99,
+        250,
+        121
+      ],
+      "line_bboxes": [
+        [
+          109,
+          99,
+          250,
+          121
+        ]
+      ],
+      "note": "續面首行左端；後接自然文。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-L-C02",
+      "page_id": "162-left",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        110,
+        99,
+        620,
+        162
+      ],
+      "line_bboxes": [
+        [
+          509,
+          99,
+          619,
+          121
+        ],
+        [
+          110,
+          120,
+          620,
+          142
+        ],
+        [
+          111,
+          141,
+          320,
+          162
+        ]
+      ],
+      "note": "首行右端開始，第三行左半結束。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-L-C03",
+      "page_id": "162-left",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        110,
+        159,
+        617,
+        204
+      ],
+      "line_bboxes": [
+        [
+          430,
+          159,
+          617,
+          182
+        ],
+        [
+          110,
+          180,
+          438,
+          204
+        ]
+      ],
+      "note": "下一行右側接 Ce porteur 樣自然文。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-L-C04",
+      "page_id": "162-left",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        143,
+        236,
+        535,
+        259
+      ],
+      "line_bboxes": [
+        [
+          143,
+          236,
+          535,
+          259
+        ]
+      ],
+      "note": "一行夾在自然文之間。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-L-C05",
+      "page_id": "162-left",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        109,
+        256,
+        620,
+        303
+      ],
+      "line_bboxes": [
+        [
+          382,
+          256,
+          620,
+          280
+        ],
+        [
+          109,
+          278,
+          493,
+          303
+        ]
+      ],
+      "note": "第一行中段開始，下一行後接自然文。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-L-C06",
+      "page_id": "162-left",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        108,
+        362,
+        619,
+        412
+      ],
+      "line_bboxes": [
+        [
+          332,
+          362,
+          619,
+          389
+        ],
+        [
+          108,
+          388,
+          238,
+          412
+        ]
+      ],
+      "note": "第一行後半與下一行左端。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-R-C01",
+      "page_id": "162-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        725,
+        244,
+        1250,
+        333
+      ],
+      "line_bboxes": [
+        [
+          789,
+          244,
+          1246,
+          270
+        ],
+        [
+          725,
+          267,
+          1250,
+          291
+        ],
+        [
+          725,
+          287,
+          1230,
+          312
+        ],
+        [
+          725,
+          308,
+          1111,
+          333
+        ]
+      ],
+      "note": "四行；第四行右側回自然文。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-R-C02",
+      "page_id": "162-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        972,
+        502,
+        1086,
+        530
+      ],
+      "line_bboxes": [
+        [
+          972,
+          502,
+          1086,
+          530
+        ]
+      ],
+      "note": "左側 me parle 樣，右側 Il 樣；短串含數字及符號。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-R-C03",
+      "page_id": "162-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        786,
+        550,
+        1191,
+        584
+      ],
+      "line_bboxes": [
+        [
+          786,
+          550,
+          1191,
+          584
+        ]
+      ],
+      "note": "單行，右半有重墨／疑似刪改，不能補猜原形。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-R-C04",
+      "page_id": "162-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        801,
+        580,
+        1006,
+        608
+      ],
+      "line_bboxes": [
+        [
+          801,
+          580,
+          1006,
+          608
+        ]
+      ],
+      "note": "上下皆有自然文中斷，因此獨立列段。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    },
+    {
+      "id": "162-R-C05",
+      "page_id": "162-right",
+      "classification": "probable_cipher_run",
+      "bbox": [
+        727,
+        601,
+        1038,
+        632
+      ],
+      "line_bboxes": [
+        [
+          727,
+          601,
+          1038,
+          632
+        ]
+      ],
+      "note": "行左半，右側回自然文；末端小分隔記號形態未精讀。",
+      "status": "image-reviewed",
+      "confidence": null,
+      "transcription": null,
+      "exact_diacritic_reading_suitability": "not_suitable",
+      "reason": "只適合片段定位與粗分行；閱覽尺寸不足以逐一確定小點、細鉤、分隔符及連墨，插值放大不增加來源細節。",
+      "source_external_crop": "none_observed_at_viewer_resolution",
+      "crop_limitation": "靠紙緣或書溝者仍可能有細節遮蔽，未以原生圖驗證。"
+    }
+  ],
+  "numeral_like_objects_not_automatically_classified_as_cipher": [
+    {
+      "id": "161-R-N01",
+      "page_id": "161-right",
+      "bbox": [
+        1177,
+        151,
+        1213,
+        176
+      ],
+      "visible_form": "72 樣",
+      "classification": "isolated_numeral_like_token_unresolved",
+      "note": "位於自然文後近行末；普通數字或密碼單位未判。"
+    },
+    {
+      "id": "161-R-N02",
+      "page_id": "161-right",
+      "bbox": [
+        1170,
+        324,
+        1217,
+        348
+      ],
+      "visible_form": "530 樣，後有斜劃",
+      "classification": "isolated_numeral_like_token_unresolved",
+      "note": "形式似普通數量；不能僅因行末位置判為密碼。"
+    },
+    {
+      "id": "161-R-N03",
+      "page_id": "161-right",
+      "bbox": [
+        926,
+        401,
+        1009,
+        421
+      ],
+      "visible_form": "1600 樣",
+      "classification": "likely_ordinary_number",
+      "note": "自然文中；不補單位。"
+    },
+    {
+      "id": "161-R-N04",
+      "page_id": "161-right",
+      "bbox": [
+        847,
+        626,
+        885,
+        650
+      ],
+      "visible_form": "60 樣",
+      "classification": "likely_ordinary_number",
+      "note": "自然文中；不補單位。"
+    },
+    {
+      "id": "161-R-N05",
+      "page_id": "161-right",
+      "bbox": [
+        734,
+        78,
+        835,
+        98
+      ],
+      "visible_form": "日期行，1595 樣",
+      "classification": "ordinary_date_annotation",
+      "note": "頁首獨立短行；日期其餘細節未精讀。"
+    },
+    {
+      "id": "162-R-N01",
+      "page_id": "162-right",
+      "bbox": [
+        927,
+        648,
+        973,
+        675
+      ],
+      "visible_form": "26 樣",
+      "classification": "likely_ordinary_date_number",
+      "note": "自然文中，未以數字出現即判密碼。"
+    },
+    {
+      "id": "162-R-N02",
+      "page_id": "162-right",
+      "bbox": [
+        1047,
+        758,
+        1122,
+        784
+      ],
+      "visible_form": "23 Juillet 樣",
+      "classification": "likely_ordinary_date_number",
+      "note": "自然文中。"
+    },
+    {
+      "id": "162-R-N03",
+      "page_id": "162-right",
+      "bbox": [
+        871,
+        788,
+        955,
+        813
+      ],
+      "visible_form": "13 Aoust 樣",
+      "classification": "likely_ordinary_date_number",
+      "note": "自然文中。"
+    },
+    {
+      "id": "162-R-N04",
+      "page_id": "162-right",
+      "bbox": [
+        820,
+        933,
+        1019,
+        970
+      ],
+      "visible_form": "16. Aoust 1595 樣",
+      "classification": "ordinary_closing_date",
+      "note": "書信末行日期；本輪非日期校讀。"
+    }
+  ],
+  "limitations": [
+    "未取得或檢視原生7640/7773等寬度版本，不能宣稱疑點皆清楚。",
+    "probable_cipher_run 是版面／字形分類，不代表已轉錄或解密。",
+    "所有框是近似回找框，不是逐字符裁字界線。",
+    "未見源外裁斷是閱覽圖觀察，不等於原生完整性驗證。",
+    "自然文數字未全量轉錄；未列出不代表不存在。"
+  ],
+  "count_warning": "14 runs use interruption by natural-language cursive as the segmentation rule; this is not directly comparable with the 17-run count in prior work."
+}

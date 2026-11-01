@@ -1,0 +1,665 @@
+{
+  "method": "source-supported partial key76 map, finite header rotations/reflections",
+  "seed": 20261101,
+  "input_sha256": "a18842272e1a8ceb3e060911b7c0015aa5f66e82b44083f808a0bccd63c722e3",
+  "key_source_sha256": "86913f71308adaf2812c70dfb964305b934fa3844fdf9acfe8f5f747227eddc5",
+  "language_source": {
+    "url": "https://archive.org/download/recueildeslettre01henr/recueildeslettre01henr_djvu.txt",
+    "sha256": "c6a7716a93b5ffe3a0a3a92595152fee4d7c90eec42194d53a444dc4524ef426",
+    "bytes": 1813605,
+    "limitation": "OCR of 1843 edition includes editorial prose and OCR errors; volume1562-1584 differs from target1595"
+  },
+  "historical22_assumption": "21 visible headers plus inferred o at damaged fold; o not source-transcribed or accepted",
+  "controls": [
+    {
+      "alphabet": "modern26-computational",
+      "status": "passed",
+      "heldout_exact_match": true,
+      "scope": "finite header rotation/reflection only; same run lengths, 3 synthetic homophones per header; frequencies and glyph ambiguity do not match target"
+    },
+    {
+      "alphabet": "historical22-assumed-o-gap",
+      "status": "passed",
+      "heldout_exact_match": true,
+      "scope": "finite header rotation/reflection only; same run lengths, 3 synthetic homophones per header; frequencies and glyph ambiguity do not match target"
+    }
+  ],
+  "candidate_count": 576,
+  "groups": [
+    {
+      "unit_model": "glyph",
+      "tier": "strict-source-alignment",
+      "alphabet": "modern26-computational",
+      "candidates": 52,
+      "scorable_candidates": 52,
+      "best_unaccepted": {
+        "unit_model": "glyph",
+        "alignment_tier": "strict-source-alignment",
+        "alphabet_assumption": "modern26-computational",
+        "offset": 17,
+        "reverse": true,
+        "train_score": {
+          "quadgram_windows": 20,
+          "mean_log_score": -13.197098899718384
+        },
+        "known_shape_positions": 151,
+        "partial_key": {
+          "8": "r",
+          "7": "q",
+          "x": "q",
+          "9": "p",
+          "3": "n",
+          "t": "n",
+          "ω̅": "n",
+          "1": "l",
+          "6": "k",
+          "2": "j",
+          "m": "g",
+          "∞": "e",
+          "o": "e",
+          "Δ": "e",
+          "λ": "c",
+          "e": "z"
+        },
+        "training_predictions": {
+          "R1": "c???lp????l???gln?i?ieii?i??",
+          "L1": "?lper???n?l????niee??lq????lqe???l?i??q?l?????????q?ikiq",
+          "L2": "lqle?ierc?iil???????????????k??nii?lqnlplieq????l?in?????",
+          "L3": "niei??c?lqi?qe????n?gi?l?????l????n??c",
+          "L4": "?lpieq???kli?zqi?l?rnp?q????ncienlki?"
+        },
+        "heldout_predictions": {
+          "L5": "g?elil?lki??ieiiq???l?li??lp????????iecli???p?",
+          "L6": "?llnlpe???lk????l??lic????lp?lq?iie?l???????ie?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "glyph",
+      "tier": "strict-source-alignment",
+      "alphabet": "historical22-assumed-o-gap",
+      "candidates": 44,
+      "scorable_candidates": 44,
+      "best_unaccepted": {
+        "unit_model": "glyph",
+        "alignment_tier": "strict-source-alignment",
+        "alphabet_assumption": "historical22-assumed-o-gap",
+        "offset": 4,
+        "reverse": true,
+        "train_score": {
+          "quadgram_windows": 20,
+          "mean_log_score": -15.231173228960236
+        },
+        "known_shape_positions": 151,
+        "partial_key": {
+          "8": "e",
+          "7": "d",
+          "x": "d",
+          "9": "c",
+          "3": "a",
+          "t": "a",
+          "ω̅": "a",
+          "1": "y",
+          "6": "x",
+          "2": "u",
+          "m": "t",
+          "∞": "r",
+          "o": "r",
+          "Δ": "r",
+          "λ": "p",
+          "e": "m"
+        },
+        "training_predictions": {
+          "R1": "p???yc????y???tya?u?uruu?u??",
+          "L1": "?ycre???a?y????aurr??yd????ydr???y?u??d?y?????????d?uxud",
+          "L2": "ydyr?urep?uuy???????????????x??auu?ydaycyurd????y?ua?????",
+          "L3": "auru??p?ydu?dr????a?tu?y?????y????a??p",
+          "L4": "?ycurd???xyu?mdu?y?eac?d????apurayxu?"
+        },
+        "heldout_predictions": {
+          "L5": "t?ryuy?yxu??uruud???y?yu??yc????????urpyu???c?",
+          "L6": "?yyaycr???yx????y??yup????yc?yd?uur?y???????ur?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "glyph",
+      "tier": "with-moderate-alignments",
+      "alphabet": "modern26-computational",
+      "candidates": 52,
+      "scorable_candidates": 52,
+      "best_unaccepted": {
+        "unit_model": "glyph",
+        "alignment_tier": "with-moderate-alignments",
+        "alphabet_assumption": "modern26-computational",
+        "offset": 17,
+        "reverse": true,
+        "train_score": {
+          "quadgram_windows": 28,
+          "mean_log_score": -14.104515310403057
+        },
+        "known_shape_positions": 170,
+        "partial_key": {
+          "8": "r",
+          "7": "q",
+          "x": "q",
+          "9": "p",
+          "3": "n",
+          "t": "n",
+          "ω̅": "n",
+          "1": "l",
+          "6": "k",
+          "2": "j",
+          "m": "g",
+          "∞": "e",
+          "o": "e",
+          "Δ": "e",
+          "λ": "c",
+          "e": "z",
+          "s": "l",
+          "k": "o",
+          "π": "z",
+          "c": "u"
+        },
+        "training_predictions": {
+          "R1": "c???lp????l?z?gln?i?ieii?i??",
+          "L1": "?lper?u?n?l???unieez?lql???lqeo??lli??q?l?????????q?ikiq",
+          "L2": "lqle?ierc?iill????????l?????k??nii?lqnlplieq????l?in?????",
+          "L3": "niei??czlqi?qe????n?gi?l?uz??ll???n??c",
+          "L4": "?lpieq???kli?zqi?llrnp?q????ncienlki?"
+        },
+        "heldout_predictions": {
+          "L5": "g?elil?lki??ieiiqz??lllil?lp????????iecli???p?",
+          "L6": "?llnlpe???lk????l?zlic????lp?lq?iie?l?????z?ie?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "glyph",
+      "tier": "with-moderate-alignments",
+      "alphabet": "historical22-assumed-o-gap",
+      "candidates": 44,
+      "scorable_candidates": 44,
+      "best_unaccepted": {
+        "unit_model": "glyph",
+        "alignment_tier": "with-moderate-alignments",
+        "alphabet_assumption": "historical22-assumed-o-gap",
+        "offset": 19,
+        "reverse": true,
+        "train_score": {
+          "quadgram_windows": 28,
+          "mean_log_score": -15.343396458537361
+        },
+        "known_shape_positions": 170,
+        "partial_key": {
+          "8": "x",
+          "7": "u",
+          "x": "u",
+          "9": "t",
+          "3": "r",
+          "t": "r",
+          "ω̅": "r",
+          "1": "p",
+          "6": "o",
+          "2": "n",
+          "m": "m",
+          "∞": "i",
+          "o": "i",
+          "Δ": "i",
+          "λ": "g",
+          "e": "d",
+          "s": "p",
+          "k": "s",
+          "π": "d",
+          "c": "a"
+        },
+        "training_predictions": {
+          "R1": "g???pt????p?d?mpr?n?ninn?n??",
+          "L1": "?ptix?a?r?p???arniid?pup???puis??ppn??u?p?????????u?nonu",
+          "L2": "pupi?nixg?nnpp????????p?????o??rnn?purptpniu????p?nr?????",
+          "L3": "rnin??gdpun?ui????r?mn?p?ad??pp???r??g",
+          "L4": "?ptniu???opn?dun?ppxrt?u????rgnirpon?"
+        },
+        "heldout_predictions": {
+          "L5": "m?ipnp?pon??ninnud??pppnp?pt????????nigpn???t?",
+          "L6": "?pprpti???po????p?dpng????pt?pu?nni?p?????d?ni?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "digit-pairs",
+      "tier": "strict-source-alignment",
+      "alphabet": "modern26-computational",
+      "candidates": 52,
+      "scorable_candidates": 52,
+      "best_unaccepted": {
+        "unit_model": "digit-pairs",
+        "alignment_tier": "strict-source-alignment",
+        "alphabet_assumption": "modern26-computational",
+        "offset": 8,
+        "reverse": true,
+        "train_score": {
+          "quadgram_windows": 3,
+          "mean_log_score": -9.480016164534725
+        },
+        "known_shape_positions": 71,
+        "partial_key": {
+          "8": "i",
+          "7": "h",
+          "x": "h",
+          "9": "g",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "c",
+          "6": "b",
+          "2": "a",
+          "m": "x",
+          "∞": "v",
+          "o": "v",
+          "Δ": "v",
+          "λ": "t",
+          "e": "q"
+        },
+        "training_predictions": {
+          "R1": "t???????????x??a?au??a??",
+          "L1": "??ui???e??????uu???????hu???c?a??h??????????h???",
+          "L2": "?cu?auit??c??????????????????a????auh???????????",
+          "L3": "eaua??t??a?hu????e?xa??????c????e??t",
+          "L4": "??uh????a?q????g?h????etau???"
+        },
+        "heldout_predictions": {
+          "L5": "x?u?c??a??au?h???c????????????aut????g?",
+          "L6": "???gu????????c???t?????????u????????au?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "digit-pairs",
+      "tier": "strict-source-alignment",
+      "alphabet": "historical22-assumed-o-gap",
+      "candidates": 44,
+      "scorable_candidates": 44,
+      "best_unaccepted": {
+        "unit_model": "digit-pairs",
+        "alignment_tier": "strict-source-alignment",
+        "alphabet_assumption": "historical22-assumed-o-gap",
+        "offset": 0,
+        "reverse": false,
+        "train_score": {
+          "quadgram_windows": 3,
+          "mean_log_score": -11.381229363320921
+        },
+        "known_shape_positions": 71,
+        "partial_key": {
+          "8": "a",
+          "7": "b",
+          "x": "b",
+          "9": "c",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "g",
+          "6": "h",
+          "2": "i",
+          "m": "l",
+          "∞": "n",
+          "o": "n",
+          "Δ": "n",
+          "λ": "p",
+          "e": "s"
+        },
+        "training_predictions": {
+          "R1": "p???????????l??i?in??i??",
+          "L1": "??na???e??????nn???????bn???g?i??b??????????b???",
+          "L2": "?gn?inap??g??????????????????i????inb???????????",
+          "L3": "eini??p??i?bn????e?li??????g????e??p",
+          "L4": "??nb????i?s????c?b????epin???"
+        },
+        "heldout_predictions": {
+          "L5": "l?n?g??i??in?b???g????????????inp????c?",
+          "L6": "???cn????????g???p?????????n????????in?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "digit-pairs",
+      "tier": "with-moderate-alignments",
+      "alphabet": "modern26-computational",
+      "candidates": 52,
+      "scorable_candidates": 52,
+      "best_unaccepted": {
+        "unit_model": "digit-pairs",
+        "alignment_tier": "with-moderate-alignments",
+        "alphabet_assumption": "modern26-computational",
+        "offset": 8,
+        "reverse": true,
+        "train_score": {
+          "quadgram_windows": 3,
+          "mean_log_score": -9.480016164534725
+        },
+        "known_shape_positions": 90,
+        "partial_key": {
+          "8": "i",
+          "7": "h",
+          "x": "h",
+          "9": "g",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "c",
+          "6": "b",
+          "2": "a",
+          "m": "x",
+          "∞": "v",
+          "o": "v",
+          "Δ": "v",
+          "λ": "t",
+          "e": "q",
+          "s": "c",
+          "k": "f",
+          "π": "q",
+          "c": "l"
+        },
+        "training_predictions": {
+          "R1": "t?????????q?x??a?au??a??",
+          "L1": "??ui?l?e????l?uuq??c???huf??cca??h??????????h???",
+          "L2": "?cu?auit??cc????????c????????a????auh???????????",
+          "L3": "eaua??tq?a?hu????e?xa??lq??cc???e??t",
+          "L4": "??uh????a?q??c?g?h????etau???"
+        },
+        "heldout_predictions": {
+          "L5": "x?u?c??a??au?hq??cc?c?????????aut????g?",
+          "L6": "???gu????????c?q?t?????????u??????q?au?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "digit-pairs",
+      "tier": "with-moderate-alignments",
+      "alphabet": "historical22-assumed-o-gap",
+      "candidates": 44,
+      "scorable_candidates": 44,
+      "best_unaccepted": {
+        "unit_model": "digit-pairs",
+        "alignment_tier": "with-moderate-alignments",
+        "alphabet_assumption": "historical22-assumed-o-gap",
+        "offset": 0,
+        "reverse": false,
+        "train_score": {
+          "quadgram_windows": 3,
+          "mean_log_score": -11.381229363320921
+        },
+        "known_shape_positions": 90,
+        "partial_key": {
+          "8": "a",
+          "7": "b",
+          "x": "b",
+          "9": "c",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "g",
+          "6": "h",
+          "2": "i",
+          "m": "l",
+          "∞": "n",
+          "o": "n",
+          "Δ": "n",
+          "λ": "p",
+          "e": "s",
+          "s": "g",
+          "k": "d",
+          "π": "s",
+          "c": "x"
+        },
+        "training_predictions": {
+          "R1": "p?????????s?l??i?in??i??",
+          "L1": "??na?x?e????x?nns??g???bnd??ggi??b??????????b???",
+          "L2": "?gn?inap??gg????????g????????i????inb???????????",
+          "L3": "eini??ps?i?bn????e?li??xs??gg???e??p",
+          "L4": "??nb????i?s??g?c?b????epin???"
+        },
+        "heldout_predictions": {
+          "L5": "l?n?g??i??in?bs??gg?g?????????inp????c?",
+          "L6": "???cn????????g?s?p?????????n??????s?in?"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "circle-as-zero-pairs",
+      "tier": "strict-source-alignment",
+      "alphabet": "modern26-computational",
+      "candidates": 52,
+      "scorable_candidates": 0,
+      "best_unaccepted": {
+        "unit_model": "circle-as-zero-pairs",
+        "alignment_tier": "strict-source-alignment",
+        "alphabet_assumption": "modern26-computational",
+        "offset": 0,
+        "reverse": false,
+        "train_score": {
+          "quadgram_windows": 0,
+          "mean_log_score": null
+        },
+        "known_shape_positions": 44,
+        "partial_key": {
+          "8": "a",
+          "7": "b",
+          "x": "b",
+          "9": "c",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "g",
+          "6": "h",
+          "2": "i",
+          "m": "l",
+          "∞": "n",
+          "o": "n",
+          "Δ": "n",
+          "λ": "p",
+          "e": "s"
+        },
+        "training_predictions": {
+          "R1": "p???????????l??i????i??",
+          "L1": "??????e???????n???????bn???g?i??b??????????b???",
+          "L2": "????ap??g??????????????????i?????b???????????",
+          "L3": "e?i??p??i??????e?li??????g????e??p",
+          "L4": "???????i?s????c?b????ep????"
+        },
+        "heldout_predictions": {
+          "L5": "l?n?g??i????b???g?????????????p????c?",
+          "L6": "????????????g???p?????????n??????????"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "circle-as-zero-pairs",
+      "tier": "strict-source-alignment",
+      "alphabet": "historical22-assumed-o-gap",
+      "candidates": 44,
+      "scorable_candidates": 0,
+      "best_unaccepted": {
+        "unit_model": "circle-as-zero-pairs",
+        "alignment_tier": "strict-source-alignment",
+        "alphabet_assumption": "historical22-assumed-o-gap",
+        "offset": 0,
+        "reverse": false,
+        "train_score": {
+          "quadgram_windows": 0,
+          "mean_log_score": null
+        },
+        "known_shape_positions": 44,
+        "partial_key": {
+          "8": "a",
+          "7": "b",
+          "x": "b",
+          "9": "c",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "g",
+          "6": "h",
+          "2": "i",
+          "m": "l",
+          "∞": "n",
+          "o": "n",
+          "Δ": "n",
+          "λ": "p",
+          "e": "s"
+        },
+        "training_predictions": {
+          "R1": "p???????????l??i????i??",
+          "L1": "??????e???????n???????bn???g?i??b??????????b???",
+          "L2": "????ap??g??????????????????i?????b???????????",
+          "L3": "e?i??p??i??????e?li??????g????e??p",
+          "L4": "???????i?s????c?b????ep????"
+        },
+        "heldout_predictions": {
+          "L5": "l?n?g??i????b???g?????????????p????c?",
+          "L6": "????????????g???p?????????n??????????"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "circle-as-zero-pairs",
+      "tier": "with-moderate-alignments",
+      "alphabet": "modern26-computational",
+      "candidates": 52,
+      "scorable_candidates": 0,
+      "best_unaccepted": {
+        "unit_model": "circle-as-zero-pairs",
+        "alignment_tier": "with-moderate-alignments",
+        "alphabet_assumption": "modern26-computational",
+        "offset": 0,
+        "reverse": false,
+        "train_score": {
+          "quadgram_windows": 0,
+          "mean_log_score": null
+        },
+        "known_shape_positions": 63,
+        "partial_key": {
+          "8": "a",
+          "7": "b",
+          "x": "b",
+          "9": "c",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "g",
+          "6": "h",
+          "2": "i",
+          "m": "l",
+          "∞": "n",
+          "o": "n",
+          "Δ": "n",
+          "λ": "p",
+          "e": "s",
+          "s": "g",
+          "k": "d",
+          "π": "s",
+          "c": "x"
+        },
+        "training_predictions": {
+          "R1": "p?????????s?l??i????i??",
+          "L1": "????x?e????x??ns??g???bnd??ggi??b??????????b???",
+          "L2": "????ap??gg????????g????????i?????b???????????",
+          "L3": "e?i??ps?i??????e?li??xs??gg???e??p",
+          "L4": "???????i?s??g?c?b????ep????"
+        },
+        "heldout_predictions": {
+          "L5": "l?n?g??i????bs??gg?g??????????p????c?",
+          "L6": "????????????g?s?p?????????n??????s???"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    },
+    {
+      "unit_model": "circle-as-zero-pairs",
+      "tier": "with-moderate-alignments",
+      "alphabet": "historical22-assumed-o-gap",
+      "candidates": 44,
+      "scorable_candidates": 0,
+      "best_unaccepted": {
+        "unit_model": "circle-as-zero-pairs",
+        "alignment_tier": "with-moderate-alignments",
+        "alphabet_assumption": "historical22-assumed-o-gap",
+        "offset": 0,
+        "reverse": false,
+        "train_score": {
+          "quadgram_windows": 0,
+          "mean_log_score": null
+        },
+        "known_shape_positions": 63,
+        "partial_key": {
+          "8": "a",
+          "7": "b",
+          "x": "b",
+          "9": "c",
+          "3": "e",
+          "t": "e",
+          "ω̅": "e",
+          "1": "g",
+          "6": "h",
+          "2": "i",
+          "m": "l",
+          "∞": "n",
+          "o": "n",
+          "Δ": "n",
+          "λ": "p",
+          "e": "s",
+          "s": "g",
+          "k": "d",
+          "π": "s",
+          "c": "x"
+        },
+        "training_predictions": {
+          "R1": "p?????????s?l??i????i??",
+          "L1": "????x?e????x??ns??g???bnd??ggi??b??????????b???",
+          "L2": "????ap??gg????????g????????i?????b???????????",
+          "L3": "e?i??ps?i??????e?li??xs??gg???e??p",
+          "L4": "???????i?s??g?c?b????ep????"
+        },
+        "heldout_predictions": {
+          "L5": "l?n?g??i????bs??gg?g??????????p????c?",
+          "L6": "????????????g?s?p?????????n??????s???"
+        },
+        "acceptance": "not-accepted-no-independent-target-plaintext",
+        "grouping_uncertainty": "fixed unit hypothesis only; numeric/word-code identity unresolved"
+      }
+    }
+  ],
+  "target_heldout": "L5/L6 withheld from parameter scoring, already visually inspected, no known target truth",
+  "accepted_target_keys": null,
+  "accepted_target_key_status": "none-validated; not an impossibility result",
+  "overall_limitation": "No general header permutation, nomenclator, null or syllable search; scores rank only finite partial letter hypotheses.",
+  "release_caveats": [
+    "576 parameter combinations; not 576 distinct complete keys.",
+    "384 scorable combinations.",
+    "Digit pairs have no double-digit mapping.",
+    "Circle-as-zero-pairs has zero scoring windows.",
+    "No target plaintext known; L5/L6 are not a blind validation set."
+  ]
+}

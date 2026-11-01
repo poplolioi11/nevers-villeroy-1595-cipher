@@ -1,0 +1,4229 @@
+{
+  "schema": "nevers1595-public-new-faces-reading-a-v1",
+  "reader": "A",
+  "status": "not-human-reviewed",
+  "source_id": "canvas-162",
+  "scope": "canvas 162，左148v及右149r全部11段盤點密碼區，逐行初讀；folio依可見跨頁次序推定",
+  "source_resolution": "1289x1054 viewer image; native HD not available",
+  "independence": {
+    "full_image_viewed_before_inventory": true,
+    "inventory_consulted_for_locations_only": true,
+    "prior_transcriptions_consulted": false,
+    "cipher_key_consulted": false,
+    "candidate_plaintext_consulted": false,
+    "plaintext_semantics_used_to_fill_cipher": false,
+    "review_level": "新區域初錄；不是獨立二校或完整精確轉錄"
+  },
+  "notation": {
+    "digits": "1–9僅是數字樣形標籤，numeric_identity和decrypted_value一律null。",
+    "o": "小圈／閉合橢圓形；不轉為數字0。",
+    "θ": "圈內似有斜畫；不判為數字8或其他碼。",
+    "τ": "頂部橫畫加下伸直／斜柄。",
+    "π": "頂橫及兩下柄樣。",
+    "⊥": "底橫與上伸短筆樣；未保證與其他同標符同碼。",
+    "△|": "三角樣上部與下伸柄。",
+    "∞": "相接雙圈外觀；可能筆畫或分符不同。",
+    "><": "兩個相向開曲相接，暫當一視覺單位。",
+    "-o/o-/-c/>-": "字樣旁可見短橫，附屬方向僅按圖形初記。",
+    "λ/∂/ϛ/y/d/m/u/e/h/t/l": "只作字形近似，不宣稱希臘／拉丁字母身分。",
+    ":/÷": "小點和橫線的概略外觀，精確點數與附屬須見issues。",
+    "{...}": "描述性複形或未讀區；不代表已確定符號數。"
+  },
+  "runs": [
+    {
+      "id": "162-L-C01",
+      "page": "148v",
+      "lines": [
+        {
+          "id": "162-L-C01-1",
+          "bbox": [
+            110,
+            99,
+            250,
+            121
+          ],
+          "visual_sequence": "1 3 3 2 o d x o >< c 7 t ϛ",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "d",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "><",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "t",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "ϛ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                110,
+                101,
+                143,
+                117
+              ],
+              "status": "alternatives",
+              "detail": "起頭細直畫與兩個3樣形的切分僅暫定。",
+              "alternatives": [
+                "1 3 3",
+                "13樣連寫與3樣形"
+              ]
+            },
+            {
+              "bbox": [
+                166,
+                101,
+                185,
+                118
+              ],
+              "status": "alternatives",
+              "detail": "長斜升筆與閉合下圈，僅稱d樣形。",
+              "alternatives": [
+                "d樣形",
+                "斜升筆加獨立圈"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-L-C02",
+      "page": "148v",
+      "lines": [
+        {
+          "id": "162-L-C02-1",
+          "bbox": [
+            509,
+            99,
+            619,
+            121
+          ],
+          "visual_sequence": "∞ > 2 6 2 y x",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                509,
+                105,
+                536,
+                118
+              ],
+              "status": "alternatives",
+              "detail": "雙圈與橫向短柄的相接不清。",
+              "alternatives": [
+                "∞加橫柄",
+                "兩個o樣形相接"
+              ]
+            },
+            {
+              "bbox": [
+                586,
+                100,
+                610,
+                122
+              ],
+              "status": "alternatives",
+              "detail": "長下伸筆可見，僅暫稱y樣形。",
+              "alternatives": [
+                "y樣形",
+                "長下伸鉤"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-L-C02-2",
+          "bbox": [
+            110,
+            120,
+            620,
+            142
+          ],
+          "visual_sequence": "τ 2 o 1 4 τ o y -o o- ∞ △| π 4+ : 7 2 7 1 2 2 1 {ax-joined} 4 9 4 2 o 3 5 1 5 1 2 7 1 3 2 2 ≠ x △| ⊥ ω 2 3 > ϛ -c",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "-o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "△|",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "4+",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "{ax-joined}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 35,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 36,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 37,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 38,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 39,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 40,
+              "visual_form": "≠",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 41,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 42,
+              "visual_form": "△|",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 43,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 44,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 45,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 46,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 47,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 48,
+              "visual_form": "ϛ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 49,
+              "visual_form": "-c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                230,
+                122,
+                250,
+                142
+              ],
+              "status": "alternatives",
+              "detail": "交叉形與附近兩點，點數及附屬關係未定。",
+              "alternatives": [
+                "4樣交叉加兩點",
+                "十字樣加兩點"
+              ]
+            },
+            {
+              "bbox": [
+                326,
+                124,
+                350,
+                139
+              ],
+              "status": "image-insufficient",
+              "detail": "兩低矮連筆暫標ax-joined；不能確定分成一符或二符。"
+            },
+            {
+              "bbox": [
+                546,
+                122,
+                569,
+                137
+              ],
+              "status": "alternatives",
+              "detail": "底橫雙豎與其右低雙圈是否相連未定。",
+              "alternatives": [
+                "⊥樣與ω樣兩符",
+                "連寫一符"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-L-C02-3",
+          "bbox": [
+            111,
+            141,
+            320,
+            163
+          ],
+          "visual_sequence": "τ x λ π 9 ∂ ∩ θ 2 1 3 2 6 {cursive-cluster} ≠ ∞",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "∩",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "{cursive-cluster}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "≠",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                263,
+                142,
+                300,
+                160
+              ],
+              "status": "image-insufficient",
+              "detail": "此處是草寫狀連筆，可能自然文插入或密碼字形連寫；未用語意判定。"
+            },
+            {
+              "bbox": [
+                184,
+                143,
+                214,
+                161
+              ],
+              "status": "alternatives",
+              "detail": "∂、∩、帶斜畫小圈的各自邊界暫定。",
+              "alternatives": [
+                "∂ ∩ θ",
+                "兩個或三個相連符"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-L-C03",
+      "page": "148v",
+      "lines": [
+        {
+          "id": "162-L-C03-1",
+          "bbox": [
+            431,
+            159,
+            618,
+            182
+          ],
+          "visual_sequence": "1 5 3 2 o τ λ θ 9 : {double-triangle} Δ θ",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "{double-triangle}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "Δ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                548,
+                161,
+                569,
+                176
+              ],
+              "status": "alternatives",
+              "detail": "9樣形後的小點，點數與分隔身分不明。",
+              "alternatives": [
+                "9加兩點",
+                "9加三點"
+              ]
+            },
+            {
+              "bbox": [
+                569,
+                157,
+                593,
+                178
+              ],
+              "status": "alternatives",
+              "detail": "末端三角前的斜升多筆形。",
+              "alternatives": [
+                "雙重三角樣",
+                "三角與斜柄相連"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-L-C03-2",
+          "bbox": [
+            111,
+            180,
+            442,
+            202
+          ],
+          "visual_sequence": "1 2 1 7 3 1 2 λ τ ∞ 1 5 3 ⊥ d 4 9 θ ∂ τ >< λ 3 τ 2 1 l {arch-loops} ω 4 o- : 2",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "d",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "><",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "l",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "{arch-loops}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                218,
+                181,
+                241,
+                198
+              ],
+              "status": "alternatives",
+              "detail": "∞後三符暫記1、5、3樣形。",
+              "alternatives": [
+                "1 5 3",
+                "1 5 5"
+              ]
+            },
+            {
+              "bbox": [
+                268,
+                181,
+                294,
+                199
+              ],
+              "status": "alternatives",
+              "detail": "d樣形後一個低角形與9樣形。",
+              "alternatives": [
+                "4 9",
+                "u 9"
+              ]
+            },
+            {
+              "bbox": [
+                383,
+                179,
+                402,
+                197
+              ],
+              "status": "alternatives",
+              "detail": "倒U形且兩端似小圈，是否獨立圈不明。",
+              "alternatives": [
+                "arch-loops",
+                "∩加端點圈"
+              ]
+            },
+            {
+              "bbox": [
+                418,
+                180,
+                443,
+                201
+              ],
+              "status": "image-insufficient",
+              "detail": "尾端小點、o形的短柄與2樣形的分界未確定。"
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-L-C04",
+      "page": "148v",
+      "lines": [
+        {
+          "id": "162-L-C04-1",
+          "bbox": [
+            142,
+            235,
+            535,
+            259
+          ],
+          "visual_sequence": "{left-fork} > -o u 2 o {hook-stem} ∩ π {t-hook} o- h 1 7 3 4 1 o 3 1 2 l 1 2 o 5 2 1 2 6 {arch-loops} 3 1 5 τ {boundary-cursive}",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "{left-fork}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "-o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "u",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "{hook-stem}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "∩",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "{t-hook}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "h",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "l",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "{arch-loops}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 35,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 36,
+              "visual_form": "{boundary-cursive}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                195,
+                236,
+                215,
+                257
+              ],
+              "status": "alternatives",
+              "detail": "小圈後下伸筆不能確定附著位置。",
+              "alternatives": [
+                "o與獨立鉤柄",
+                "帶下柄圈"
+              ]
+            },
+            {
+              "bbox": [
+                247,
+                237,
+                270,
+                257
+              ],
+              "status": "alternatives",
+              "detail": "暫稱t-hook與帶右柄o，兩者相接不明。",
+              "alternatives": [
+                "t-hook o-",
+                "一個連寫複形"
+              ]
+            },
+            {
+              "bbox": [
+                510,
+                235,
+                536,
+                257
+              ],
+              "status": "image-insufficient",
+              "detail": "密碼結束與自然文開始的邊界不清，暫記boundary-cursive，不解讀草寫語意。"
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-L-C05",
+      "page": "148v",
+      "lines": [
+        {
+          "id": "162-L-C05-1",
+          "bbox": [
+            382,
+            256,
+            622,
+            280
+          ],
+          "visual_sequence": "1 2 1 4 1 o 2 o π ω λ : : 1 6 8 ∩ 1 3 o- 1 5 △| v {double-v}",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "8",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "∩",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "△|",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "v",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "{double-v}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                383,
+                260,
+                412,
+                274
+              ],
+              "status": "alternatives",
+              "detail": "起頭四個數字樣形切分暫定。",
+              "alternatives": [
+                "1 2 1 4",
+                "1 2 4"
+              ]
+            },
+            {
+              "bbox": [
+                494,
+                257,
+                522,
+                278
+              ],
+              "status": "image-insufficient",
+              "detail": "λ後細點／細直筆只可見大致兩組，不能確定點數及是否獨立符。"
+            },
+            {
+              "bbox": [
+                599,
+                256,
+                622,
+                275
+              ],
+              "status": "alternatives",
+              "detail": "末二低開口叉形暫記v與double-v。",
+              "alternatives": [
+                "v double-v",
+                "兩個同形叉"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-L-C05-2",
+          "bbox": [
+            109,
+            278,
+            493,
+            303
+          ],
+          "visual_sequence": "2 1 2 o 7 9 3 5 7 1 2 1 7 4 o ⊥ >< o-c >- 2 3 3 l 3 2 1 {cross-o} -∞ π 2 7 > o ∞ τ 1 7",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "><",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "o-c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": ">-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "l",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "{cross-o}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "-∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 35,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 36,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 37,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                261,
+                281,
+                295,
+                299
+              ],
+              "status": "alternatives",
+              "detail": "兩個相向弧後，o-c與右曲短柄的邊界暫定。",
+              "alternatives": [
+                ">< o-c >-",
+                "三個相連曲形"
+              ]
+            },
+            {
+              "bbox": [
+                369,
+                281,
+                395,
+                298
+              ],
+              "status": "alternatives",
+              "detail": "cross-o及左橫柄雙圈是否連筆未定。",
+              "alternatives": [
+                "cross-o -∞",
+                "交叉形、o形、∞形"
+              ]
+            },
+            {
+              "bbox": [
+                476,
+                280,
+                493,
+                300
+              ],
+              "status": "alternatives",
+              "detail": "末17樣與後側自然文之間的細斜筆未計為密碼符。",
+              "alternatives": [
+                "1 7",
+                "1 7加分隔斜畫"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-L-C06",
+      "page": "148v",
+      "lines": [
+        {
+          "id": "162-L-C06-1",
+          "bbox": [
+            332,
+            362,
+            619,
+            389
+          ],
+          "visual_sequence": "1 4 3 1 2 1 7 -c o- y c π 9 2 o 1 7 1 5 τ 1 1 6 θ 9 1 9 1 7 1",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "-c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                402,
+                365,
+                454,
+                388
+              ],
+              "status": "alternatives",
+              "detail": "帶柄c、帶柄o、y形、c形可辨，柄的左右歸屬未定。",
+              "alternatives": [
+                "-c o- y c",
+                "c -o y c"
+              ]
+            },
+            {
+              "bbox": [
+                555,
+                360,
+                619,
+                383
+              ],
+              "status": "alternatives",
+              "detail": "末段細1樣形與閉圈斜畫位置暫定。",
+              "alternatives": [
+                "1 6 θ 9 1 9 1 7 1",
+                "1 6 θ 9 1 9 7 1"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-L-C06-2",
+          "bbox": [
+            108,
+            388,
+            240,
+            412
+          ],
+          "visual_sequence": "-∞ 2 o >- 1 9 ⊥ 2 o >- /",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "-∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": ">-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": ">-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "/",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                108,
+                394,
+                129,
+                407
+              ],
+              "status": "alternatives",
+              "detail": "左橫柄接雙圈。",
+              "alternatives": [
+                "-∞",
+                "-o o"
+              ]
+            },
+            {
+              "bbox": [
+                224,
+                390,
+                241,
+                411
+              ],
+              "status": "alternatives",
+              "detail": "末斜畫可能分隔符而非密碼。",
+              "alternatives": [
+                "分隔斜畫",
+                "獨立斜畫符"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-R-C01",
+      "page": "149r",
+      "lines": [
+        {
+          "id": "162-R-C01-1",
+          "bbox": [
+            789,
+            229,
+            1248,
+            270
+          ],
+          "visual_sequence": "7 9 1 7 3 2 o 7 5 : λ 4 -o 2 2 o 1 6 π o- ω {loop-stem} ⊥ ∩ θ u 2 1 4 9 5 ϛ τ 4 ∩ 2",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "-o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "{loop-stem}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "∩",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "u",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "ϛ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 35,
+              "visual_form": "∩",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 36,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                899,
+                246,
+                933,
+                265
+              ],
+              "status": "alternatives",
+              "detail": "5樣形後微點與λ的分界不清。",
+              "alternatives": [
+                "5 : λ",
+                "5加附點 λ"
+              ]
+            },
+            {
+              "bbox": [
+                1022,
+                238,
+                1044,
+                259
+              ],
+              "status": "alternatives",
+              "detail": "低圈有向上／下的短柄，不能認定字母或數值。",
+              "alternatives": [
+                "loop-stem",
+                "e樣形"
+              ]
+            },
+            {
+              "bbox": [
+                1091,
+                233,
+                1182,
+                257
+              ],
+              "status": "alternatives",
+              "detail": "θ後低u樣形也可能為連寫直筆；9、5樣後隔較大空白再一下尾較長的ϛ樣形，不據空白分組。",
+              "alternatives": [
+                "θ u 2 1 4 9 5 ϛ",
+                "θ 1 2 1 4 9 5 5"
+              ]
+            },
+            {
+              "bbox": [
+                789,
+                229,
+                1248,
+                270
+              ],
+              "status": "image-insufficient",
+              "detail": "本行斜升明顯；原盤點框上緣244不足涵蓋右端，已擴至229。"
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-R-C01-2",
+          "bbox": [
+            725,
+            252,
+            1250,
+            291
+          ],
+          "visual_sequence": "-o > -o 2 o 3 λ θ >l {t-short} △| y {oo-over-bar} τ λ {fork-cross} ω ∂ > -c τ o 2 6 7 7 9 2 o d 4 1 9 y 3 l {overwritten-cross} Δ 1 7 6 2 o 2 1",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "-o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "-o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": ">l",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "{t-short}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "△|",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "{oo-over-bar}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "{fork-cross}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "-c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "d",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 35,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 36,
+              "visual_form": "l",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 37,
+              "visual_form": "{overwritten-cross}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 38,
+              "visual_form": "Δ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 39,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 40,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 41,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 42,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 43,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 44,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 45,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                805,
+                272,
+                853,
+                290
+              ],
+              "status": "alternatives",
+              "detail": "θ後有右曲加長斜筆及低t樣形，符號數未定。",
+              "alternatives": [
+                "θ >l t-short",
+                "θ > l t-short"
+              ]
+            },
+            {
+              "bbox": [
+                900,
+                266,
+                925,
+                283
+              ],
+              "status": "image-insufficient",
+              "detail": "兩圈位於粗短橫上方，附屬／上下兩符未定。"
+            },
+            {
+              "bbox": [
+                1150,
+                261,
+                1175,
+                285
+              ],
+              "status": "image-insufficient",
+              "detail": "重墨交叉的筆畫不可分，暫存overwritten-cross，原符個數未知。"
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-R-C01-3",
+          "bbox": [
+            725,
+            278,
+            1233,
+            312
+          ],
+          "visual_sequence": "ϛ ∞ 7 7 m 1 2 2 7 1 9 6 9 2 o 7 5 1 2 1 o o- > 5 1 y 4 {t-short} △| x -∞ ⊥ ω {double-open-loop} 2 o 4 1 u x {crossed-v} : {tiny-stroke}",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "ϛ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "m",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "{t-short}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "△|",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "-∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "{double-open-loop}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 35,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 36,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 37,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 38,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 39,
+              "visual_form": "u",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 40,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 41,
+              "visual_form": "{crossed-v}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 42,
+              "visual_form": ":",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 43,
+              "visual_form": "{tiny-stroke}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                790,
+                296,
+                827,
+                310
+              ],
+              "status": "alternatives",
+              "detail": "低m樣形與其後1樣形切分暫定。",
+              "alternatives": [
+                "m 1",
+                "m"
+              ]
+            },
+            {
+              "bbox": [
+                941,
+                288,
+                975,
+                305
+              ],
+              "status": "alternatives",
+              "detail": "1樣、o樣及其右的帶柄圈，連筆關係未明。",
+              "alternatives": [
+                "1 o o- >",
+                "1 o- >"
+              ]
+            },
+            {
+              "bbox": [
+                1082,
+                285,
+                1126,
+                300
+              ],
+              "status": "alternatives",
+              "detail": "雙開曲形暫記double-open-loop，可能兩個相接c樣。",
+              "alternatives": [
+                "double-open-loop",
+                "c c"
+              ]
+            },
+            {
+              "bbox": [
+                1185,
+                281,
+                1233,
+                300
+              ],
+              "status": "image-insufficient",
+              "detail": "尾端交叉v、點群和末極小筆畫的精確筆數不可判。"
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        },
+        {
+          "id": "162-R-C01-4",
+          "bbox": [
+            725,
+            303,
+            1114,
+            333
+          ],
+          "visual_sequence": "∞ π 1 9 7 9 2 o ∂ o- λ 4 m ⊥ >< c 1 ω 4 1 o 3 1 2 9 3 1 4 1 o 4 1",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "π",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "o-",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "m",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "><",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "ω",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                854,
+                315,
+                895,
+                332
+              ],
+              "status": "alternatives",
+              "detail": "λ後4樣及低m樣形的界線暫定。",
+              "alternatives": [
+                "λ 4 m",
+                "λ 4 1 m"
+              ]
+            },
+            {
+              "bbox": [
+                982,
+                308,
+                1039,
+                329
+              ],
+              "status": "alternatives",
+              "detail": "尾端數字樣串中的3與9樣均只作形態標記。",
+              "alternatives": [
+                "o 3 1 2 9 3",
+                "o 3 1 2 9 3"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-R-C02",
+      "page": "149r",
+      "lines": [
+        {
+          "id": "162-R-C02-1",
+          "bbox": [
+            972,
+            502,
+            1086,
+            530
+          ],
+          "visual_sequence": "+ 9 3 1 2 9 c u y",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "+",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "9",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "u",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "y",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                1033,
+                506,
+                1086,
+                529
+              ],
+              "status": "alternatives",
+              "detail": "末三符為c樣、低u樣及下伸鉤，後者暫稱y。",
+              "alternatives": [
+                "c u y",
+                "c u {down-hook}"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-R-C03",
+      "page": "149r",
+      "lines": [
+        {
+          "id": "162-R-C03-1",
+          "bbox": [
+            786,
+            550,
+            1191,
+            584
+          ],
+          "visual_sequence": "1 6 τ -c ⊥ 2 o 1 2 3 3 2 o 1 7 3 1 6 7 ∂ ϛ ∂ 4 1 5 1 Δ {g-loop} {black-cluster} o-c 2 o θ e",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "-c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "6",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "7",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "ϛ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 24,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 25,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 26,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 27,
+              "visual_form": "Δ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 28,
+              "visual_form": "{g-loop}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 29,
+              "visual_form": "{black-cluster}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 30,
+              "visual_form": "o-c",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 31,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 32,
+              "visual_form": "o",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 33,
+              "visual_form": "θ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 34,
+              "visual_form": "e",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                936,
+                555,
+                969,
+                579
+              ],
+              "status": "alternatives",
+              "detail": "6、7樣及其後曲符筆畫接近。",
+              "alternatives": [
+                "6 7 ∂",
+                "6 7 {down-curve}"
+              ]
+            },
+            {
+              "bbox": [
+                987,
+                552,
+                1022,
+                578
+              ],
+              "status": "alternatives",
+              "detail": "長下彎曲符暫記ϛ，左右低曲符暫記∂。",
+              "alternatives": [
+                "∂ ϛ ∂",
+                "∂ 5 ∂"
+              ]
+            },
+            {
+              "bbox": [
+                1061,
+                553,
+                1083,
+                581
+              ],
+              "status": "alternatives",
+              "detail": "三角後有下圈帶長曲線，暫記g-loop。",
+              "alternatives": [
+                "g-loop",
+                "小圈與下曲筆兩符"
+              ]
+            },
+            {
+              "bbox": [
+                1082,
+                551,
+                1114,
+                579
+              ],
+              "status": "image-insufficient",
+              "detail": "重墨刪改狀區域，不能復原被覆筆畫或確定原符個數。"
+            },
+            {
+              "bbox": [
+                1113,
+                551,
+                1138,
+                573
+              ],
+              "status": "alternatives",
+              "detail": "圈與開曲帶連線。",
+              "alternatives": [
+                "o-c",
+                "o -c"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-R-C04",
+      "page": "149r",
+      "lines": [
+        {
+          "id": "162-R-C04-1",
+          "bbox": [
+            801,
+            580,
+            1006,
+            608
+          ],
+          "visual_sequence": "1 3 5 u 1 2 λ 3 1 2 1 >< m Δ",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "5",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "u",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "><",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "m",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "Δ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                817,
+                585,
+                855,
+                608
+              ],
+              "status": "alternatives",
+              "detail": "3、5與u樣形相近且相接，先逐輪廓分列。",
+              "alternatives": [
+                "3 5 u",
+                "3 5 {double-stem}"
+              ]
+            },
+            {
+              "bbox": [
+                955,
+                581,
+                989,
+                599
+              ],
+              "status": "alternatives",
+              "detail": "相向弧後的低m樣形可能由多條小直畫構成。",
+              "alternatives": [
+                ">< m",
+                ">< 1 1 1"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "162-R-C05",
+      "page": "149r",
+      "lines": [
+        {
+          "id": "162-R-C05-1",
+          "bbox": [
+            727,
+            601,
+            1038,
+            632
+          ],
+          "visual_sequence": "τ l λ ⊥ {wedge} ∞ 3 1 2 2 3 τ x ∂ > ∩ τ 1 4 3 2 1 ÷",
+          "tokens": [
+            {
+              "index": 1,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 2,
+              "visual_form": "l",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 3,
+              "visual_form": "λ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 4,
+              "visual_form": "⊥",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 5,
+              "visual_form": "{wedge}",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 6,
+              "visual_form": "∞",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 7,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 8,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 9,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 10,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 11,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 12,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 13,
+              "visual_form": "x",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 14,
+              "visual_form": "∂",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 15,
+              "visual_form": ">",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 16,
+              "visual_form": "∩",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 17,
+              "visual_form": "τ",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 18,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 19,
+              "visual_form": "4",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 20,
+              "visual_form": "3",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 21,
+              "visual_form": "2",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 22,
+              "visual_form": "1",
+              "numeric_identity": null,
+              "decrypted_value": null
+            },
+            {
+              "index": 23,
+              "visual_form": "÷",
+              "numeric_identity": null,
+              "decrypted_value": null
+            }
+          ],
+          "token_segmentation": "provisional_visual_units_not_numeric_groups",
+          "grouping": {
+            "cipher_code_units": null,
+            "word_boundaries": null
+          },
+          "issues": [
+            {
+              "bbox": [
+                770,
+                602,
+                819,
+                624
+              ],
+              "status": "alternatives",
+              "detail": "低楔形與雙圈可能各帶橫柄，附著不明。",
+              "alternatives": [
+                "⊥ wedge ∞",
+                "⊥ ω ∞"
+              ]
+            },
+            {
+              "bbox": [
+                860,
+                606,
+                899,
+                628
+              ],
+              "status": "alternatives",
+              "detail": "連續數字樣形暫分3、1、2、2、3。",
+              "alternatives": [
+                "3 1 2 2 3",
+                "3 1 2 2 3"
+              ]
+            },
+            {
+              "bbox": [
+                997,
+                600,
+                1038,
+                625
+              ],
+              "status": "alternatives",
+              "detail": "末橫線上下各見小點，僅記÷樣；不確定是否密碼或段落分隔。",
+              "alternatives": [
+                "÷樣符",
+                "橫線加兩獨立點"
+              ]
+            }
+          ],
+          "status": "image_only_initial_reading_not_verified"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "limitations": [
+    "全部11段均有形碼內容，但多處分符及細點未解決，不是精確全文。",
+    "閱覽圖插值放大不能創造原始像素未保留的細筆畫。",
+    "相同visual_form不保證同一密碼符；不同近似標籤亦可能同符。",
+    "自然文只用作視覺定位；一處草寫連筆與兩處段末邊界保留未判。",
+    "未提供數字值、碼本對應、明文或解密結論。"
+  ],
+  "counts": {
+    "runs": 11,
+    "lines": 19,
+    "provisional_visual_units": 506,
+    "issue_regions": 52
+  },
+  "unit_warning": "All tokens are provisional visual units. Numeric identities and decrypted values remain null."
+}

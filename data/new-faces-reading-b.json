@@ -1,0 +1,4042 @@
+{
+  "schema": "nevers1595-public-new-faces-reading-b-v1",
+  "reader": "B",
+  "status": "not-human-reviewed",
+  "source_id": "canvas-162",
+  "source_resolution": "1289x1054 viewer image; native HD not available",
+  "independence": {
+    "read_other_transcriptions": false,
+    "read_key": false,
+    "read_inventory": false,
+    "used_plaintext_semantics": false,
+    "scope": "Only supplied image and self-created proportional crops."
+  },
+  "notation": {
+    "digitlike": "數字樣形逐個 token，不合併為多位數。",
+    "small_circle": "o；不正規化成數字 0。",
+    "shape_labels": "Xh、U2 等只是本次描述形碼，不是鍵表識別碼；以 alternatives 說明所見結構。",
+    "attachments": "帶橫柄形先作複合形碼，alternatives 保留拆分與附著歧義。",
+    "coordinates": "source-image pixels [left,top,right,bottom]；行/段近似框，不是精確逐字框。"
+  },
+  "runs": [
+    {
+      "id": "148v-L01a",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        111,
+        99,
+        255,
+        119
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "d",
+          "alternatives": [
+            "δ",
+            "looped ascending stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "x",
+          "alternatives": [
+            "crossed short strokes",
+            "cursive x-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "Xh",
+          "alternatives": [
+            "opposed-curves-connected-by-horizontal",
+            "><",
+            "two touching symbols"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "c",
+          "alternatives": [
+            "open-right curve",
+            "c-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "t",
+          "alternatives": [
+            "crossed upright",
+            "+"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "loop5",
+          "alternatives": [
+            "5",
+            "long-loop-with-descender"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "行首碼；其後接草寫。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L01b",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        546,
+        100,
+        616,
+        121
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": ">",
+          "alternatives": [
+            "right-hook",
+            "2-like glyph-without-full-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "q",
+          "alternatives": [
+            "9",
+            "loop-with-downstroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "x",
+          "alternatives": [
+            "crossed short strokes",
+            "cursive x-like"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "同一行右端的短碼，左側為草寫。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L02",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        109,
+        120,
+        617,
+        143
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "y",
+          "alternatives": [
+            "fork-with-descender",
+            "curved-y-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "-o",
+          "alternatives": [
+            "circle-with-left-handle",
+            "- + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "tri_stem",
+          "alternatives": [
+            "triangle-with-downstem",
+            "arrow-up"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 14,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "dots",
+          "alternatives": [
+            "2-or-3-dot-cluster",
+            "dot-attached-to-previous",
+            "short-upright-with-dot"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 16,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 23,
+          "shape": "small_w",
+          "alternatives": [
+            "w-like compact strokes",
+            "u + short stroke",
+            "adjacent-cursive"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 24,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 28,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 29,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 31,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 32,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 33,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 34,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 35,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 36,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 37,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 38,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 39,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 40,
+          "shape": "‡",
+          "alternatives": [
+            "double-cross",
+            "cross-with-extra-short-bar"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 41,
+          "shape": "x",
+          "alternatives": [
+            "crossed short strokes",
+            "cursive x-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 42,
+          "shape": "tri_stem",
+          "alternatives": [
+            "triangle-with-downstem",
+            "arrow-up"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 43,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 44,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 45,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 46,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 47,
+          "shape": ">",
+          "alternatives": [
+            "right-hook",
+            "2-like glyph-without-full-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 48,
+          "shape": "loop5",
+          "alternatives": [
+            "5",
+            "long-loop-with-descender"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 49,
+          "shape": "-c",
+          "alternatives": [
+            "open-curve-with-left-handle",
+            "- + c"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "全行密碼；4 後的點群、small_w 及末段連桿不能定型。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L03a",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        109,
+        140,
+        274,
+        161
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "x",
+          "alternatives": [
+            "crossed short strokes",
+            "cursive x-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 4,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 5,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "δ",
+          "alternatives": [
+            "delta-like loop",
+            "2-with-loop",
+            "d-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "∩",
+          "alternatives": [
+            "arch",
+            "n-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 11,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "後接一小段連寫，是否仍屬密碼不能由影像單獨確定。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L03b",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        301,
+        143,
+        335,
+        160
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "‡",
+          "alternatives": [
+            "double-cross",
+            "cross-with-extra-short-bar"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "與前段之間有連寫筆畫，另列 boundary gap，不以明文意義補入。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L04",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        434,
+        159,
+        615,
+        178
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "dots",
+          "alternatives": [
+            "2-or-3-dot-cluster",
+            "dot-attached-to-previous",
+            "short-upright-with-dot"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "fan3",
+          "alternatives": [
+            "nested-angle-fan",
+            "three-slanted-strokes-sharing-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "△",
+          "alternatives": [
+            "triangle",
+            "open-triangle"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "行尾短碼；點群與 9 是否相附不明。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L05",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        110,
+        178,
+        475,
+        200
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 15,
+          "shape": "d",
+          "alternatives": [
+            "δ",
+            "looped ascending stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 16,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 19,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "Xh",
+          "alternatives": [
+            "opposed-curves-connected-by-horizontal",
+            "><",
+            "two touching symbols"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 22,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 23,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "ℓ",
+          "alternatives": [
+            "long-upstroke-and-foot",
+            "1",
+            "cursive-l-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 28,
+          "shape": "o∩o",
+          "alternatives": [
+            "arch-with-two-loop-ends",
+            "o + arch",
+            "o + arch + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 29,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 30,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 31,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 32,
+          "shape": "dots",
+          "alternatives": [
+            "2-or-3-dot-cluster",
+            "dot-attached-to-previous",
+            "short-upright-with-dot"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 33,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "行首長碼；末尾 dots 候選為帶上點的直筆 i。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L06",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        149,
+        233,
+        516,
+        259
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "E",
+          "alternatives": [
+            "angled-or-E-like-symbol",
+            "epsilon-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": ">",
+          "alternatives": [
+            "right-hook",
+            "2-like glyph-without-full-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "-o",
+          "alternatives": [
+            "circle-with-left-handle",
+            "- + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 4,
+          "shape": "u",
+          "alternatives": [
+            "u-shaped-bowl",
+            "two-minims"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 5,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "p",
+          "alternatives": [
+            "loop-and-descender",
+            "phi-with-long-tail"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "∩",
+          "alternatives": [
+            "arch",
+            "n-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "†",
+          "alternatives": [
+            "cross",
+            "t-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "h",
+          "alternatives": [
+            "hooked-upright",
+            "h-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 16,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "ℓ",
+          "alternatives": [
+            "long-upstroke-and-foot",
+            "1",
+            "cursive-l-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 23,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 28,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 29,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 31,
+          "shape": "o∩o",
+          "alternatives": [
+            "arch-with-two-loop-ends",
+            "o + arch",
+            "o + arch + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 32,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 33,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 34,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 35,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "密碼在兩段草寫間；E、p、h 只作形狀標籤。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L07",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        384,
+        254,
+        624,
+        280
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [
+            "1",
+            "short-hooked-stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "1",
+          "alternatives": [
+            "1",
+            "2"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 4,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "dots",
+          "alternatives": [
+            "2-or-3-dot-cluster",
+            "dot-attached-to-previous",
+            "short-upright-with-dot"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "8",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 16,
+          "shape": "∩",
+          "alternatives": [
+            "arch",
+            "n-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 17,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 20,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "tri_stem",
+          "alternatives": [
+            "triangle-with-downstem",
+            "arrow-up"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 23,
+          "shape": "V",
+          "alternatives": [
+            "v-shaped-fork",
+            "paired-slanted-strokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 24,
+          "shape": "V",
+          "alternatives": [
+            "v-shaped-fork",
+            "paired-slanted-strokes"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "密碼行尾；開頭直筆與末端兩個 V 形均待更高解析度。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L08",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        109,
+        278,
+        478,
+        302
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "loop5",
+          "alternatives": [
+            "5",
+            "long-loop-with-descender"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 11,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "+o",
+          "alternatives": [
+            "cross-and-circle-linked",
+            "+ + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 15,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 16,
+          "shape": "Xh",
+          "alternatives": [
+            "opposed-curves-connected-by-horizontal",
+            "><",
+            "two touching symbols"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 17,
+          "shape": "o-c",
+          "alternatives": [
+            "circle-linked-to-open-curve",
+            "o- + c"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 18,
+          "shape": ">-",
+          "alternatives": [
+            "right-hook-with-horizontal-tail",
+            "2-like-with-handle"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 19,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "ℓ",
+          "alternatives": [
+            "long-upstroke-and-foot",
+            "1",
+            "cursive-l-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 23,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "+o",
+          "alternatives": [
+            "cross-and-circle-linked",
+            "+ + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 27,
+          "shape": "-∞",
+          "alternatives": [
+            "double-loop-with-left-handle",
+            "- + ∞"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 28,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 29,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 31,
+          "shape": ">o",
+          "alternatives": [
+            "hook-linked-to-circle",
+            "> + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 32,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 33,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 34,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 35,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "行首長碼；帶橫柄的小圓與曲線暫維持複合形碼。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L09",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        330,
+        361,
+        617,
+        388
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "-c",
+          "alternatives": [
+            "open-curve-with-left-handle",
+            "- + c"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "y",
+          "alternatives": [
+            "fork-with-descender",
+            "curved-y-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "c",
+          "alternatives": [
+            "open-right curve",
+            "c-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 16,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 23,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 25,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 28,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 29,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "草寫後接密碼，行向右略上斜。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "148v-L10",
+      "folio": "148v",
+      "bbox_xyxy_approx": [
+        110,
+        391,
+        255,
+        410
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "-∞",
+          "alternatives": [
+            "double-loop-with-left-handle",
+            "- + ∞"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": ">-",
+          "alternatives": [
+            "right-hook-with-horizontal-tail",
+            "2-like-with-handle"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 5,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": ">-",
+          "alternatives": [
+            "right-hook-with-horizontal-tail",
+            "2-like-with-handle"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "/",
+          "alternatives": [
+            "separator-slash",
+            "cipher-slash"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "行首短碼；末斜線可能是分隔符，不視為已確定碼符。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R01",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        789,
+        230,
+        1237,
+        273
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "dot",
+          "alternatives": [
+            "punctuation-dot",
+            "dot-attached-to-previous"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "-o",
+          "alternatives": [
+            "circle-with-left-handle",
+            "- + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 14,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 16,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 20,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 21,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 22,
+          "shape": "e",
+          "alternatives": [
+            "e-shaped-loop",
+            "open-loop-with-inward-stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 23,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 24,
+          "shape": "ↄ",
+          "alternatives": [
+            "reverse-c",
+            "hooked-arch"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 25,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 26,
+          "shape": "u",
+          "alternatives": [
+            "u-shaped-bowl",
+            "two-minims"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 27,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 28,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 29,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 31,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 32,
+          "shape": "loop5",
+          "alternatives": [
+            "5",
+            "long-loop-with-descender"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 33,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 34,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 35,
+          "shape": "∩",
+          "alternatives": [
+            "arch",
+            "n-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 36,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 37,
+          "shape": "-",
+          "alternatives": [
+            "horizontal-stroke",
+            "punctuation"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "行左有草寫；末段隨頁面傾斜向上。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R02",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        730,
+        254,
+        1238,
+        296
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "-o",
+          "alternatives": [
+            "circle-with-left-handle",
+            "- + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": ">o",
+          "alternatives": [
+            "hook-linked-to-circle",
+            "> + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": ">",
+          "alternatives": [
+            "right-hook",
+            "2-like glyph-without-full-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "ℓ",
+          "alternatives": [
+            "long-upstroke-and-foot",
+            "1",
+            "cursive-l-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "F",
+          "alternatives": [
+            "upright-with-two-right-bars",
+            "F-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "tri_stem",
+          "alternatives": [
+            "triangle-with-downstem",
+            "arrow-up"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "y",
+          "alternatives": [
+            "fork-with-descender",
+            "curved-y-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "stacked∞bar",
+          "alternatives": [
+            "double-loop-above-thick-horizontal",
+            "two-stacked-glyphs"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 14,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 16,
+          "shape": "†",
+          "alternatives": [
+            "cross",
+            "t-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 17,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 18,
+          "shape": "δ",
+          "alternatives": [
+            "delta-like loop",
+            "2-with-loop",
+            "d-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 19,
+          "shape": ">",
+          "alternatives": [
+            "right-hook",
+            "2-like glyph-without-full-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 20,
+          "shape": "-c",
+          "alternatives": [
+            "open-curve-with-left-handle",
+            "- + c"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 21,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 23,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "7",
+          "alternatives": [
+            "7",
+            "T"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 27,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 28,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 29,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "d",
+          "alternatives": [
+            "δ",
+            "looped ascending stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 31,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 32,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 33,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 34,
+          "shape": "q",
+          "alternatives": [
+            "9",
+            "loop-with-downstroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 35,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 36,
+          "shape": "ℓ",
+          "alternatives": [
+            "long-upstroke-and-foot",
+            "1",
+            "cursive-l-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 37,
+          "shape": "#",
+          "alternatives": [
+            "crosshatched-upright",
+            "double-cross-with-slant"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 38,
+          "shape": "△",
+          "alternatives": [
+            "triangle",
+            "open-triangle"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 39,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 40,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 41,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 42,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 43,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 44,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 45,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "全行碼；stacked∞bar 是上雙環、下橫塊的複合形；# 的交叉數未定。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R03",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        727,
+        279,
+        1220,
+        319
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "loop5",
+          "alternatives": [
+            "5",
+            "long-loop-with-descender"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "1",
+          "alternatives": [
+            "1",
+            "short-upright"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 6,
+          "shape": "4",
+          "alternatives": [
+            "4",
+            "joined-minims"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "1",
+          "alternatives": [
+            "1",
+            "tail-of-preceding-glyph"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 11,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 16,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 23,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 24,
+          "shape": ")",
+          "alternatives": [
+            "right-parenthesis-shaped-curve",
+            "tail-of-previous"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 25,
+          "shape": "loop5",
+          "alternatives": [
+            "5",
+            "long-loop-with-descender"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 26,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "y",
+          "alternatives": [
+            "fork-with-descender",
+            "curved-y-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 28,
+          "shape": "corner4",
+          "alternatives": [
+            "rectilinear-4-like",
+            "angle-with-crossbar"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 29,
+          "shape": "F",
+          "alternatives": [
+            "upright-with-two-right-bars",
+            "F-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 30,
+          "shape": "tri_stem",
+          "alternatives": [
+            "triangle-with-downstem",
+            "arrow-up"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 31,
+          "shape": "x",
+          "alternatives": [
+            "crossed short strokes",
+            "cursive x-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 32,
+          "shape": "-∞",
+          "alternatives": [
+            "double-loop-with-left-handle",
+            "- + ∞"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 33,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 34,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 35,
+          "shape": "α",
+          "alternatives": [
+            "double-curved-loop",
+            "two-joined-small-loops"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 36,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 37,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 38,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 39,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 40,
+          "shape": "u",
+          "alternatives": [
+            "u-shaped-bowl",
+            "two-minims"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 41,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 42,
+          "shape": "V",
+          "alternatives": [
+            "v-shaped-fork",
+            "paired-slanted-strokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 43,
+          "shape": "dots",
+          "alternatives": [
+            "2-or-3-dot-cluster",
+            "dot-attached-to-previous",
+            "short-upright-with-dot"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "77 後的細筆及最後點群不清，逐位置保留候選。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R04",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        728,
+        305,
+        1104,
+        339
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 2,
+          "shape": "π",
+          "alternatives": [
+            "pi-like",
+            "two-uprights-under-horizontal"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "δ",
+          "alternatives": [
+            "delta-like loop",
+            "2-with-loop",
+            "d-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 10,
+          "shape": "o-",
+          "alternatives": [
+            "circle-with-right-handle",
+            "o + -"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 11,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 12,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "minims3",
+          "alternatives": [
+            "three-small-uprights",
+            "1 + 1 + 1",
+            "m-like",
+            "u + 1"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 14,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 15,
+          "shape": "Xh",
+          "alternatives": [
+            "opposed-curves-connected-by-horizontal",
+            "><",
+            "two touching symbols"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 16,
+          "shape": "c",
+          "alternatives": [
+            "open-right curve",
+            "c-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 17,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 19,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 23,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 28,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 29,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 30,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 31,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 32,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        }
+      ],
+      "note": "行首密碼後接草寫；minims3 不武斷拆成數字。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R05",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        974,
+        505,
+        1097,
+        533
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "+",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "9",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 5,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "9",
+          "alternatives": [
+            "9",
+            "q"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "c",
+          "alternatives": [
+            "open-right curve",
+            "c-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "u",
+          "alternatives": [
+            "u-shaped-bowl",
+            "two-minims"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 9,
+          "shape": "4",
+          "alternatives": [
+            "4",
+            "q",
+            "hooked-upright"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "中段短碼，位於草寫文字之間。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R06",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        799,
+        550,
+        1175,
+        585
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "-c",
+          "alternatives": [
+            "open-curve-with-left-handle",
+            "- + c"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 5,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 6,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 11,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 14,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 15,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 16,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 17,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "6",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "7",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "δ",
+          "alternatives": [
+            "delta-like loop",
+            "2-with-loop",
+            "d-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 21,
+          "shape": "loopS",
+          "alternatives": [
+            "large-S-like-loop",
+            "elongated-curved-glyph"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 22,
+          "shape": "δ",
+          "alternatives": [
+            "delta-like loop",
+            "2-with-loop",
+            "d-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 23,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 24,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 25,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 26,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 27,
+          "shape": "△",
+          "alternatives": [
+            "triangle",
+            "open-triangle"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 28,
+          "shape": "loop_y",
+          "alternatives": [
+            "looped-descender",
+            "large-y-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 29,
+          "shape": "OBLITERATED",
+          "alternatives": [
+            "unreadable-cancelled-or-overwritten-material"
+          ],
+          "status": "image-insufficient"
+        },
+        {
+          "position": 30,
+          "shape": "Xh",
+          "alternatives": [
+            "opposed-curves-connected-by-horizontal",
+            "><",
+            "two touching symbols"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 31,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 32,
+          "shape": "o",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 33,
+          "shape": "phi",
+          "alternatives": [
+            "crossed-oval",
+            "θ",
+            "8",
+            "plain-oval-with-ink-fill"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 34,
+          "shape": "e",
+          "alternatives": [
+            "e-shaped-loop",
+            "open-loop-with-inward-stroke"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "中段長碼；OBLITERATED 只有刪改墨團可見，不推定底層字數。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R07a",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        798,
+        579,
+        956,
+        605
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 3,
+          "shape": "5",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 4,
+          "shape": "u",
+          "alternatives": [
+            "u-shaped-bowl",
+            "two-minims"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 5,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 6,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 7,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 8,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 11,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "Xh",
+          "alternatives": [
+            "opposed-curves-connected-by-horizontal",
+            "><",
+            "two touching symbols"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 13,
+          "shape": "minims3",
+          "alternatives": [
+            "three-small-uprights",
+            "1 + 1 + 1",
+            "m-like",
+            "u + 1"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 14,
+          "shape": "△",
+          "alternatives": [
+            "triangle",
+            "open-triangle"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "草寫後接密碼，碼尾再接草寫。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R07b",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        1209,
+        576,
+        1243,
+        599
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "同一行極右端孤立的橫頂雙垂形，疑似密碼，但也可能是草寫終筆。",
+      "human_review": "not-human-reviewed"
+    },
+    {
+      "id": "149r-R08",
+      "folio": "149r",
+      "bbox_xyxy_approx": [
+        731,
+        597,
+        1017,
+        627
+      ],
+      "tokens": [
+        {
+          "position": 1,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 2,
+          "shape": "ℓ",
+          "alternatives": [
+            "long-upstroke-and-foot",
+            "1",
+            "cursive-l-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 3,
+          "shape": "λ",
+          "alternatives": [
+            "lambda-like",
+            "2-like hooked stroke"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 4,
+          "shape": "U2",
+          "alternatives": [
+            "two-uprights-on-baseline",
+            "double-upright-like-щ"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 5,
+          "shape": "w_bar",
+          "alternatives": [
+            "small-w-under-or-joined-to-bar",
+            "top-bar-with-two-short-downstrokes"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 6,
+          "shape": "∞",
+          "alternatives": [
+            "two-loop glyph",
+            "o + o"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 7,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 8,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 9,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 10,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 11,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 12,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 13,
+          "shape": "x",
+          "alternatives": [
+            "crossed short strokes",
+            "cursive x-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 14,
+          "shape": "δ",
+          "alternatives": [
+            "delta-like loop",
+            "2-with-loop",
+            "d-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 15,
+          "shape": ">",
+          "alternatives": [
+            "right-hook",
+            "2-like glyph-without-full-base"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 16,
+          "shape": "∩",
+          "alternatives": [
+            "arch",
+            "n-like"
+          ],
+          "status": "tentative-shape"
+        },
+        {
+          "position": 17,
+          "shape": "T",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 18,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 19,
+          "shape": "4",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 20,
+          "shape": "3",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 21,
+          "shape": "2",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 22,
+          "shape": "1",
+          "alternatives": [],
+          "status": "visual-initial"
+        },
+        {
+          "position": 23,
+          "shape": "÷",
+          "alternatives": [
+            "horizontal-with-dot-above-and-below",
+            "horizontal-plus-punctuation-dots"
+          ],
+          "status": "tentative-shape"
+        }
+      ],
+      "note": "行首碼；終端為上下點加橫線樣，附點位置待原生高解析度。",
+      "human_review": "not-human-reviewed"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "G01",
+      "bbox_xyxy_approx": [
+        272,
+        141,
+        302,
+        164
+      ],
+      "kind": "boundary-uncertain",
+      "description": "148v L03a 與 L03b 之間有一小段連寫；保留為草寫或字母樣密碼的歧義，未依意思拆字。",
+      "alternatives": [
+        "adjacent-cursive",
+        "letterlike-cipher-sequence"
+      ],
+      "status": "image-insufficient"
+    },
+    {
+      "id": "G02",
+      "bbox_xyxy_approx": [
+        1077,
+        550,
+        1107,
+        580
+      ],
+      "kind": "overwritten",
+      "description": "149r R06 的刪改墨團不能辨出底層符號或數量。",
+      "alternatives": [],
+      "status": "image-insufficient"
+    },
+    {
+      "id": "G03",
+      "bbox_xyxy_approx": [
+        1209,
+        576,
+        1243,
+        599
+      ],
+      "kind": "boundary-uncertain",
+      "description": "149r R07b 孤立行尾符號可能是碼，也可能是草寫尾筆。",
+      "alternatives": [
+        "cipher-w_bar",
+        "cursive-terminal-stroke"
+      ],
+      "status": "image-insufficient"
+    },
+    {
+      "id": "G04",
+      "bbox_xyxy_approx": [
+        0,
+        0,
+        1289,
+        1054
+      ],
+      "kind": "resolution-limit",
+      "description": "目前只有 1289 × 1054 閱覽圖；點數、細桿、墨團內結構及部分連字切分無原生 HD 可證。等比放大未增加來源細節。",
+      "alternatives": [],
+      "status": "image-insufficient"
+    }
+  ],
+  "coverage": {
+    "148v": "全頁 0–920 高度視覺巡檢；最後可識別碼行約 y=400；下方皆草寫，未轉錄。",
+    "149r": "全頁視覺巡檢；最後可識別碼行約 y=620；其下草寫中之日期數字視作旁文，未列入密碼。",
+    "excluded_plain_numerals": "頁碼及下方草寫日期中的數字未混入密碼序列。",
+    "limitations": "可見碼段已逐行初錄；不保證窮盡所有與草寫混同的短符號，也不稱附點精確轉錄完成。"
+  },
+  "counts": {
+    "runs": 21,
+    "provisional_visual_units": 503
+  },
+  "unit_warning": "All tokens are provisional visual units; numeric identity and plaintext value unknown. Differing A/B segmentation is retained."
+}

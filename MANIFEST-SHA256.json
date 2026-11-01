@@ -1,0 +1,121 @@
+{
+  "version": "0.1.0",
+  "release_kind": "first-public-partial-research-dataset",
+  "files": {
+    "CHANGELOG.md": {
+      "bytes": 531,
+      "sha256": "bf4337269802d2f9dcd7f1be59f26a03e5e5d8c570ced20039c35b39ab59dff5"
+    },
+    "CITATION.cff": {
+      "bytes": 1209,
+      "sha256": "387b8fe08c56dd7d2c8a9b20f16f4fcf76f36dba10ed66acb7d3f4639b9f45d8"
+    },
+    "CONTRIBUTING.md": {
+      "bytes": 589,
+      "sha256": "4d17a25db8a4bbbc8538f8019a42ebbd6a4c8f07cc143c7743bed048bf23d43b"
+    },
+    "FAILURES.md": {
+      "bytes": 1729,
+      "sha256": "9ffb27a8825e33be689dccbccad6caae0e4d9c5ae42c9cbde8626120f1b36316"
+    },
+    "LICENSE": {
+      "bytes": 629,
+      "sha256": "fdad93a4757e8b8c777e61374e2032c374f4cc8f84e672efe9d6848ffa2d3d3f"
+    },
+    "METHODS.md": {
+      "bytes": 5908,
+      "sha256": "11dab35bd7c5209ff02fe282700bc6ea6f2689b08865ac28209f889f22dc0fd5"
+    },
+    "PROVENANCE.md": {
+      "bytes": 3286,
+      "sha256": "c412ceb68491e859ce7a087393aa157118ec4eea2d00a7553faa29d7f35b08e4"
+    },
+    "PUBLIC-SCOPE.json": {
+      "bytes": 922,
+      "sha256": "54f12c98a6fe90d80d4d4151644aa09d74809b85a6e314ac6ac322a8842cec5c"
+    },
+    "READING-GUIDE.md": {
+      "bytes": 3534,
+      "sha256": "e26b44e3f4f49805e0cde71d25c011852790af19bcc68026501a669473caf13a"
+    },
+    "README.md": {
+      "bytes": 5590,
+      "sha256": "a04d1d2a7281ac5e5d3a6764b8ec4d345dbaf62fb4ff2b97f4b47b0e38568f0c"
+    },
+    "RIGHTS.md": {
+      "bytes": 2074,
+      "sha256": "bc9e748bb2c8137616030a8b68b39c5d2439545ae5092c0e633c9f04959cce5b"
+    },
+    "data/crop-symbol-review-v02.json": {
+      "bytes": 384625,
+      "sha256": "12dae662ba1efb2ebecbae4f49302611f27b28282996e0d7ee21a975f2112090"
+    },
+    "data/layout-inventory.json": {
+      "bytes": 20838,
+      "sha256": "264128769aa43f078c5be320084a784c93076112b4357d0f77700b4b5fef4738"
+    },
+    "data/new-faces-limited-collation.json": {
+      "bytes": 55561,
+      "sha256": "b70168f803398cbb4b459521c14d151436d2f9e58e7aff907f61daa95834e26c"
+    },
+    "data/new-faces-reading-a.json": {
+      "bytes": 118828,
+      "sha256": "7e5fb757e68d7b90e31f2caa3e63e4a9aa1e073010d11114128f935a30b91956"
+    },
+    "data/new-faces-reading-b.json": {
+      "bytes": 94916,
+      "sha256": "4a19f36e4348509ce8e2185dec066d11217274835e865825666cd75de855fc56"
+    },
+    "data/sources.json": {
+      "bytes": 2642,
+      "sha256": "59c4c70abf368a7b3cd4421ed7309968edd0ad04eaa600798242629709b4fca4"
+    },
+    "keywords.json": {
+      "bytes": 953,
+      "sha256": "f8839423e9fa35822ecb39213287d16af06bd5f46477a58efdd9b20d6c26660b"
+    },
+    "results/r1-input-descriptor.json": {
+      "bytes": 410,
+      "sha256": "286b8ab186c8bb8b335a228a7e2d3a793ac4feb73325a6a0ce532ea7d03bee50"
+    },
+    "results/r1-key-probe-results.json": {
+      "bytes": 22676,
+      "sha256": "a8cec4c44f629feefca80c49730df1c95fca94df25676b03fa0865e5c49216f3"
+    },
+    "results/r1-provisional-candidates.unaccepted.json": {
+      "bytes": 1682879,
+      "sha256": "50b03cab25c772bb2775474baa5cc3f5f37364ccdab12031a7206ced7c3c7927"
+    },
+    "results/r1-provisional-key-probe-results.json": {
+      "bytes": 111439,
+      "sha256": "c41dcaaf2e0c1c1c3b888aff5b179b437ddee523e1d4d744141f76c831a775be"
+    },
+    "results/r2-related-key-candidates.unaccepted.json": {
+      "bytes": 724317,
+      "sha256": "fceec5f0c7e7c9dd8a2c543a9d01adca45d31df9d6a6fa42baacd663c7b787da"
+    },
+    "results/r2-related-key-results.json": {
+      "bytes": 21841,
+      "sha256": "5d689b4e88fc33303926b7869a322499a1cbadc0bfc42b051d1565765557f80b"
+    },
+    "transcriptions/crop-review-v02.txt": {
+      "bytes": 2276,
+      "sha256": "780810f22f3001c6e6ec873f246f43d99ee84ef09983e1ee9814c75d5dc66e74"
+    },
+    "transcriptions/nevers1595-visual-sequences.tei.xml": {
+      "bytes": 86230,
+      "sha256": "6c0eafc5e6902407d76d0c6f52b381f37f429f977980672172b30c3e8b122c3e"
+    },
+    "transcriptions/new-faces-reading-a.txt": {
+      "bytes": 3600,
+      "sha256": "51acb2782c55edf86a7b1287c30c05876dba6128cceb42d7d53950013eba8065"
+    },
+    "transcriptions/new-faces-reading-b.txt": {
+      "bytes": 3441,
+      "sha256": "e568333de812073de69704a74354fe38d090f887483169f264761316f5091ddd"
+    }
+  },
+  "manifest_self_excluded": true,
+  "source_images_included": false,
+  "private_software_or_logs_included": false
+}

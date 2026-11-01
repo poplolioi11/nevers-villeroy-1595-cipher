@@ -1,0 +1,1015 @@
+{
+  "seed": 20261101,
+  "input_sha256": "8410011f357080dc8e3e9923fb6749ec29f6634e3223c8be9f52e3aa2d5451ec",
+  "cribs": [
+    "cambrai",
+    "doullens",
+    "villeroy",
+    "monsieur",
+    "vostre",
+    "ennemis",
+    "affaires"
+  ],
+  "null_shuffles": 128,
+  "input_policy": "strict-exclude-uncertain",
+  "provisional_warning": null,
+  "warning": "Pattern fits are not decipherments. No crib is known plaintext. No target key accepted.",
+  "models": {
+    "glyph": {
+      "units": 309,
+      "distinct_types": 64,
+      "uncertain_units": 281,
+      "line_units": {
+        "R1": 28,
+        "L1": 56,
+        "L2": 57,
+        "L3": 38,
+        "L4": 37,
+        "L5": 46,
+        "L6": 47
+      },
+      "frequency": {
+        "1": 39,
+        "2": 37,
+        "·": 18,
+        "4": 14,
+        "o": 14,
+        "7": 11,
+        "9": 9,
+        "3": 8,
+        "s": 8,
+        "λ": 7,
+        "π": 7,
+        "τ": 7,
+        "i": 7,
+        "○─": 7,
+        "ϐ": 6,
+        "δ": 6,
+        "6": 6,
+        "⊔": 5,
+        "─c": 5,
+        "θ": 5,
+        "∩": 5,
+        "─○": 4,
+        "ω̅": 4,
+        "ℓ": 4,
+        "ʔ─": 4,
+        "x": 4,
+        "≠": 4,
+        "m": 3,
+        "8": 3,
+        "c": 3,
+        "∞": 3,
+        "γ": 3,
+        "ʔ": 3,
+        "ν": 2,
+        "⌢○": 2,
+        "╪7": 2,
+        "F": 2,
+        "γ̲": 2,
+        "1́": 1,
+        "χ": 1,
+        "þ": 1,
+        "Δ": 1,
+        "k": 1,
+        "⟦arch+stem⟧": 1,
+        "†7": 1,
+        "q̵": 1,
+        "⊣": 1,
+        "W": 1,
+        "t": 1,
+        "+○": 1,
+        "F↗": 1,
+        "⊃—c": 1,
+        "⊃—○": 1,
+        "υ": 1,
+        "e": 1,
+        "─": 1,
+        "ω": 1,
+        "ɯ": 1,
+        "○⌢δ": 1,
+        "—∞": 1,
+        "⟦ʔ/2⟧": 1,
+        "υʔ": 1,
+        "⟦z/8⟧": 1,
+        "⟦FLOURISH⟧": 1
+      },
+      "hypotheses": {
+        "monoalphabetic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": false,
+          "search_total_fits": 0,
+          "whole_search_shuffle_min_median_max": [
+            0,
+            0.0,
+            2
+          ]
+        },
+        "homophonic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": null,
+          "search_total_fits": 0,
+          "whole_search_shuffle_min_median_max": [
+            0,
+            0.0,
+            4
+          ]
+        }
+      },
+      "train_line_ids": [
+        "R1",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "heldout_line_ids": [
+        "L5",
+        "L6"
+      ],
+      "eligible_training_windows_by_length": {
+        "6": 0,
+        "7": 0,
+        "8": 0
+      }
+    },
+    "digit-pairs": {
+      "units": 263,
+      "distinct_types": 84,
+      "uncertain_units": 240,
+      "line_units": {
+        "R1": 24,
+        "L1": 48,
+        "L2": 48,
+        "L3": 36,
+        "L4": 29,
+        "L5": 39,
+        "L6": 39
+      },
+      "frequency": {
+        "·": 18,
+        "2": 17,
+        "o": 14,
+        "s": 8,
+        "λ": 7,
+        "41": 7,
+        "π": 7,
+        "τ": 7,
+        "i": 7,
+        "○─": 7,
+        "1": 7,
+        "ϐ": 6,
+        "δ": 6,
+        "⊔": 5,
+        "─c": 5,
+        "θ": 5,
+        "17": 5,
+        "∩": 5,
+        "─○": 4,
+        "22": 4,
+        "ω̅": 4,
+        "ℓ": 4,
+        "ʔ─": 4,
+        "x": 4,
+        "≠": 4,
+        "7": 4,
+        "12": 4,
+        "19": 3,
+        "m": 3,
+        "c": 3,
+        "14": 3,
+        "∞": 3,
+        "γ": 3,
+        "31": 3,
+        "9": 3,
+        "ʔ": 3,
+        "ν": 2,
+        "⌢○": 2,
+        "8": 2,
+        "32": 2,
+        "╪7": 2,
+        "4": 2,
+        "F": 2,
+        "γ̲": 2,
+        "16": 2,
+        "13": 1,
+        "1́": 1,
+        "χ": 1,
+        "þ": 1,
+        "Δ": 1,
+        "k": 1,
+        "⟦arch+stem⟧": 1,
+        "†7": 1,
+        "q̵": 1,
+        "26": 1,
+        "27": 1,
+        "⊣": 1,
+        "64": 1,
+        "91": 1,
+        "W": 1,
+        "23": 1,
+        "t": 1,
+        "+○": 1,
+        "F↗": 1,
+        "⊃—c": 1,
+        "⊃—○": 1,
+        "υ": 1,
+        "92": 1,
+        "61": 1,
+        "e": 1,
+        "72": 1,
+        "83": 1,
+        "62": 1,
+        "─": 1,
+        "ω": 1,
+        "ɯ": 1,
+        "94": 1,
+        "○⌢δ": 1,
+        "—∞": 1,
+        "11": 1,
+        "⟦ʔ/2⟧": 1,
+        "υʔ": 1,
+        "⟦z/8⟧": 1,
+        "⟦FLOURISH⟧": 1
+      },
+      "hypotheses": {
+        "monoalphabetic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                3
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": false,
+          "search_total_fits": 0,
+          "whole_search_shuffle_min_median_max": [
+            0,
+            0.0,
+            4
+          ]
+        },
+        "homophonic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                3
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": null,
+          "search_total_fits": 0,
+          "whole_search_shuffle_min_median_max": [
+            0,
+            0.0,
+            11
+          ]
+        }
+      },
+      "train_line_ids": [
+        "R1",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "heldout_line_ids": [
+        "L5",
+        "L6"
+      ],
+      "eligible_training_windows_by_length": {
+        "6": 0,
+        "7": 0,
+        "8": 0
+      }
+    },
+    "circle-as-zero-pairs": {
+      "units": 250,
+      "distinct_types": 90,
+      "uncertain_units": 228,
+      "line_units": {
+        "R1": 23,
+        "L1": 47,
+        "L2": 45,
+        "L3": 34,
+        "L4": 27,
+        "L5": 37,
+        "L6": 37
+      },
+      "frequency": {
+        "·": 18,
+        "2": 9,
+        "20": 8,
+        "s": 8,
+        "λ": 7,
+        "41": 7,
+        "π": 7,
+        "τ": 7,
+        "i": 7,
+        "○─": 7,
+        "ϐ": 6,
+        "δ": 6,
+        "1": 6,
+        "⊔": 5,
+        "─c": 5,
+        "θ": 5,
+        "17": 5,
+        "∩": 5,
+        "─○": 4,
+        "22": 4,
+        "ω̅": 4,
+        "ℓ": 4,
+        "ʔ─": 4,
+        "x": 4,
+        "≠": 4,
+        "12": 4,
+        "19": 3,
+        "m": 3,
+        "c": 3,
+        "14": 3,
+        "∞": 3,
+        "γ": 3,
+        "31": 3,
+        "ʔ": 3,
+        "ν": 2,
+        "⌢○": 2,
+        "32": 2,
+        "7": 2,
+        "╪7": 2,
+        "4": 2,
+        "F": 2,
+        "9": 2,
+        "γ̲": 2,
+        "16": 2,
+        "13": 1,
+        "1́": 1,
+        "χ": 1,
+        "08": 1,
+        "0": 1,
+        "þ": 1,
+        "Δ": 1,
+        "k": 1,
+        "⟦arch+stem⟧": 1,
+        "†7": 1,
+        "q̵": 1,
+        "26": 1,
+        "27": 1,
+        "10": 1,
+        "8": 1,
+        "⊣": 1,
+        "64": 1,
+        "91": 1,
+        "W": 1,
+        "23": 1,
+        "t": 1,
+        "+○": 1,
+        "70": 1,
+        "F↗": 1,
+        "⊃—c": 1,
+        "⊃—○": 1,
+        "υ": 1,
+        "92": 1,
+        "07": 1,
+        "61": 1,
+        "e": 1,
+        "72": 1,
+        "83": 1,
+        "62": 1,
+        "─": 1,
+        "ω": 1,
+        "ɯ": 1,
+        "94": 1,
+        "○⌢δ": 1,
+        "—∞": 1,
+        "11": 1,
+        "90": 1,
+        "⟦ʔ/2⟧": 1,
+        "υʔ": 1,
+        "⟦z/8⟧": 1,
+        "⟦FLOURISH⟧": 1
+      },
+      "hypotheses": {
+        "monoalphabetic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": false,
+          "search_total_fits": 0,
+          "whole_search_shuffle_min_median_max": [
+            0,
+            0.0,
+            2
+          ]
+        },
+        "homophonic": {
+          "crib_results": {
+            "cambrai": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "doullens": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "villeroy": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "monsieur": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "vostre": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                2
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "ennemis": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                1
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            },
+            "affaires": {
+              "pattern_fits": 0,
+              "shuffle_min_median_max": [
+                0,
+                0.0,
+                0
+              ],
+              "examples": [],
+              "accepted_keys": 0
+            }
+          },
+          "control": {
+            "status": "mechanics-only-not-target-validation",
+            "limitation": "Synthetic text is not French; strict branch has no eligible planted scan. Provisional mapping checks do not validate a target key. Detailed private validation records excluded."
+          },
+          "global_26_letter_bijection_compatible": null,
+          "search_total_fits": 0,
+          "whole_search_shuffle_min_median_max": [
+            0,
+            0.0,
+            4
+          ]
+        }
+      },
+      "train_line_ids": [
+        "R1",
+        "L1",
+        "L2",
+        "L3",
+        "L4"
+      ],
+      "heldout_line_ids": [
+        "L5",
+        "L6"
+      ],
+      "eligible_training_windows_by_length": {
+        "6": 0,
+        "7": 0,
+        "8": 0
+      }
+    }
+  },
+  "total_unaccepted_pattern_fits": 0,
+  "global_whole_search_permutation": {
+    "iterations": 128,
+    "raw_tokens_shuffled_within_each_line": true,
+    "all_models_families_cribs_windows_rerun": true,
+    "min_median_max": [
+      0,
+      0.0,
+      15
+    ],
+    "counts": [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      15,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "interpretation": "diagnostic for chance-compatible windows; not a probability that any key is correct"
+  },
+  "accepted_target_keys": 0,
+  "acceptance_count_basis": "administrative: no independent target validation has occurred; this is not a count of keys mathematically disproved",
+  "heldout_target_validation": "not-established: no independently anchored crib/key; previews remain uninterpreted",
+  "release_note": "Historical frozen R1 inputs, not rerun using later R2 visual classifications. Zero eligible windows in strict branch is not falsification."
+}

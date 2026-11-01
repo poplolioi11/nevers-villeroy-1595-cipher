@@ -1,0 +1,52 @@
+{
+  "schema": "nevers1595-public-source-index-v1",
+  "institution": "Bibliothèque nationale de France / Gallica",
+  "shelfmark": "Français 3993, no. 102",
+  "historical_letter_date": "1595-08-16",
+  "letter_attribution": "Nevers to Villeroy",
+  "credit": "Source: gallica.bnf.fr / Bibliothèque nationale de France",
+  "sources": [
+    {
+      "id": "crop-run1",
+      "url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/142b0213d2a60bcab1f2c67f47518adabf7ad53c/docs/nevers1595_run1.jpg",
+      "sha256": "926d85f4c3d621177925d7659b62279e4fbb17ac2378522fb24e7930a0596000",
+      "width": 1100,
+      "height": 77,
+      "resolution_class": "third-party-public-crop-not-native-full-page",
+      "image_included_in_package": false,
+      "coordinate_system": "source-specific pixels, top-left origin; approximate bbox [x0,y0,x1,y1]"
+    },
+    {
+      "id": "crop-lead",
+      "url": "https://raw.githubusercontent.com/dbourdeau/cyphersolver/142b0213d2a60bcab1f2c67f47518adabf7ad53c/docs/nevers1595_lead.jpg",
+      "sha256": "9f926cd1835a1c7703227eabd2a202202cdea11f1390654209180b80953c0ea5",
+      "width": 1100,
+      "height": 267,
+      "resolution_class": "third-party-public-crop-not-native-full-page",
+      "image_included_in_package": false,
+      "coordinate_system": "source-specific pixels, top-left origin; approximate bbox [x0,y0,x1,y1]"
+    },
+    {
+      "id": "canvas-161",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b9059229n/f161.item",
+      "sha256": "238745444bcf7915efe011a6dad1006ddf6fde82bfd20bbf751c56df0af4a6bc",
+      "width": 1285,
+      "height": 1054,
+      "resolution_class": "official-viewer-saved-image-not-native",
+      "image_included_in_package": false,
+      "coordinate_system": "source-specific pixels, top-left origin; approximate bbox [x0,y0,x1,y1]"
+    },
+    {
+      "id": "canvas-162",
+      "url": "https://gallica.bnf.fr/ark:/12148/btv1b9059229n/f162.item",
+      "sha256": "e2817beca39bdd712847621bab8599bcf835b364ef911e17218f939e64c80c63",
+      "width": 1289,
+      "height": 1054,
+      "resolution_class": "official-viewer-saved-image-not-native",
+      "image_included_in_package": false,
+      "coordinate_system": "source-specific pixels, top-left origin; approximate bbox [x0,y0,x1,y1]"
+    }
+  ],
+  "coordinate_warning": "Crop coordinates and full-viewer coordinates are separate coordinate spaces; no exact crop-to-viewer transformation is asserted.",
+  "scope_warning": "Cipher-like visual regions only. Natural-language cursive and some isolated numeral-like objects remain outside the transcribed scope. Source images are referenced, not redistributed."
+}

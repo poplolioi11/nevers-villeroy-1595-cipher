@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this provisional research dataset; it is not a decipherment."
+type: dataset
+title: "Nevers to Villeroy (1595): provisional cipher-symbol transcriptions and bounded enumeration results"
+authors:
+  - family-names: Chu
+    given-names: Chen-Yu
+    orcid: "https://orcid.org/0009-0003-9738-6914"
+version: 0.1.0
+date-released: 2026-11-01
+url: "https://github.com/poplolioi11/nevers-villeroy-1595-cipher/releases/tag/v0.1.0"
+repository-artifact: "https://github.com/poplolioi11/nevers-villeroy-1595-cipher"
+license: CC-BY-4.0
+abstract: "Partial visual-symbol transcriptions and bounded hypothesis outputs for BnF Français 3993 no.102, ff.148r–149r. No independently validated target key or new plaintext; not human-collated. CC BY 4.0 covers original copyrightable explanations and arrangement only; historical text and third-party source conditions are described in RIGHTS.md. Source images and private processing software are excluded."
+keywords:
+  - 歷史密碼
+  - 符號轉錄
+  - 未解密函
+  - historical cryptography
+  - homophonic cipher
+  - nomenclator
+  - Nevers
+  - Villeroy
+  - digital humanities
+  - uncertainty annotation
+doi: "10.5281/zenodo.23861009"
