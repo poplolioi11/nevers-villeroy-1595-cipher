@@ -1,5 +1,11 @@
 # Nevers 致 Villeroy 密函（1595）：部分符號轉錄與有限枚舉紀錄
 
+## 摘要 / Abstract
+
+本暫定研究資料整理1595年8月16日Nevers致Villeroy函，底本為法國國家圖書館Français 3993第102件、148r–149r葉。部分視覺符號觀察、疑讀與有限局部校讀以JSON、TXT及最小TEI投影保存，並記錄兩輪有界枚舉的相容性結果與失敗分支，供歷史密碼材料檢索、來源對照及後續假說檢查。本版沒有提出新明文或經獨立驗證的目標密鑰，所有候選仍未接受，且未經人類校讀；零符合結果不等於否證。
+
+This provisional research dataset concerns the Nevers–Villeroy letter of 16 August 1595, Bibliothèque nationale de France, Français 3993, no. 102, folios 148r–149r. Partial visual-symbol observations, uncertainties and limited local collation are preserved as JSON, TXT and a minimal TEI projection, together with compatibility results and failed branches from two rounds of bounded enumeration. The material supports discovery, source comparison and further hypothesis checks for historical cipher documents. It supplies no new plaintext or independently validated target key. All candidates remain unaccepted, human collation is incomplete, and zero fits do not by themselves falsify a hypothesis.
+
 **尚未解密。** 本資料公開 BnF Français 3993 no. 102、1595 年 8 月 16 日密函的部分符號初錄、疑讀、來源定位及有限金鑰假設的實驗結果，供後續研究、核對與訂正。沒有已驗證的新金鑰或新增明文，也未經人類全文二校、專家審定或同儕審查。
 
 This dataset contains provisional visual-symbol transcriptions and bounded experimental outputs for the Nevers–Villeroy letter dated 16 August 1595. **It is not a decipherment.** Candidate outputs are unaccepted; the material is not human-collated.
