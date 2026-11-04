@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "research_round": "0.2",
+  "version": "0.1.1",
+  "research_round": "0.2 (unchanged public transcription/results snapshot)",
   "status": "partial-visual-transcription-and-unaccepted-experiments",
   "human_full_collation": false,
   "accepted_target_key": false,
@@ -11,7 +11,8 @@
     "necessary source locations",
     "limited local decisions",
     "enumeration output data",
-    "high-level rationale and failures"
+    "high-level rationale and failures",
+    "high-level subsequent research status and limitations"
   ],
   "excluded": [
     "source images and crops",
@@ -20,7 +21,13 @@
     "detailed private workflow",
     "prompts and templates",
     "complete jobs and validation history",
-    "private correspondence and account data"
+    "private correspondence and account data",
+    "later private per-symbol working data and full candidate outputs",
+    "private retrospective and delivery links"
   ],
-  "reproduction_limit": "Full private production workflow cannot be rerun from this public package."
+  "reproduction_limit": "Full private production workflow cannot be rerun from this public package.",
+  "release_kind": "research-documentation-update",
+  "published_transcription_version": "0.1.0",
+  "transcription_bytes_changed": false,
+  "narrative_research_update": "Subsequent research summarized as of 2026-11-04; later working data excluded"
 }

@@ -6,12 +6,12 @@ authors:
   - family-names: Chu
     given-names: Chen-Yu
     orcid: "https://orcid.org/0009-0003-9738-6914"
-version: 0.1.0
-date-released: 2026-11-01
-url: "https://github.com/poplolioi11/nevers-villeroy-1595-cipher/releases/tag/v0.1.0"
+version: 0.1.1
+date-released: 2026-11-04
+url: "https://github.com/poplolioi11/nevers-villeroy-1595-cipher/releases/tag/v0.1.1"
 repository-artifact: "https://github.com/poplolioi11/nevers-villeroy-1595-cipher"
 license: CC-BY-4.0
-abstract: "Partial visual-symbol transcriptions and bounded hypothesis outputs for BnF Français 3993 no.102, ff.148r–149r. No independently validated target key or new plaintext; not human-collated. CC BY 4.0 covers original copyrightable explanations and arrangement only; historical text and third-party source conditions are described in RIGHTS.md. Source images and private processing software are excluded."
+abstract: "Research-documentation update for BnF Français 3993 no. 102, ff.148r–149r. The provisional transcription and R1/R2 result files remain byte-identical to version 0.1.0. Subsequent high-level findings and limitations are summarized; no validated target key or new plaintext, no full human collation. See RIGHTS.md for layered rights; source images and private workflows are excluded."
 keywords:
   - 歷史密碼
   - 符號轉錄
@@ -23,4 +23,4 @@ keywords:
   - Villeroy
   - digital humanities
   - uncertainty annotation
-doi: "10.5281/zenodo.23861009"
+doi: "10.5281/zenodo.23943753"

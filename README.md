@@ -2,19 +2,17 @@
 
 ## 摘要 / Abstract
 
-本暫定研究資料整理1595年8月16日Nevers致Villeroy函，底本為法國國家圖書館Français 3993第102件、148r–149r葉。部分視覺符號觀察、疑讀與有限局部校讀以JSON、TXT及最小TEI投影保存，並記錄兩輪有界枚舉的相容性結果與失敗分支，供歷史密碼材料檢索、來源對照及後續假說檢查。本版沒有提出新明文或經獨立驗證的目標密鑰，所有候選仍未接受，且未經人類校讀；零符合結果不等於否證。
+1595年8月16日Nevers致Villeroy函保存於法國國家圖書館Français 3993第102件、148r–149r葉。本資料提供部分視覺符號初錄、疑讀、必要來源定位及早期有界枚舉結果，並以JSON、TXT與最小TEI投影保存。v0.1.1新增後續研究的高層結果與方法限制，公開轉錄及R1／R2結果沿用v0.1.0；供歷史密碼材料對照、訂正及後續假說檢查。尚無經獨立驗證的本函金鑰或新增明文，未經人類全文校讀。
 
-This provisional research dataset concerns the Nevers–Villeroy letter of 16 August 1595, Bibliothèque nationale de France, Français 3993, no. 102, folios 148r–149r. Partial visual-symbol observations, uncertainties and limited local collation are preserved as JSON, TXT and a minimal TEI projection, together with compatibility results and failed branches from two rounds of bounded enumeration. The material supports discovery, source comparison and further hypothesis checks for historical cipher documents. It supplies no new plaintext or independently validated target key. All candidates remain unaccepted, human collation is incomplete, and zero fits do not by themselves falsify a hypothesis.
+The Nevers–Villeroy letter of 16 August 1595 is held by the Bibliothèque nationale de France, Français 3993, no. 102, folios 148r–149r. This dataset provides partial visual-symbol transcriptions, uncertainties, necessary source locations and early bounded enumeration results in JSON, TXT and a minimal TEI projection. Version 0.1.1 adds high-level findings and limitations from subsequent research while retaining the version 0.1.0 transcription and R1/R2 results. It supports source comparison, correction and further hypothesis checks. No independently validated target key or new plaintext is supplied, and full human collation has not been completed.
 
-**尚未解密。** 本資料公開 BnF Français 3993 no. 102、1595 年 8 月 16 日密函的部分符號初錄、疑讀、來源定位及有限金鑰假設的實驗結果，供後續研究、核對與訂正。沒有已驗證的新金鑰或新增明文，也未經人類全文二校、專家審定或同儕審查。
-
-This dataset contains provisional visual-symbol transcriptions and bounded experimental outputs for the Nevers–Villeroy letter dated 16 August 1595. **It is not a decipherment.** Candidate outputs are unaccepted; the material is not human-collated.
+**尚未解密 / Not deciphered.** v0.1.1為研究文件更新；原公開轉錄未改，不表示二校或定稿。
 
 整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11），[ORCID](https://orcid.org/0009-0003-9738-6914)。歷史寄信人、收信人、原館藏與現代整理者的角色各自分開。
 
 ## 範圍與目前狀態
 
-取文來源為 [Gallica 第 161 視圖](https://gallica.bnf.fr/ark:/12148/btv1b9059229n/f161.item)右半的 f.148r，以及[第 162 視圖](https://gallica.bnf.fr/ark:/12148/btv1b9059229n/f162.item)的 f.148v–149r（148v 為依頁序推定）。研究取得涵蓋三面的兩張完整頁面範圍閱覽圖，尺寸為 1285×1054 與 1289×1054；**未取得原生高解析度 JPEG**。本公開包不附來源影像、裁片或完整第三方 OCR 語料。
+取文來源為 [Gallica 第 161 視圖](https://gallica.bnf.fr/ark:/12148/btv1b9059229n/f161.item)右半的 f.148r，以及[第 162 視圖](https://gallica.bnf.fr/ark:/12148/btv1b9059229n/f162.item)的 f.148v–149r（148v 為依頁序推定）。v0.1.0製作時使用涵蓋三面的兩張閱覽圖，尺寸為1285×1054與1289×1054。後續研究已取得館方原尺度圖塊並組成閱覽拼圖；拼圖不等於館方整張JPEG原始bytes。本版公開轉錄仍保留原快照，未自動提升為原尺度二校結果。本公開包不附來源影像、裁片或完整第三方 OCR 語料。
 
 - 舊批次保留 309 個暫存位置，逐位外形覆核後為 305 外形清楚、4 外形疑讀；另有 73 位置涉及分組或用途疑義。數字或字母身分、明文值仍未確定。
 - 新兩面保留隔離初讀 A、B，各 506、503 個視覺暫存單位；切分方式不同，差額不是漏字數，也不是準確率。19 個物理行對齊後作 30 項有限裁定，7 接受、23 未解；其他未逐位裁定位置仍未裁定，沒有整份合併定稿。
@@ -24,6 +22,8 @@ This dataset contains provisional visual-symbol transcriptions and bounded exper
 
 以上數字各有不同範圍和單位，不相加成全文字數或已解字數。自然文、日期、簽名、全部副文本與整封法文正文尚未完整轉錄。
 
+後續研究現況、已知材料控制及失敗限制，見[RESEARCH-STATUS.md](RESEARCH-STATUS.md)。本版只新增高層說明，不加入後續私有逐符資料或完整試驗輸出。
+
 ## 檔案入口
 
 | 路徑 | 內容 |
@@ -31,6 +31,7 @@ This dataset contains provisional visual-symbol transcriptions and bounded exper
 | `data/` | 逐符觀察、A/B 分稿、有限裁定、版面盤點及來源資料 |
 | `transcriptions/` | 從 JSON 確定性匯出的 TXT；若附 TEI，僅為最小視覺符號投影 |
 | `results/` | R1 嚴格／暫存分支與 R2 有限枚舉輸出，所有候選標示未接受 |
+| [RESEARCH-STATUS.md](RESEARCH-STATUS.md) | 後續研究摘要、可沿用成果與未解依賴 |
 | [METHODS.md](METHODS.md) | 為何測這些假設、已測範圍、結果與未測範圍 |
 | [READING-GUIDE.md](READING-GUIDE.md) | 符號、未知、座標、檔案對照與使用限制 |
 | [PROVENANCE.md](PROVENANCE.md) | 原館藏、前人研究、外部 key76 及語料來源 |
@@ -41,7 +42,7 @@ JSON 是資料主本，TXT 的空白、換行與分隔不是原件標點。請�
 
 ## 品質、方法與訂正
 
-影像初讀、隔離替代讀法及有限裁定由 OpenAI 原生模型助手完成；複雜讀形使用 gpt-6-astra，主代理整理與編碼。本機 Python 實際執行枚舉與數值核對。兩稿比較後的裁定不再稱盲讀；模型一致、雜湊、格式檢查與合成控制都不代替人類校讀。
+既有影像初讀、隔離替代讀法及有限裁定由AI助手輔助完成，主代理整理與編碼。本次只整理文件，沒有重新判字；工具未完整回報實際模型識別，不把請求型號當作執行證據。本機 Python 實際執行枚舉與數值核對。兩稿比較後的裁定不再稱盲讀；模型一致、雜湊、格式檢查與合成控制都不代替人類校讀。
 
 依公開範圍只提供理解成果所需的高層方法與枚舉結果。專用處理程式、詳細流程、提示詞、內部模板、完整派工／驗收歷程及私人資料保持私有；本包不承諾能重跑全部製作流程。這些限制不妨礙對公開資料逐位訂正或提出不同密碼假設。
 
@@ -53,8 +54,10 @@ Source gallica.bnf.fr / Bibliothèque nationale de France。
 
 本次為非營利研究公開。自有具著作權的說明與編排採 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)；歷史原文及不受著作權保護的事實不主張新增權利。此授權不覆蓋第三方來源，亦不代 BnF 授權來源影像、完整 OCR、商業或 AI 再利用；請閱讀 [RIGHTS.md](RIGHTS.md)。
 
-本版為第一個公開版 v0.1.0，對應私人研究至第 0.2 輪，**版號不表示二校完成**。引用現代資料時使用整理者 Chu, Chen-Yu、資料標題、版本及固定 release URL；勿將其列作歷史原作者。機讀引用見 [CITATION.cff](CITATION.cff)。
+本版v0.1.1更新研究文件；轉錄及R1／R2資料仍是首次公開版v0.1.0的快照，**版號不表示二校完成**。引用現代資料時使用整理者 Chu, Chen-Yu、資料標題、版本及固定 release URL；勿將其列作歷史原作者。機讀引用見 [CITATION.cff](CITATION.cff)。
 
 關鍵字：歷史密碼、符號轉錄、未解密函、同音替換、諾芒克拉托／詞碼、法國書信史、Nevers、Villeroy、1595、historical cryptography、cipher transcription、homophonic cipher、nomenclator、digital humanities、uncertainty annotation。
 
-固定資料 DOI：`10.5281/zenodo.23861009`。本包製備時預留，是否正式發布請核對[Zenodo紀錄](https://zenodo.org/records/23861009)。
+固定舊版DOI：[v0.1.0](https://doi.org/10.5281/zenodo.23861009)。本版固定引用以[CITATION.cff](CITATION.cff)及[發行頁](https://github.com/poplolioi11/nevers-villeroy-1595-cipher/releases/tag/v0.1.1)為準。
+
+本版版本DOI：[10.5281/zenodo.23943753](https://doi.org/10.5281/zenodo.23943753)。製備時已預留，正式發布狀態以[Zenodo紀錄](https://zenodo.org/records/23943753)為準。
