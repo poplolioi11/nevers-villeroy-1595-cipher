@@ -1,56 +1,60 @@
 {
-  "version": "0.1.1",
-  "release_kind": "research-documentation-update",
+  "version": "0.1.2",
+  "release_kind": "research-documentation-and-independent-public-teaching-update",
   "transcription_snapshot_version": "0.1.0",
   "transcription_and_early_result_bytes_changed": false,
   "files": {
     "CHANGELOG.md": {
-      "bytes": 914,
-      "sha256": "6b67fd2c8166e3f860813c2a9ddb96d1a29ae689a4180241f112b4321328f25d"
+      "bytes": 1246,
+      "sha256": "04d80f628fd340381f65507589bb3721e3ef60522cbfcea43f5c8c0f73f413c3"
     },
     "CITATION.cff": {
-      "bytes": 1190,
-      "sha256": "6d7b76f3bcaef03eed7d45c32f7e59b4a3efb357d445447660a94981c6fd5e30"
+      "bytes": 1388,
+      "sha256": "b669fba3f12486560375e3421ebedf64b151a37b539c08e18e14c26f0c9e6c4e"
     },
     "CONTRIBUTING.md": {
       "bytes": 589,
       "sha256": "4d17a25db8a4bbbc8538f8019a42ebbd6a4c8f07cc143c7743bed048bf23d43b"
     },
     "FAILURES.md": {
-      "bytes": 2319,
-      "sha256": "9192d3be611dba3030653d4a5580530eab66a6d37dfe8038071ca0d8e543c573"
+      "bytes": 3217,
+      "sha256": "0051e8d9d3641db155b8a0534be81b01d4408605cca7de730d9ffb9340db72db"
     },
     "LICENSE": {
       "bytes": 629,
       "sha256": "fdad93a4757e8b8c777e61374e2032c374f4cc8f84e672efe9d6848ffa2d3d3f"
     },
     "METHODS.md": {
-      "bytes": 6143,
-      "sha256": "ae51c8eab7d1f622428800e36f9de4e6ad40e791d7150742fc389595c0d9d9cb"
+      "bytes": 6890,
+      "sha256": "444562c2546aadf61d3ce2d9fd80a0d3fe5c9194d2fb3e5ffc070a07c548516c"
+    },
+    "PERIOD-CONSTRUCTIONS.md": {
+      "bytes": 1706,
+      "sha256": "a4c8161c1b3cc33d1109f18e304421c96ff9d2552d3ce0b7ec05453e04a449d2"
     },
     "PROVENANCE.md": {
       "bytes": 3286,
       "sha256": "c412ceb68491e859ce7a087393aa157118ec4eea2d00a7553faa29d7f35b08e4"
     },
     "PUBLIC-SCOPE.json": {
-      "bytes": 1401,
-      "sha256": "62b25d2534b9a0254ae95900084dfb29e1c12524f1a79e7bd9528f03b7a46d17"
+      "bytes": 1941,
+      "sha256": "7a8962603688e06f5ab6eb0cd74c42674ae252682232f5a2309d67489174c149"
     },
     "READING-GUIDE.md": {
       "bytes": 3534,
       "sha256": "e26b44e3f4f49805e0cde71d25c011852790af19bcc68026501a669473caf13a"
     },
     "README.md": {
-      "bytes": 7118,
-      "sha256": "1b0bbb92d54c2eb4badd5a016a0c7001d2347e2a7399e9446c7f304307104c2d"
+      "bytes": 8270,
+      "sha256": "40ada8e49700f137a155d479289db9905303d092b3365b840a579dd50d2bed45"
     },
     "RESEARCH-STATUS.md": {
-      "bytes": 6018,
-      "sha256": "5aa6a688e3d12b4ba258170fb3d3e87116a7218007f50634964b982de6f53d82"
+      "bytes": 6438,
+      "sha256": "9a33e630fdad60aa93aeca6fe8c40313be41c2e96b0e6d162d08f070a92d5a37"
     },
     "RIGHTS.md": {
-      "bytes": 2074,
-      "sha256": "bc9e748bb2c8137616030a8b68b39c5d2439545ae5092c0e633c9f04959cce5b"
+      "bytes": 2476,
+      "sha256": "9006ba75ce43e833c6b82a971ed31ce319829c987d19745266459bd0f7bddac2"
     },
     "data/crop-symbol-review-v02.json": {
       "bytes": 384625,
@@ -75,6 +79,30 @@
     "data/sources.json": {
       "bytes": 2642,
       "sha256": "59c4c70abf368a7b3cd4421ed7309968edd0ad04eaa600798242629709b4fca4"
+    },
+    "examples/composition/LICENSE": {
+      "bytes": 1068,
+      "sha256": "da62e7bf0e45b7400e7eb444842e30cbdb874f373c5ec7f991d020ecf170bde5"
+    },
+    "examples/composition/README.md": {
+      "bytes": 2659,
+      "sha256": "389e51f83027fd4fae4c4a1175b3d50b756166da631f420e754a5290fb5b68f4"
+    },
+    "examples/composition/composition_demo.py": {
+      "bytes": 5975,
+      "sha256": "f066f7bf8d1d6db03fa013735257698fef94e7b5ed3a517aeb75ac8738e74c57"
+    },
+    "examples/composition/period-results.json": {
+      "bytes": 1944,
+      "sha256": "727435a44301f3818bd280fcb0676c941bd2ca1678618d01416b02b47d343ec0"
+    },
+    "examples/composition/period_address_demo.py": {
+      "bytes": 2950,
+      "sha256": "07c928b693787665b03c0999c58022e697cb853aa195216823f88d78ea88cf23"
+    },
+    "examples/composition/results.json": {
+      "bytes": 1445,
+      "sha256": "2bf27848f0806cdbc151e6ec4cbe267cd821310a8e7233023bd1daa9a20a2094"
     },
     "keywords.json": {
       "bytes": 953,

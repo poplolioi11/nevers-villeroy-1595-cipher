@@ -1,3 +1,14 @@
+# v0.1.2：年代構造嘗試與限制
+
+- Porta原書的行列／四槽地址可重播，但完整原glyph串尚未獨立描摹，不能把地址一致說成整個原法驗證成功。
+- 合成正反例共用相同幾何卻具有不同字值結構；幾何重用、笛卡兒密度或四環不能獨自識別因子化金鑰。
+- 本函碼單位、中央桿、槽位與跨位置mark等價尚缺獨立覆核。這使相關歷史法仍未通過轉用，並不排除這些家族；未輸出或接受候選明文。
+- Autokey與Cardano格柵的指定原段／原例仍待核；沒有拿後世現代示例補稱史證。
+
+These are limits of source verification, identifiability and observability, not proofs that a cipher family is absent. Synthetic success is not known-cipher recovery. See [the independent examples](examples/composition/README.md) and [period sources](PERIOD-CONSTRUCTIONS.md).
+
+---
+
 # 方法與失敗摘要
 
 以下表格保留v0.1.0時的取得與試驗結果，未以後續成功覆寫早期失敗。後續狀態見下節。

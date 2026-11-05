@@ -16,3 +16,7 @@ Source gallica.bnf.fr / Bibliothèque nationale de France。
 [BnF的OCR→TEI資料頁](https://api.bnf.fr/index.php/fr/documents-de-gallica-produits-au-format-tei-par-obvil)對其純文字資料仍列Gallica條款；這支持不能僅因轉成TXT就承諾所有來源衍生內容均不受條件限制，並非對每一份獨立轉錄法律性質的判決。[BnF AI使用條件](https://www.bnf.fr/fr/loffre-de-services-de-la-bnf-pour-les-acteurs-de-lintelligence-artificielle-ia)另區分非營利學術研究與其他利用。因此本包不代來源方保證商業或AI再利用已全部清權。
 
 這是資料公開範圍與來源權利說明，不是全球法律狀態的認證。公開說明及成果資料可以核對、引用與訂正；專用程式及完整私有製作流程未發布，故不稱為完整開源破譯軟體。
+
+## v0.1.2 獨立示範程式
+
+examples/composition的新寫獨立通用示範依該目錄MIT LICENSE提供，不包含本函研究專用軟體、模型、提示或私有流程。原LICENSE的CC BY4.0說明／編排權界維持不變；兩者不是整包任選的雙授權。第三方掃描、OCR全文、現代轉錄與私有資料不因此納入。歷史事實及公開地址不主張新著作權。

@@ -1,0 +1,55 @@
+{
+  "schema": "synthetic-composition-demo-v1",
+  "seed": null,
+  "design": "deterministic exhaustive fixtures; no fit to observed ciphertext",
+  "pair_experiments": {
+    "factorized": {
+      "fit": {
+        "status": "SUPPORTED",
+        "conflicting_components": 0
+      },
+      "train_count": 20,
+      "holdout_count": 5,
+      "holdout_covered": 5,
+      "holdout_exact": 5,
+      "geometry": {
+        "observations": 25,
+        "left_types": 5,
+        "right_types": 5,
+        "edges": 25,
+        "possible_edges": 25,
+        "density": 1.0,
+        "four_cycles": 100
+      }
+    },
+    "whole_cell_nonfactorized": {
+      "fit": {
+        "status": "INCONSISTENT",
+        "conflicting_components": 10
+      },
+      "train_count": 20,
+      "holdout_count": 5,
+      "holdout_covered": 0,
+      "holdout_exact": 0,
+      "geometry": {
+        "observations": 25,
+        "left_types": 5,
+        "right_types": 5,
+        "edges": 25,
+        "possible_edges": 25,
+        "density": 1.0,
+        "four_cycles": 100
+      }
+    }
+  },
+  "heldout_geometry": {
+    "observations": 5,
+    "seen_pair": 0,
+    "new_pair_known_components": 5,
+    "unknown_component": 0
+  },
+  "unseen_component_abstention": true,
+  "slot_roundtrips": 1296,
+  "slot_invalid_refusals": 3,
+  "conclusion": "Identical geometry is compatible with both factorized and arbitrary whole-cell keys. Geometry alone cannot identify plaintext factorization."
+}

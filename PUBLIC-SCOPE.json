@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "research_round": "0.2 (unchanged public transcription/results snapshot)",
   "status": "partial-visual-transcription-and-unaccepted-experiments",
   "human_full_collation": false,
@@ -12,7 +12,9 @@
     "limited local decisions",
     "enumeration output data",
     "high-level rationale and failures",
-    "high-level subsequent research status and limitations"
+    "high-level subsequent research status and limitations",
+    "public historical bibliography",
+    "independent generic demonstrations with synthetic fixtures and limited public-domain address replay"
   ],
   "excluded": [
     "source images and crops",
@@ -26,8 +28,17 @@
     "private retrospective and delivery links"
   ],
   "reproduction_limit": "Full private production workflow cannot be rerun from this public package.",
-  "release_kind": "research-documentation-update",
+  "release_kind": "research-documentation-and-independent-public-teaching-update",
   "published_transcription_version": "0.1.0",
   "transcription_bytes_changed": false,
-  "narrative_research_update": "Subsequent research summarized as of 2026-11-04; later working data excluded"
+  "narrative_research_update": "Public period bibliography and independent teaching examples; target remains undeciphered",
+  "new_public_content": [
+    "public historical bibliography",
+    "independent generic synthetic examples",
+    "limited public-domain period-example address replay",
+    "high-level undeciphered status"
+  ],
+  "generic_demo_is_target_validation": false,
+  "private_production_software_released": false,
+  "private_aggregate_metrics_added": false
 }
